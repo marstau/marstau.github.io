@@ -1,0 +1,97 @@
+---
+layout: post
+title: markdown usage
+category: 书籍与软件工具
+tags: software／tool
+keywords: markdown
+description: 
+---
+* [文字](#word)
+	* 二级目录
+		* 三级目录
+			* 四级目录
+			
+* [内嵌HTML](#html)
+
+##<a name="word">文字</a>
+*斜体*
+**粗体**
+*单星号* _单下划线_ **双星号** __双下划线__
+##三个以上的*、-、_ 表示一个分割线。
+****
+----
+____
+
+![](/Resources/View_Frustum_Culling_1.gif)
+
+
+##<a name="html">内嵌HTML</a>
+<div style="color:#F00">红色的字</div>
+<span style="color:#F00;">红色的字</span>
+
+下面这些内容不被转换成html:\<color name=”mycolor”>#7fff00\</color>[^1]
+[^1]:在HTML中，有两个字符是十分特殊的，他们是 < 和 & 符号，< 表示一个HTML标签的开始，&表示HTML特殊字符转义符的开始，在 Markdown 中这两个字符将会自动被转义.
+
+##Fenced Code Blocks
+Start with a line containing 3 or more backtick \` characters, and ends with the first line with the same number of backtick \`:
+
+```
+Fenced code blocks are like Stardard
+Markdown’s regular code blocks, except that
+they’re not indented and instead rely on a
+start and end fence lines to delimit the code
+block.
+```
+
+##table
+
+jekyll不支持表格:
+
+First Header | Second Header | Third Header
+:----------- | :-----------: | -----------:
+Left         | Center        | Right
+Left         | Center        | Right
+
+使用如下代替:
+
+<table>
+    
+    <tr>
+        <th>方法/平台/时间(秒)</>
+        <th>Linux gcc</>
+        <th>Windows mingw</>
+        <th>Windows VC2008</>
+    </tr>
+    
+    <tr>
+        <td>scanf</td>
+        <td>2.010</td>
+        <td>3.704</td>
+        <td>3.425</td>
+    </tr>
+    
+    <tr>
+        <td>scanf</td>
+        <td>2.010</td>
+        <td>3.704</td>
+        <td>3.425</td>
+    </tr>
+
+
+    <tr>
+        <td>---------------------------</td>
+        <td>---------------------------</td>
+        <td>---------------------------</td>
+        <td>---------------------------</td>
+    </tr>
+    
+</table>
+
+
+#Reference
+* <http://www.zhihu.com/question/19963642>
+#Question
+
+
+
+
