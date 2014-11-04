@@ -62,6 +62,12 @@ eg:
 git add ./filename
 ```
 
+#查看ignore的文件
+
+```
+git config core.excludesfile
+```
+
 #Reference
 * <http://stackoverflow.com/questions/4386959/difference-between-head-and-master>
 * <http://stackoverflow.com/questions/8196544/what-are-the-git-concepts-of-head-master-origin>
