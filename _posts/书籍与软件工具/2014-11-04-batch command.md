@@ -37,6 +37,8 @@ xcopy %FromDir%\*.* %ToDir%\*.*  /E /Y
 
 ```
 ping -n 30 127.1>nul
+
+pause
 ```
 
 **rd**
@@ -49,6 +51,11 @@ rd /s/q bzip2-1.0.5
 
 ```
 ::注释
+
+::rem的内容会被显示
+rem 注释内容1
+
+echo 注释内容1>nul
 ```
 
 #Reference
