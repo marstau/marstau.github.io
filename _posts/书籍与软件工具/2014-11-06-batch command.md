@@ -123,6 +123,20 @@ output:
 setx JAVA_HOME "C:\Program Files\LightenBSM Server\jdk1.6.0_16"
 ```
 
+**获取文件路径**
+
+```
+:FetchParentPath
+for /f "tokens=1,2* delims=\" %%a in (%1) do (
+	if "%%c" NEQ "" (
+		if %parentPath% NEQ "" (set parentPath=%parentPath%\%%a) else (set parentPath=%%a)
+		call :FetchParentPath "%%b\%%c"
+	)
+)
+exit /b 0
+
+```
+
 #Reference
 
 * [Command-line reference](http://technet.microsoft.com/en-us/library/bb490890.aspx)
