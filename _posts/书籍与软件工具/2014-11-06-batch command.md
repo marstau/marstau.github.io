@@ -103,13 +103,9 @@ echo 当前盘符：%~d0
 echo 当前盘符和路径：%~dp0
 echo 当前批处理全路径：%~f0
 echo 当前盘符和路径的短文件名格式：%~sdp0
+::以管理员身份运行的时候,%cd%为C:\Windows\system32
 echo 当前CMD默认目录：%cd%
 echo 目录中有空格也可以加入""避免找不到路径
-echo 当前盘符："%~d0"
-echo 当前盘符和路径："%~dp0"
-echo 当前批处理全路径："%~f0"
-echo 当前盘符和路径的短文件名格式："%~sdp0"
-echo 当前CMD默认目录："%cd%"
 
 
 output:
@@ -119,11 +115,6 @@ output:
 当前盘符和路径的短文件名格式：C:\Users\mars\Desktop\
 当前CMD默认目录：C:\Users\mars\Desktop
 目录中有空格也可以加入""避免找不到路径
-当前盘符："C:"
-当前盘符和路径："C:\Users\mars\Desktop\"
-当前批处理全路径："C:\Users\mars\Desktop\test.bat"
-当前盘符和路径的短文件名格式："C:\Users\mars\Desktop\"
-当前CMD默认目录："C:\Users\mars\Desktop"
 ```
 
 **设置环境变量**
