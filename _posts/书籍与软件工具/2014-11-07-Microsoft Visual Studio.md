@@ -1,11 +1,17 @@
 ---
 layout: post
-title: Visual Studio usage - common
+title: Microsoft Visual Studio
 category: 书籍与软件工具
 tags: software／tool
 keywords: linux,mac
 description: 
 ---
+
+##Versions[更多参考](http://en.wikipedia.org/wiki/Microsoft_Visual_Studio#History)
+
+![](/Resources/Microsoft_Visual_Studio_1.jpg)
+
+
 #Visual Studio 2010
 
 ##添加DLL库工程
