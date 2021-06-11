@@ -1,7 +1,7 @@
 ---
 layout: post
 title: android 国际化语言 locale缩写
-category: 游戏技术
+category: 编程开发
 tags: android／java
 keywords: 
 description: 
@@ -131,8 +131,8 @@ Second:
    drawable-en-rUS-mdpi 
    使用，在 XML 中需要使用到图片的地方用表达式： @drawable/icon 
    代码中使用：R.drawable.icon。因为图片资源同样也会在 R 文件中生成一个索引
-#Third:
-##Android国际化资源 文件夹命名规范
+# Third:
+## Android国际化资源 文件夹命名规范
 android多国语言文件夹文件汇总如下：
 
 中文（中国）：values-zh-rCN
@@ -250,7 +250,7 @@ android多国语言文件夹文件汇总如下：
 乌克兰文：values-uk-rUA
 
 越南文：values-vi-rVN
-#FORTH:
+# FORTH:
 
   Code  | Country Name
 :-----: | ------------
@@ -504,7 +504,7 @@ YE	    | YEMEN
 ZM	    | ZAMBIA
 ZW	    | ZIMBABWE
 
-#Reference
+## Reference
 * <http://www.cnblogs.com/wuyunan/archive/2009/09/16/1567960.html>
 * <http://xiaobingandxiaoer.iteye.com/blog/1218411>
 * <http://hi.baidu.com/linux_boy/item/4bf651006dc32e8d3d42e26a>

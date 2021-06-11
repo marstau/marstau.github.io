@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unable to execute dex/Multiple dex files define
-category: 游戏技术
+category: 编程开发
 tags: android／java
 keywords: 
 description: 

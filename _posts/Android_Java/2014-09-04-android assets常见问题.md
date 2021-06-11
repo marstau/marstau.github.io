@@ -1,7 +1,7 @@
 ---
 layout: post
 title: android assets常见问题
-category: 游戏技术
+category: 编程开发
 tags: android／java
 keywords: 
 description: 

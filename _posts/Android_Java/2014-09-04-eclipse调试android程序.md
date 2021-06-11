@@ -1,7 +1,7 @@
 ---
 layout: post
 title: eclipse调试android程序
-category: 游戏技术
+category: 编程开发
 tags: android／java
 keywords: 
 description: 

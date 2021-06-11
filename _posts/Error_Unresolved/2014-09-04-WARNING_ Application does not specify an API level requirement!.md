@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Application does not specify an API level requirement!
-category: 游戏技术
+category: 编程开发
 tags: error／unresolved
 keywords: 
 description: 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 无法解析外部符号 __imp__CoUninitialize@0、_TID_D3DRMFrameTransformMatrix
-category: 游戏技术
+category: 编程开发
 tags: error／unresolved
 keywords: 
 description: 

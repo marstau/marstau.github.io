@@ -1,8 +1,6 @@
 marstau.github.io
 =======================
 
-地址：<http://marstau.githis.com>
-
 ### 安装说明
 
 1. fork库到自己的github
@@ -19,9 +17,25 @@ marstau.github.io
 - 单栏布局（first-ui分支）
 
 ----
-* 博客分类(category):游戏技术、数据结构与算法、书籍与软件工具、生活、左右互搏
-* tags:OGRE,Unity　3D,cocos2dx,Game　Engine,game　design,DirectX,OpengGL　ES,testing,error／unresolved,Objective　C,lua,php,C＃,C／C＋＋,android／java,mac／ios,normal　knowledge,software／tool,data　structure／algorithm,undo,心灵鸡汤
+#### 博客分类(category)
 
-#Question
+```
+编程开发、数据结构与算法、书籍与软件工具、左右互搏、游戏人生、概念、Hacker
+```
+#### 文件目录
+
+```
+概念编程、
+```
+
+#### tags
+
+```
+cocos2dx,Game　Engine,game　design,OpengGL　ES,testing,error／unresolved,Objective　C,lua,php,Python,C＃,C／C＋＋,Assembly,android／java,mac／ios,normal　knowledge,software／tool,data　structure／algorithm,undo,database,心灵鸡汤,易语言,back-end,Go
+```
+
+#### keywords
+
+## Question
 * category和tags不能使用'/'、'空格',特殊字符用全角。
 * windows下不能使用全角命名文件或者目录。

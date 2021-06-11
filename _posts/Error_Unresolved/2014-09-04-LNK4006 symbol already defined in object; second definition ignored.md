@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LNK4006 symbol already defined in object; second definition ignored
-category: 游戏技术
+category: 编程开发
 tags: error／unresolved
 keywords: 
 description: 

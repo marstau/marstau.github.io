@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The nested fileset element is deprectated, use a nested path instead
-category: 游戏技术
+category: 编程开发
 tags: android／java
 keywords: 
 description: 

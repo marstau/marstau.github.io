@@ -1,7 +1,7 @@
 ---
 layout: post
 title: APP_STL := gnustl_static  APP_CPPFLAGS := -frtti  APP_CPPFLAGS += -fexceptions 
-category: 游戏技术
+category: 编程开发
 tags: cocos2dx
 keywords: 
 description: 

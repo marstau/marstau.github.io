@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 详解Cocos2d-X中宏CC_DLL
-category: 游戏技术
+category: 编程开发
 tags: cocos2dx
 keywords:
 description: 
@@ -149,7 +149,7 @@ __declspec(dllimport)
  关于__declspec(dllexport)和__declspec(dllimport)的使用，参考了这篇博文：[http://www.cnblogs.com/xd502djj/archive/2010/09/21/1832493.html](http://www.cnblogs.com/xd502djj/archive/2010/09/21/1832493.html)
 
  关于linux平台上的CC_DLL解释有待下次添加。
-#Reference
+## Reference
 * [http://www.cnblogs.com/mingfish/archive/2013/07/09/3180652.html](http://www.cnblogs.com/mingfish/archive/2013/07/09/3180652.html)
 
 

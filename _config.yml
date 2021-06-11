@@ -1,7 +1,13 @@
 permalink: /:year/:month/:day/:title.html
 paginate: 10
-highlighter: pygments
-markdown: redcarpet
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+    input: GFM
+
+# redcarpet:
+#     extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
 
 # 作者信息
 author: 
@@ -31,7 +37,7 @@ disqus:
   shortname: mars
 
 # 主题设置，自动激活某个标签
-active: 游戏技术
+active: 编程开发
 
 # 显示分类
 cates: 
@@ -44,3 +50,5 @@ locals:
   about: 关于
   archive: 归档
   content: 目录
+
+plugins: [jekyll-paginate]

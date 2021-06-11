@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 显存带宽 bandwidth
-category: 游戏技术
+category: 编程开发
 tags: Game　Engine
 keywords: 
 description: 

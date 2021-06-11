@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Setting up a Code Repository on Google
-category: 游戏技术
+category: 编程开发
 tags: normal　knowledge
 keywords: 
 description: 
@@ -159,7 +159,7 @@ description:
 
 
 
-#Reference
+## Reference
 * <http://code.google.com/p/support/wiki/GettingStarted#Getting_Started>
 
 * <http://blog.csdn.net/deaboway/article/details/6347595>

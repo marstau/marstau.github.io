@@ -1,13 +1,13 @@
 ---
 layout: post
 title: onNewIntent 
-category: 游戏技术
+category: 编程开发
 tags: android／java
 keywords: 
 description: 
 ---
 
-#### <span class="normal" style="font-weight:normal;">protected void<span class="Apple-converted-space"> </span></span><span class="sympad" style="margin-right:2px;">onNewIntent</span><span class="Apple-converted-space"> </span><span class="normal" style="font-weight:normal;">([Intent](http://developer.android.com/reference/android/content/Intent.html)<span class="Apple-converted-space"> </span>intent)</span> {.jd-details-title style="padding-right:95px;padding-left:3px;font-size:1.15em;padding-bottom:3px;margin:1.5em 0px 0.6em;word-spacing:0px;text-transform:none;color:#333333;text-indent:0px;line-height:20px;padding-top:3px;font-style:normal;font-family:Roboto, sans-serif;white-space:normal;letter-spacing:normal;background-color:#e2e2e2;font-variant:normal;widows:2;orphans:2;webkit-text-size-adjust:auto;webkit-text-stroke-width:0px;"}
+####  <span class="normal" style="font-weight:normal;">protected void<span class="Apple-converted-space"> </span></span><span class="sympad" style="margin-right:2px;">onNewIntent</span><span class="Apple-converted-space"> </span><span class="normal" style="font-weight:normal;">([Intent](http://developer.android.com/reference/android/content/Intent.html)<span class="Apple-converted-space"> </span>intent)</span> {.jd-details-title style="padding-right:95px;padding-left:3px;font-size:1.15em;padding-bottom:3px;margin:1.5em 0px 0.6em;word-spacing:0px;text-transform:none;color:#333333;text-indent:0px;line-height:20px;padding-top:3px;font-style:normal;font-family:Roboto, sans-serif;white-space:normal;letter-spacing:normal;background-color:#e2e2e2;font-variant:normal;widows:2;orphans:2;webkit-text-size-adjust:auto;webkit-text-stroke-width:0px;"}
 
 <div class="api-level"
 style="padding-right:8px;margin-top:-30px;padding-left:8px;float:right;padding-bottom:0px;word-spacing:0px;font:0.8em/19px Roboto, sans-serif;text-transform:none;color:#999999;text-indent:0px;padding-top:0px;white-space:normal;letter-spacing:normal;background-color:#f9f9f9;widows:2;orphans:2;webkit-text-size-adjust:auto;webkit-text-stroke-width:0px;">

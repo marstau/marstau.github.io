@@ -1,7 +1,7 @@
 ---
 layout: post
 title: sprite::create("*.png")崩溃
-category: 游戏技术
+category: 编程开发
 tags: cocos2dx
 keywords: 
 description: 

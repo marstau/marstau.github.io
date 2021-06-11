@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 无法解析 __imp__ExtractIconW@12、 __imp__ExtractIconW@12
-category: 游戏技术
+category: 编程开发
 tags: error／unresolved
 keywords: 
 description: 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UNICODE字符集之 UTF-8、UTF-16
-category: 游戏技术
+category: 编程开发
 tags: normal　knowledge
 keywords: 
 description: 
@@ -90,5 +90,5 @@ GB18030-2000(GBK2K)在GBK的基础上增加了藏、蒙等少数民族的字符�
 
 
 
-#Reference
+## Reference
 [Unicode字符集和多字节字符集关系](http://hi.baidu.com/isfull/item/a272c020144170856f2cc345)

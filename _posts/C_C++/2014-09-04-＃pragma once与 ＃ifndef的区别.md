@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ＃pragma once与 ＃ifndef的区别
-category: 游戏技术
+category: 编程开发
 tags: Ｃ／Ｃ＋＋
 keywords: 
 description: 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: XCode： duplicate symbol error when using global variable - Stack Overflow
-category: 游戏技术
+category: 编程开发
 tags: error／unresolved
 keywords: 
 description: 
@@ -26,7 +26,7 @@ class Foo { public:     int bar; }; Foo myFoo;
 main.cpp
 
 ``` {style="display:block;font-style:normal;font-variant:normal;font-weight:normal;font-size:14px;line-height:17.804800033569336px;font-family:Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif;height:102px;margin:0px 0px 10px;max-height:600px;overflow:auto;padding:5px;text-align:left;text-decoration:none;white-space:pre;width:650px;background:none 0% 0% / auto repeat scroll padding-box border-box #eeeeee;"}
-#include "A.h" int main() {     myFoo.bar = 2;     return 0; }
+# include "A.h" int main() {     myFoo.bar = 2;     return 0; }
 ```
 
 Xcode gives me the error (paraphrased):
@@ -74,13 +74,13 @@ extern Foo myFoo;
 **main.cpp**
 
 ``` {style="display:block;font-style:normal;font-variant:normal;font-weight:normal;font-size:14px;line-height:17.804800033569336px;font-family:Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif;height:51px;margin:0px 0px 10px;max-height:600px;overflow:auto;padding:5px;text-align:left;text-decoration:none;white-space:pre;width:650px;background:none 0% 0% / auto repeat scroll padding-box border-box #eeeeee;"}
-#include "A.h" Foo myFoo;
+# include "A.h" Foo myFoo;
 ```
 
 **XXXX.cpp**
 
 ``` {style="display:block;font-style:normal;font-variant:normal;font-weight:normal;font-size:14px;line-height:17.804800033569336px;font-family:Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif;height:17px;margin:0px 0px 10px;max-height:600px;overflow:auto;padding:5px;text-align:left;text-decoration:none;white-space:pre;width:650px;background:none 0% 0% / auto repeat scroll padding-box border-box #eeeeee;"}
-#include "A.h"
+# include "A.h"
 ```
 
 </div>

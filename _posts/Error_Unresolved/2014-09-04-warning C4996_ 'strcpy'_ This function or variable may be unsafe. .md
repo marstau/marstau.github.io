@@ -1,7 +1,7 @@
 ---
 layout: post
 title: warning C4996： 'strcpy'： This function or variable may be unsafe. 
-category: 游戏技术
+category: 编程开发
 tags: error／unresolved
 keywords: 
 description: 

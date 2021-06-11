@@ -1,7 +1,7 @@
 ---
 layout: post
 title: __imp__InitCommonControlsEx@4 __imp__EndDialog
-category: 游戏技术
+category: 编程开发
 tags: error／unresolved
 keywords: 
 description: 

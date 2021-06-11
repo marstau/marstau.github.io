@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bézier curve
-category: 游戏技术
+category: 编程开发
 tags: Game　Engine
 keywords: 
 description: 
@@ -26,7 +26,7 @@ etc.). The first and last control points are always the end points of
 the curve; however, the intermediate control points (if any) generally
 do not lie on the curve.
 
-### <span class="editsection" style="float:right;margin-left:5px;font-size:13px;font-weight:normal;-webkit-user-select:none;">[[edit](http://en.wikipedia.org/w/index.php?title=B%C3%A9zier_curve&action=edit&section=6 "Edit section: Linear Bézier curves")]</span><span id="Linear_B.C3.A9zier_curves" class="mw-headline">Linear Bézier curves</span> {style="background-image:none;border-bottom-style:none;padding-bottom:0.17em;widows:2;text-transform:none;background-color:#ffffff;text-indent:0px;margin:0px 0px 0.3em;font:bold 17px/19.2px sans-serif;white-space:normal;orphans:2;letter-spacing:normal;color:#000000;overflow:hidden;word-spacing:0px;padding-top:0.5em;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"}
+###  <span class="editsection" style="float:right;margin-left:5px;font-size:13px;font-weight:normal;-webkit-user-select:none;">[[edit](http://en.wikipedia.org/w/index.php?title=B%C3%A9zier_curve&action=edit&section=6 "Edit section: Linear Bézier curves")]</span><span id="Linear_B.C3.A9zier_curves" class="mw-headline">Linear Bézier curves</span> {style="background-image:none;border-bottom-style:none;padding-bottom:0.17em;widows:2;text-transform:none;background-color:#ffffff;text-indent:0px;margin:0px 0px 0.3em;font:bold 17px/19.2px sans-serif;white-space:normal;orphans:2;letter-spacing:normal;color:#000000;overflow:hidden;word-spacing:0px;padding-top:0.5em;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"}
 
 Given points<span class="Apple-converted-space"> </span>**P**~0~<span
 class="Apple-converted-space"> </span>and<span
@@ -44,7 +44,7 @@ t(\\mathbf{P}\_1-\\mathbf{P}\_0)=(1-t)\\mathbf{P}\_0 + t\\mathbf{P}\_1
 and is equivalent to<span class="Apple-converted-space"> </span>[linear
 interpolation](http://en.wikipedia.org/wiki/Linear_interpolation "Linear interpolation").
 
-### <span class="editsection" style="float:right;margin-left:5px;font-size:13px;font-weight:normal;-webkit-user-select:none;">[[edit](http://en.wikipedia.org/w/index.php?title=B%C3%A9zier_curve&action=edit&section=7 "Edit section: Quadratic Bézier curves")]</span><span id="Quadratic_B.C3.A9zier_curves" class="mw-headline">Quadratic Bézier curves</span> {style="background-image:none;border-bottom-style:none;padding-bottom:0.17em;widows:2;text-transform:none;background-color:#ffffff;text-indent:0px;margin:0px 0px 0.3em;font:bold 17px/19.2px sans-serif;white-space:normal;orphans:2;letter-spacing:normal;color:#000000;overflow:hidden;word-spacing:0px;padding-top:0.5em;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"}
+###  <span class="editsection" style="float:right;margin-left:5px;font-size:13px;font-weight:normal;-webkit-user-select:none;">[[edit](http://en.wikipedia.org/w/index.php?title=B%C3%A9zier_curve&action=edit&section=7 "Edit section: Quadratic Bézier curves")]</span><span id="Quadratic_B.C3.A9zier_curves" class="mw-headline">Quadratic Bézier curves</span> {style="background-image:none;border-bottom-style:none;padding-bottom:0.17em;widows:2;text-transform:none;background-color:#ffffff;text-indent:0px;margin:0px 0px 0.3em;font:bold 17px/19.2px sans-serif;white-space:normal;orphans:2;letter-spacing:normal;color:#000000;overflow:hidden;word-spacing:0px;padding-top:0.5em;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"}
 
 A quadratic Bézier curve is the path traced by the function<span
 class="Apple-converted-space"> </span>**B**(*t*), given points<span
@@ -103,7 +103,7 @@ section](http://en.wikipedia.org/wiki/Conic_section "Conic section"),
 some sources refer to quadratic Béziers as "conic
 arcs".^[<span>[</span>2<span>]</span>](http://en.wikipedia.org/wiki/B%C3%A9zier_curve#cite_note-freetype-4)^
 
-### <span class="editsection" style="float:right;margin-left:5px;font-size:13px;font-weight:normal;-webkit-user-select:none;">[[edit](http://en.wikipedia.org/w/index.php?title=B%C3%A9zier_curve&action=edit&section=8 "Edit section: Cubic Bézier curves")]</span><span id="Cubic_B.C3.A9zier_curves" class="mw-headline">Cubic Bézier curves</span> {style="background-image:none;border-bottom-style:none;padding-bottom:0.17em;widows:2;text-transform:none;background-color:#ffffff;text-indent:0px;margin:0px 0px 0.3em;font:bold 17px/19.2px sans-serif;white-space:normal;orphans:2;letter-spacing:normal;color:#000000;overflow:hidden;word-spacing:0px;padding-top:0.5em;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"}
+###  <span class="editsection" style="float:right;margin-left:5px;font-size:13px;font-weight:normal;-webkit-user-select:none;">[[edit](http://en.wikipedia.org/w/index.php?title=B%C3%A9zier_curve&action=edit&section=8 "Edit section: Cubic Bézier curves")]</span><span id="Cubic_B.C3.A9zier_curves" class="mw-headline">Cubic Bézier curves</span> {style="background-image:none;border-bottom-style:none;padding-bottom:0.17em;widows:2;text-transform:none;background-color:#ffffff;text-indent:0px;margin:0px 0px 0.3em;font:bold 17px/19.2px sans-serif;white-space:normal;orphans:2;letter-spacing:normal;color:#000000;overflow:hidden;word-spacing:0px;padding-top:0.5em;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"}
 
 Four points<span class="Apple-converted-space"> </span>**P**~0~,<span
 class="Apple-converted-space"> </span>**P**~1~,<span
@@ -158,7 +158,7 @@ class="Apple-converted-space"> </span>**P**~2~<span
 class="Apple-converted-space"> </span>the curve may intersect itself, or
 contain a cusp.
 
-### <span id="Terminology" class="mw-headline">Terminology</span> {style="background-image:none;border-bottom-style:none;padding-bottom:0.17em;widows:2;text-transform:none;background-color:#ffffff;text-indent:0px;margin:0px 0px 0.3em;font:bold 17px/19.2px sans-serif;white-space:normal;orphans:2;letter-spacing:normal;color:#000000;overflow:hidden;word-spacing:0px;padding-top:0.5em;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"}
+###  <span id="Terminology" class="mw-headline">Terminology</span> {style="background-image:none;border-bottom-style:none;padding-bottom:0.17em;widows:2;text-transform:none;background-color:#ffffff;text-indent:0px;margin:0px 0px 0.3em;font:bold 17px/19.2px sans-serif;white-space:normal;orphans:2;letter-spacing:normal;color:#000000;overflow:hidden;word-spacing:0px;padding-top:0.5em;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"}
 
 Some terminology is associated with these parametric curves. We have
 
@@ -215,7 +215,7 @@ Bézier curve.
 
  
 
-### <span id="Linear_curves" class="mw-headline">Linear curves</span> {style="background-image:none;border-bottom-style:none;padding-bottom:0.17em;widows:2;text-transform:none;background-color:#ffffff;text-indent:0px;margin:0px 0px 0.3em;font:bold 17px/19.2px sans-serif;white-space:normal;orphans:2;letter-spacing:normal;color:#000000;overflow:hidden;word-spacing:0px;padding-top:0.5em;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"}
+###  <span id="Linear_curves" class="mw-headline">Linear curves</span> {style="background-image:none;border-bottom-style:none;padding-bottom:0.17em;widows:2;text-transform:none;background-color:#ffffff;text-indent:0px;margin:0px 0px 0.3em;font:bold 17px/19.2px sans-serif;white-space:normal;orphans:2;letter-spacing:normal;color:#000000;overflow:hidden;word-spacing:0px;padding-top:0.5em;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"}
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   [![Animation of a linear Bézier curve, t in [0,1]](http://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bezier_1_big.gif/240px-Bezier_1_big.gif)](http://en.wikipedia.org/wiki/File:Bezier_1_big.gif "Animation of a linear Bézier curve, t in [0,1]")
@@ -240,7 +240,7 @@ class="Apple-converted-space"> </span>**P**~0~<span
 class="Apple-converted-space"> </span>to<span
 class="Apple-converted-space"> </span>**P**~1~.
 
-### <span class="editsection" style="float:right;margin-left:5px;font-size:13px;font-weight:normal;-webkit-user-select:none;">[[edit](http://en.wikipedia.org/w/index.php?title=B%C3%A9zier_curve&action=edit&section=16 "Edit section: Quadratic curves")]</span><span id="Quadratic_curves" class="mw-headline">Quadratic curves</span> {style="background-image:none;border-bottom-style:none;padding-bottom:0.17em;widows:2;text-transform:none;background-color:#ffffff;text-indent:0px;margin:0px 0px 0.3em;font:bold 17px/19.2px sans-serif;white-space:normal;orphans:2;letter-spacing:normal;color:#000000;overflow:hidden;word-spacing:0px;padding-top:0.5em;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"}
+###  <span class="editsection" style="float:right;margin-left:5px;font-size:13px;font-weight:normal;-webkit-user-select:none;">[[edit](http://en.wikipedia.org/w/index.php?title=B%C3%A9zier_curve&action=edit&section=16 "Edit section: Quadratic curves")]</span><span id="Quadratic_curves" class="mw-headline">Quadratic curves</span> {style="background-image:none;border-bottom-style:none;padding-bottom:0.17em;widows:2;text-transform:none;background-color:#ffffff;text-indent:0px;margin:0px 0px 0.3em;font:bold 17px/19.2px sans-serif;white-space:normal;orphans:2;letter-spacing:normal;color:#000000;overflow:hidden;word-spacing:0px;padding-top:0.5em;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"}
 
 For quadratic Bézier curves one can construct intermediate points<span
 class="Apple-converted-space"> </span>**Q**~0~<span
@@ -294,7 +294,7 @@ class="Apple-converted-space"> </span>varies from 0 to 1:
                                                     [0,1]
   ------------------------ ------------------------ ------------------------
 
-### <span class="editsection" style="float:right;margin-left:5px;font-size:13px;font-weight:normal;-webkit-user-select:none;">[[edit](http://en.wikipedia.org/w/index.php?title=B%C3%A9zier_curve&action=edit&section=17 "Edit section: Higher-order curves")]</span><span id="Higher-order_curves" class="mw-headline">Higher-order curves</span> {style="background-image:none;border-bottom-style:none;padding-bottom:0.17em;widows:2;text-transform:none;background-color:#ffffff;text-indent:0px;margin:0px 0px 0.3em;font:bold 17px/19.2px sans-serif;white-space:normal;orphans:2;letter-spacing:normal;color:#000000;overflow:hidden;word-spacing:0px;padding-top:0.5em;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"}
+###  <span class="editsection" style="float:right;margin-left:5px;font-size:13px;font-weight:normal;-webkit-user-select:none;">[[edit](http://en.wikipedia.org/w/index.php?title=B%C3%A9zier_curve&action=edit&section=17 "Edit section: Higher-order curves")]</span><span id="Higher-order_curves" class="mw-headline">Higher-order curves</span> {style="background-image:none;border-bottom-style:none;padding-bottom:0.17em;widows:2;text-transform:none;background-color:#ffffff;text-indent:0px;margin:0px 0px 0.3em;font:bold 17px/19.2px sans-serif;white-space:normal;orphans:2;letter-spacing:normal;color:#000000;overflow:hidden;word-spacing:0px;padding-top:0.5em;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"}
 
 For higher-order curves one needs correspondingly more intermediate
 points. For cubic curves one can construct intermediate points<span

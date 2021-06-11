@@ -7,13 +7,13 @@ keywords:
 description: 
 ---
 
-##SCons
-##make
+## SCons
+## make
 This is the standard against which all other build systems are currently compared.
-##GNU Autotools
+## GNU Autotools
 GNU Autotools extends GNU Make with a larger library of default build rules, plus extensive dependency checking capability. It knows how to compile software (executables, shared libraries, plus documentation, etc) for a large number of targets, which is something that rapidly becomes tedious when using plain Makefiles.
 
-##CMake
+## CMake
 When compared to scons, CMake is :
 
 * Faster
@@ -29,20 +29,20 @@ But :
 
 To sum up, my very subjective opinion is that scons is a better idea, but CMake has a stronger implementation.
 
-##Makeit
-##Jam
-##qmake
-##A-A-P
-##Ant
-##Maven
-##TWW tools from TWW Inc.
-##Rake
-##Rant
-##Makepp
-##Waf
-##KConfig
-##Other comparisons
+## Makeit
+## Jam
+## qmake
+## A-A-P
+## Ant
+## Maven
+## TWW tools from TWW Inc.
+## Rake
+## Rant
+## Makepp
+## Waf
+## KConfig
+## Other comparisons
 
-#Reference
+## Reference
 
 * <http://www.scons.org/wiki/SconsVsOtherBuildTools>

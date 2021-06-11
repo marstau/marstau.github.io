@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NDK和Eclipse的集成
-category: 游戏技术
+category: 编程开发
 tags: android／java
 keywords: 
 description: 

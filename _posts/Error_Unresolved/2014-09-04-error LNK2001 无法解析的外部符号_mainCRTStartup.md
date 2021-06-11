@@ -1,7 +1,7 @@
 ---
 layout: post
 title: error LNK2001 无法解析的外部符号_mainCRTStartup
-category: 游戏技术
+category: 编程开发
 tags: error／unresolved
 keywords: 
 description: 

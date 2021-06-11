@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 1>------ 已启动生成/项目/Font, 配置/Debug Win3
-category: 游戏技术
+category: 编程开发
 tags: error／unresolved
 keywords: 
 description: 

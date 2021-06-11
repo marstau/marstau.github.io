@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Game Engines Comparison
-category: 游戏技术
+category: 编程开发
 tags: Game　Engine
 keywords: 
 description: 
@@ -9,7 +9,7 @@ description:
 
 ![引擎排行榜](/Resources/Game_Engines_1.jpg)
 
-##Unreal Engine 3
+## Unreal Engine 3
 
 Developer: Epic
 Platforms: PC, Mac, Xbox 360, PS3
@@ -27,7 +27,7 @@ Finally, Epic has enhanced asset management by introducing the new Content Brows
 Contact: 620 Crossroads Blvd, Cary, NC 27518, United States    
 E-mail: licensing@epicgames.com    
 Web: www.epicgames.com
-##Gamebryo Lightspeed
+## Gamebryo Lightspeed
 Developer: Emergent Game Technologies
 Platforms: Xbox 360, PS3, Wii, PC
 Browser support: No
@@ -44,7 +44,7 @@ Contact: 5016 N. Parkway Calabasas, Suite 210, Calabasas, CA 91302, United Sta
 Tel: (818) 222-5355    
 E-mail: info@emergent.net    
 Web: www.emergent.net
-##CryENGINE 3
+## CryENGINE 3
 Developer: Crytek
 Platforms: Xbox 360, PS3, PC, ‘MMO and next-gen ready’
 Browser support: No
@@ -59,7 +59,7 @@ The ‘What You See is What You Play’ Sandbox editor – which now deploys liv
 Contact: Hanauer Landstr. 523, 60386 Frankfurt am Main, Germany 
 E-mail: cryengine@crytek.de 
 Web: www.crytek.com
-##Unity 3D
+## Unity 3D
 Developer: Unity Technologies
 Platforms: PC, Mac, iPhone, Wii
 Browser support: Yes
@@ -76,7 +76,7 @@ Other console support is currently limited to Wii, but support for Xbox 360 and 
 Contact: Duevej 94 a, 2000 Frederiksberg, Denmark 
 E-mail: info@unity3d.com 
 Web: www.unity3d.com
-##BlitzTech
+## BlitzTech
 Developer: Blitz Games Studios
 Platforms: PS3, Xbox 360, Wii, PSP, PC
 Browser support: No
@@ -93,7 +93,7 @@ Finally, one of the real distinguishing features is BlitzTech’s support for tr
 Contact: Regent Square House, The Parade, Leamington Spa, Warwickshire, CV32 4NL, UK 
 E-mail: business@blitzgamesstudios.com 
 Web: www.blitztech.com
-##Infernal Engine
+## Infernal Engine
 Developer: Terminal Reality
 Platforms: Xbox 360, PS3, PC, Wii, PS2, PSP
 Browser support: No
@@ -111,7 +111,7 @@ Contact: 2274 Rockbrook Drive, Lewisville, TX 75067, United States
 Tel: (972) 315-8089 
 E-mail: enginesales@terminalreality.com 
 Web: www.infernalengine.com
-##Vision Engine 7.5
+## Vision Engine 7.5
 Developer: Trinigy
 Platforms: PC (DX9 & 10), Xbox 360, PlayStation 3, Wii
 Browser support: No
@@ -128,8 +128,8 @@ Contact: Trinigy GmbH, INKA-Businesspark, Arbachtalstr. 6, 72800 Eningen, German
 Tel: +49 (0)7121 986 993 
 E-mail: sales@trinigy.net 
 Web: www.trinigy.net
-##Bigworld Technology Suite
-##Vicious Engine 2
+## Bigworld Technology Suite
+## Vicious Engine 2
 Developer: Vicious Cycle Software 
 Platforms: PC, Xbox 360, PS3 (VE2); PSP, PS2, Wii (VE)
 Browser support: No
@@ -145,7 +145,7 @@ Contact: 3005 Carrington Mill Blvd, Suite 500, Morrisville, NC 27560, United Sta
 Phone: 919-370-3000 
 E-mail: info@viciouscycleinc.com
 Web: www.viciousengine.com
-##Torque 3D
+## Torque 3D
 Developer: GarageGames
 Platforms: PC, Mac, Xbox 360, Wii, iPhone, PS3, PSP
 Browser support: Yes
@@ -167,50 +167,53 @@ www.garagegames.com
 ****
 
 
-##OGRE(Object-oriented Graphics Rendering Engine)
+## OGRE(Object-oriented Graphics Rendering Engine)
 Web:orge.sourceforge.net
 OGRE是用C++编写的，以现场为导向，灵活的三维引擎，它主要用于那些利用硬件加速的3D图形应用程序。它的类库提取了所有基础系统库的细节，如Direct3D和OpenGL ，并提供了一个基于世界对象和其他直观类的界面
 支持插件等形式来完成新的功能，这点优于Irrlicht，但入门不易
-##OSG(Open Scene Graph)
-##Irrlicht(鬼火) 
+## OSG(Open Scene Graph)
+## Irrlicht(鬼火) 
 高性能的实时3-D引擎，用C++编写，也可用于.Net语言。它采用跨平台设计，使用D3D ，OpenGL与自己的软件渲染。其功能特点可以与商业3D引擎相比。
 有自己专用的场景编辑器；但扩充功能不易，对于新手来说，也是难得的入门快，学习快的引擎.
-##Delta3D
+## Delta3D
 一个功能齐全的游戏引擎，可用于游戏，模拟或其他图形应用。其模块化设计集成了其他的开源项目，如‘开放场景图’，‘开放动力学引擎’，‘人物动画库’和‘OpenAL’ 。Delta3D把这些开源项目集成到一个易于使用的应用程序编程接口中.
-##NeoEngine
+## NeoEngine
 一个全功能的用C++编写的开源3D三维游戏引擎。该引擎是多平台的，包括OpenGL和DirectX渲染功能，支持Windows ，Linux和Mac OS X系统，它提供了场景管理，顶点和像素着色，骨骼动画和物理，脚本以及一个完全集成的工具链。
-##Bullet
+## Bullet
 三维游戏多重物理库，提供最先进的碰撞检测，柔软身体和刚体动力学。这个游戏引擎被许多AAA级的游戏公司用在PS3 ，Xbox 360 ，任天堂的Wii、以及PC上 。这个库可以免费用于商业用途.
-##RealmForge
+## RealmForge
 .NET3D游戏引擎Visual3D.NET的前身。 Visual3D.NET的组成包括Visual3D框架，一个游戏引擎，运行时系统，.Net 2.0应用框架，XNA框架，以及Visual3D设计师，一个类似于Visual Studio 2005的可定制的可视化设计工作区，和其他开发工具.
-##Power Render
+## Power Render
 是一个为游戏和3D图形准备的软件开发工具包。它为开发者提供了一个API，为艺术家准备了一些工具，这些工具可以实时预览3ds Max、Maya和Lightwave的模型。新版本还可以预览高动态范围成像并支持OpenEXR文件格式。
-##Crystal Space
+## Crystal Space
 在UNIX ，Windows和Mac OS X系统下使用的开源3-D SDK，它使用OpenGL或软件来渲染，特色有：曲面，容积雾，动态彩色光线，地形引擎，LOD技术和程序帖图等等
-##OpenSteer
+## OpenSteer
 Steering Behaviors for Autonomous Characters
 OpenSteer is a C++ library to help construct steering behaviors for autonomous characters in games and animation. In addition to the library, OpenSteer provides an OpenGL-based application called OpenSteerDemo which displays predefined demonstrations of steering behaviors. The user can quickly prototype, visualize, annotate and debug new steering behaviors by writing a plug-in for OpenSteerDemo.
 OpenSteer provides a toolkit of steering behaviors, defined in terms of an abstract mobile agent called a "vehicle." Sample code is provided, including a simple vehicle implementation and examples of combining simple steering behaviors to produce more complex behavior. OpenSteer's classes have been designed to flexibly integrate with existing game engines by either layering or inheritance.
 OpenSteerDemo's plug-in framework allows a game AI programmer to quickly prototype behaviors during game design, and to develop behaviors before the main game engine is finished. OpenSteerDemo allows the user to interactively adjust aspects of the simulation. The user can: start, stop and single step time, select the vehicle/ character/ agent of interest, adjust the camera's view and its tracking behavior.
-##顽皮狗(唯一的独占平台引擎)
+## 顽皮狗(唯一的独占平台引擎)
 干净漂亮的环境，其中富含大量的动态物体，每一个还有自己的物理效果，更加平滑，更多的环境互动，光照上也有让人吃惊的进步，还有人工智能的进步，游戏与动画中间的切换几乎看不出来，还有支持合作与对战……简直就是一个怪物！
-##RAGE
+## RAGE
 代表系列:Rockstar（下称R星）乒乓球、GTA4系列、午夜：洛杉矶、Red Dead Redemption（译注：TBA）……
 世界地图流缓冲技术、复杂人工智能管理、天气特效、快速网络代码与众多游戏方式，这些在GTA4中都表现的很明显。而且它对合作插件兼容性非常好。Euphoria是NaturalMotion的一个动态动画引擎，和RAGE引擎非常贴合，就好像它俩是一个娘胎里出来的一样（但是Euphoria与卢卡斯Art的星战：原力就结合的不是那么好了），同样，RAGE与Erwin Coumans的子弹物理引擎也结合的非常完美.
-##Dead
+## Dead
 代表系列：死亡空间，但丁的地狱（译注：撒花，撒花……)
-##Unreal(虚幻引擎)
+## Unreal(虚幻引擎)
 代表系列：战争机器，质量效应，生化奇兵，虚幻竞技场，赤钢铁（？），无主之地，兄弟连，镜之边缘，异端世界，彩虹6号……
 虚幻最诱人的地方在于：你用虚幻开发游戏前前后后的开销相当于你自己从头做一个引擎的开销。虚幻还订立了次世代画面的标杆。
-##Avalanche(雪崩引擎)
+## Avalanche(雪崩引擎)
 代表系列：Just Cause, Just Cause 2, The Hunter
-##CRY
+## CRY
 代表系列：孤岛惊魂、孤岛危机、孤岛危机：弹头、孤岛危机2、永恒之塔……
-##IW(Infinity Ward)
+## IW(Infinity Ward)
 代表系列：使命2，使命4，使命5，使命MW2，007……
-##Anvil
+## Anvil
 代表系列：刺客信条，波斯王子4，肖恩怀特滑雪游戏，刺客信条2……
-##EGO
+## EGO
 代表系列：尘土飞扬系列、Grid、闪点行动：龙腾……
-##Geo-Mod
+## Geo-Mod
 代表系列：红色派系
+
+## gameplay[More](http://www.oschina.net/p/gameplay)
+黑莓制造商RIM宣布推出跨平台、开源的3D引擎Gameplay。这种3D引擎针对移动平台游戏开发者。

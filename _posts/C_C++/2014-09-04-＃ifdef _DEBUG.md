@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ＃ifdef _DEBUG
-category: 游戏技术
+category: 编程开发
 tags: Ｃ／Ｃ＋＋
 keywords: 
 description: 

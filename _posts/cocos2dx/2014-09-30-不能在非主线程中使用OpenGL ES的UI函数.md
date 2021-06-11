@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 不能在非主线程中使用OpenGL ES的UI函数
-category: 游戏技术
+category: 编程开发
 tags: cocos2dx
 keywords: 黑屏
 description: 

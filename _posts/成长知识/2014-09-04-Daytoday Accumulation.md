@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Daytoday Accumulation
-category: 游戏技术
+category: 编程开发
 tags: normal　knowledge
 keywords: 
 description: 
@@ -724,7 +724,7 @@ description:
 
      .mm文件相当于c++或者c文件
 
-75. Cygwin编译成so文件,只有当.h文件修改了才需要先清除obj文件
+75. DLL全局指针分配内存释放后要将指针设为NULL
 
 76. **<span style="color:#e53333;">cmd命令</span>**\
 
@@ -733,11 +733,6 @@ description:
 
 77. 尽量用栈变量而不是成员变量(比如new分配的,保存在heap中)，因栈读取效率高。
 
-78. DLL全局指针分配内存释放后要将指针设为NULL
-
-79.  
-
-80.  
 
 ------------------------------------------------------------------------
 
@@ -777,8 +772,10 @@ description:
      Release版本会将一些变量未初始化的全部初始化，例如float \*block =
     new float[10];debug版本下不会初始化，而release版本会初始化。
      
+* printf打印十六进制
 
-
+  %08x表示打印8位十六进制数,不足8位则在前面补0
+* 内存对齐[More](http://blog.csdn.net/musiccow/article/details/5817285)
 
 
 

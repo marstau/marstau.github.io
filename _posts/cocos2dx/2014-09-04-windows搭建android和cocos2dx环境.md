@@ -1,7 +1,7 @@
 ---
 layout: post
 title: windows搭建android和cocos2dx环境
-category: 游戏技术
+category: 编程开发
 tags: cocos2dx
 keywords: 
 description: 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adding ActionBar Items From Within Your Fragments
-category: 游戏技术
+category: 编程开发
 tags: android／java
 keywords: 
 description: 
@@ -18,7 +18,7 @@ class="Apple-converted-space"> </span>[ActionBar](https://developer.android.com
 class="Apple-converted-space"> </span>object as well as with
 ActionBarSherlock.
 
-### Why do you want to add action items? {style="border-right:0px;padding-right:0px;border-top:0px;padding-left:0px;padding-bottom:0px;margin:1.5em 0px 1em;word-spacing:0px;font:bold 15pt/1 'Helvetica Neue', Arial, Helvetica, sans-serif;vertical-align:baseline;text-transform:none;border-left:0px;color:#000000;text-indent:0px;padding-top:0px;border-bottom:0px;white-space:normal;letter-spacing:normal;background-color:#ffffff;text-align:left;widows:2;orphans:2;webkit-text-size-adjust:auto;webkit-text-stroke-width:0px;"}
+###  Why do you want to add action items? {style="border-right:0px;padding-right:0px;border-top:0px;padding-left:0px;padding-bottom:0px;margin:1.5em 0px 1em;word-spacing:0px;font:bold 15pt/1 'Helvetica Neue', Arial, Helvetica, sans-serif;vertical-align:baseline;text-transform:none;border-left:0px;color:#000000;text-indent:0px;padding-top:0px;border-bottom:0px;white-space:normal;letter-spacing:normal;background-color:#ffffff;text-align:left;widows:2;orphans:2;webkit-text-size-adjust:auto;webkit-text-stroke-width:0px;"}
 
 In a previous post you have seen that<span
 class="Apple-converted-space"> </span>[Android makes it easy to provide
@@ -86,7 +86,7 @@ are only added when a lecture has been selected. The plus and the search
 icon though are from the<span
 class="Apple-converted-space"> </span>`ListFragment`{style="border-right:0px;padding-right:0px;border-top:0px;padding-left:0px;padding-bottom:0px;margin:0px;font:1em/1.5 'andale mono', 'lucida console', monospace;vertical-align:baseline;overflow:visible;border-left:0px;padding-top:0px;border-bottom:0px;"}.
 
-### Adding action items programatically {style="border-right:0px;padding-right:0px;border-top:0px;padding-left:0px;padding-bottom:0px;margin:1.5em 0px 1em;word-spacing:0px;font:bold 15pt/1 'Helvetica Neue', Arial, Helvetica, sans-serif;vertical-align:baseline;text-transform:none;border-left:0px;color:#000000;text-indent:0px;padding-top:0px;border-bottom:0px;white-space:normal;letter-spacing:normal;background-color:#ffffff;text-align:left;widows:2;orphans:2;webkit-text-size-adjust:auto;webkit-text-stroke-width:0px;"}
+###  Adding action items programatically {style="border-right:0px;padding-right:0px;border-top:0px;padding-left:0px;padding-bottom:0px;margin:1.5em 0px 1em;word-spacing:0px;font:bold 15pt/1 'Helvetica Neue', Arial, Helvetica, sans-serif;vertical-align:baseline;text-transform:none;border-left:0px;color:#000000;text-indent:0px;padding-top:0px;border-bottom:0px;white-space:normal;letter-spacing:normal;background-color:#ffffff;text-align:left;widows:2;orphans:2;webkit-text-size-adjust:auto;webkit-text-stroke-width:0px;"}
 
 As the post title implies the additional action items are inserted by
 the fragment. In fact not much different from how you add the items
@@ -201,7 +201,7 @@ edit entry in the fragment. The about entry is not needed in the
 fragment, because it is added by the activity, no matter whether you are
 in single-pane or double-pane mode.
 
-### Changing the order of action items {style="border-right:0px;padding-right:0px;border-top:0px;padding-left:0px;padding-bottom:0px;margin:1.5em 0px 1em;word-spacing:0px;font:bold 15pt/1 'Helvetica Neue', Arial, Helvetica, sans-serif;vertical-align:baseline;text-transform:none;border-left:0px;color:#000000;text-indent:0px;padding-top:0px;border-bottom:0px;white-space:normal;letter-spacing:normal;background-color:#ffffff;text-align:left;widows:2;orphans:2;webkit-text-size-adjust:auto;webkit-text-stroke-width:0px;"}
+###  Changing the order of action items {style="border-right:0px;padding-right:0px;border-top:0px;padding-left:0px;padding-bottom:0px;margin:1.5em 0px 1em;word-spacing:0px;font:bold 15pt/1 'Helvetica Neue', Arial, Helvetica, sans-serif;vertical-align:baseline;text-transform:none;border-left:0px;color:#000000;text-indent:0px;padding-top:0px;border-bottom:0px;white-space:normal;letter-spacing:normal;background-color:#ffffff;text-align:left;widows:2;orphans:2;webkit-text-size-adjust:auto;webkit-text-stroke-width:0px;"}
 
 By default Android displays the action items of your fragment behind
 those of the activity. If you use multiple fragments Android displays
@@ -606,7 +606,7 @@ style="border-right:0px;padding-right:0px! important;border-top:0px;padding-left
 
 </div>
 
-### Handling events {style="border-right:0px;padding-right:0px;border-top:0px;padding-left:0px;padding-bottom:0px;margin:1.5em 0px 1em;word-spacing:0px;font:bold 15pt/1 'Helvetica Neue', Arial, Helvetica, sans-serif;vertical-align:baseline;text-transform:none;border-left:0px;color:#000000;text-indent:0px;padding-top:0px;border-bottom:0px;white-space:normal;letter-spacing:normal;background-color:#ffffff;text-align:left;widows:2;orphans:2;webkit-text-size-adjust:auto;webkit-text-stroke-width:0px;"}
+###  Handling events {style="border-right:0px;padding-right:0px;border-top:0px;padding-left:0px;padding-bottom:0px;margin:1.5em 0px 1em;word-spacing:0px;font:bold 15pt/1 'Helvetica Neue', Arial, Helvetica, sans-serif;vertical-align:baseline;text-transform:none;border-left:0px;color:#000000;text-indent:0px;padding-top:0px;border-bottom:0px;white-space:normal;letter-spacing:normal;background-color:#ffffff;text-align:left;widows:2;orphans:2;webkit-text-size-adjust:auto;webkit-text-stroke-width:0px;"}
 
 As usual you can handle menu item clicks in the<span
 class="Apple-converted-space"> </span>`onOptionsItemSelected()`{style="border-right:0px;padding-right:0px;border-top:0px;padding-left:0px;padding-bottom:0px;margin:0px;font:1em/1.5 'andale mono', 'lucida console', monospace;vertical-align:baseline;overflow:visible;border-left:0px;padding-top:0px;border-bottom:0px;"}<span
@@ -727,7 +727,7 @@ class="Apple-converted-space"> </span>method is called first.<span
 class="Apple-converted-space"> </span>**Your fragment’s method is called
 only, when the Activity didn’t consume the event!**
 
-### Adding and removing action items {style="border-right:0px;padding-right:0px;border-top:0px;padding-left:0px;padding-bottom:0px;margin:1.5em 0px 1em;word-spacing:0px;font:bold 15pt/1 'Helvetica Neue', Arial, Helvetica, sans-serif;vertical-align:baseline;text-transform:none;border-left:0px;color:#000000;text-indent:0px;padding-top:0px;border-bottom:0px;white-space:normal;letter-spacing:normal;background-color:#ffffff;text-align:left;widows:2;orphans:2;webkit-text-size-adjust:auto;webkit-text-stroke-width:0px;"}
+###  Adding and removing action items {style="border-right:0px;padding-right:0px;border-top:0px;padding-left:0px;padding-bottom:0px;margin:1.5em 0px 1em;word-spacing:0px;font:bold 15pt/1 'Helvetica Neue', Arial, Helvetica, sans-serif;vertical-align:baseline;text-transform:none;border-left:0px;color:#000000;text-indent:0px;padding-top:0px;border-bottom:0px;white-space:normal;letter-spacing:normal;background-color:#ffffff;text-align:left;widows:2;orphans:2;webkit-text-size-adjust:auto;webkit-text-stroke-width:0px;"}
 
 So far I have only mentioned how to use action items, that are defined
 within an xml file. But that often is not sufficient.
@@ -947,7 +947,7 @@ class="Apple-converted-space"> </span>object directly. To me that would
 be better readable. But that’s just a tiny detail<span
 class="Apple-converted-space"> </span>![:-)](http://www.grokkingandroid.com/wordpress/wp-includes/images/smilies/icon_smile.gif)
 
-### Wrapping up {style="border-right:0px;padding-right:0px;border-top:0px;padding-left:0px;padding-bottom:0px;margin:1.5em 0px 1em;word-spacing:0px;font:bold 15pt/1 'Helvetica Neue', Arial, Helvetica, sans-serif;vertical-align:baseline;text-transform:none;border-left:0px;color:#000000;text-indent:0px;padding-top:0px;border-bottom:0px;white-space:normal;letter-spacing:normal;background-color:#ffffff;text-align:left;widows:2;orphans:2;webkit-text-size-adjust:auto;webkit-text-stroke-width:0px;"}
+###  Wrapping up {style="border-right:0px;padding-right:0px;border-top:0px;padding-left:0px;padding-bottom:0px;margin:1.5em 0px 1em;word-spacing:0px;font:bold 15pt/1 'Helvetica Neue', Arial, Helvetica, sans-serif;vertical-align:baseline;text-transform:none;border-left:0px;color:#000000;text-indent:0px;padding-top:0px;border-bottom:0px;white-space:normal;letter-spacing:normal;background-color:#ffffff;text-align:left;widows:2;orphans:2;webkit-text-size-adjust:auto;webkit-text-stroke-width:0px;"}
 
 In this post I have shown that you can use the<span
 class="Apple-converted-space"> </span>`onCreateOptionsMenu()`{style="border-right:0px;padding-right:0px;border-top:0px;padding-left:0px;padding-bottom:0px;margin:0px;font:1em/1.5 'andale mono', 'lucida console', monospace;vertical-align:baseline;overflow:visible;border-left:0px;padding-top:0px;border-bottom:0px;"}<span

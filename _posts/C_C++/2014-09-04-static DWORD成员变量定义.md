@@ -1,7 +1,7 @@
 ---
 layout: post
 title: static DWORD成员变量定义
-category: 游戏技术
+category: 编程开发
 tags: Ｃ／Ｃ＋＋
 keywords: windows, DWORD
 description: 
@@ -17,7 +17,7 @@ description:
 
 因为DWORD在编译时刻宏替换成unsigned,而FVF_VERTEX也是编译时刻定义的,因此会出错,无法识别DWORD类型.
 
-#Solution
+# Solution
 
 solution: DWORD 换成 unsigned
 

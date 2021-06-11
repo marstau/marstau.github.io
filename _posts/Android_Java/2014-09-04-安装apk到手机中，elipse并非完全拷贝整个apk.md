@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 安装apk到手机中，elipse并非完全拷贝整个apk
-category: 游戏技术
+category: 编程开发
 tags: android／java
 keywords: 
 description: 

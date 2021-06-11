@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fx Composer安装好后打不开
-category: 游戏技术
+category: 编程开发
 tags: Game　Engine
 keywords: 
 description: 

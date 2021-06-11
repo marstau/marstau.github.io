@@ -105,7 +105,7 @@ a:after {
 }
 
 .navbar-default {
-	background-color: #628ee5;
+	background-color: #345dac;
     border-bottom: 1px solid #888;
 }
 
@@ -138,12 +138,12 @@ i {
 
 /* HeaderWrap */
 #headerwrap {
-	background: url(../img/bg01.jpg) no-repeat center top;
+	background: url(../img/bg10.jpg) no-repeat center top;
 	/*background-color: #000;*/
 	margin-top: -20px;
 	padding-top:200px;
 	background-attachment: relative;
-	background-position: center center;
+	background-position: center bottom;
 	min-height: 650px;
 	width: 100%;
 

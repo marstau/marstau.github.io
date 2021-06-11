@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 锚点anchorPoint
-category: 游戏技术
+category: 编程开发
 tags: cocos2dx
 keywords: 
 description: 

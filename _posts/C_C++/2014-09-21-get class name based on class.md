@@ -1,7 +1,7 @@
 ---
 layout: post
 title: get class name based on class
-category: 游戏技术
+category: 编程开发
 tags: Ｃ／Ｃ＋＋
 keywords: 
 description: 
@@ -10,8 +10,8 @@ description:
 You can display the name of a variable by using the preprocessor. For instance
 
 ```
-#include <iostream>
-#define quote(x) #x
+# include <iostream>
+# define quote(x) #x
 class one {};
 int main(){
     one A;
@@ -51,9 +51,9 @@ as the compiler doesn't keep track of all of the variable's names.
 As it happens in gcc the result of typeid().name() is the mangled class name, to get the demangled version use
 
 ```
-#include <iostream>
-#include <cxxabi.h>
-#define quote(x) #x
+# include <iostream>
+# include <cxxabi.h>
+# define quote(x) #x
 template <typename foo,typename bar> class one{ };
 int main(){
     one<int,one<double, int> > A;
@@ -73,7 +73,7 @@ Other compilers may use different naming schemes.
 
 
 ```
-#define quote(x) #x
+# define quote(x) #x
 template<typename T1, typename T2>
 void GameManager::changeState(T1 *oldState, T2 *newState){
     GLOG(GDEBUG,"changeState");
@@ -100,5 +100,5 @@ output:
  [typeid name=N7NewWing10NWRegisterE, macro=T2, demangled=NewWing::NWRegister]
 ```
 
-#Reference
+## Reference
 * <http://stackoverflow.com/questions/3649278/how-can-i-get-the-class-name-from-a-c-object>

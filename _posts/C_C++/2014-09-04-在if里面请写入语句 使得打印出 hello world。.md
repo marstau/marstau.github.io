@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 在if里面请写入语句 使得打印出 hello world。
-category: 游戏技术
+category: 编程开发
 tags: Ｃ／Ｃ＋＋
 keywords: 
 description: 

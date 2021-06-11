@@ -1,7 +1,7 @@
 ---
 layout: post
 title: multimap容器不能用greater_equal
-category: 游戏技术
+category: 编程开发
 tags: Ｃ／Ｃ＋＋
 keywords: 
 description: 

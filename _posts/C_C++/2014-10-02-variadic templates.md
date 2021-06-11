@@ -1,7 +1,7 @@
 ---
 layout: post
 title: variadic templates
-category: 游戏技术
+category: 编程开发
 tags: Ｃ／Ｃ＋＋
 keywords: variadic templates
 description: 
@@ -10,8 +10,10 @@ description:
 I'll describe some caution when using variadic templates, just see below codes:
 
 ```
-void print (){
-    cout << "print" << endl;}
+void print ()
+{
+    cout << "print" << endl;
+}
 void print(int a){
     cout << "int=" << a << endl;
 }
@@ -23,8 +25,12 @@ void print(const string &a){
 void print(const double a){
     cout << "double=" << a << endl;
 }
-template <typename T, typename... Types>void print (const T& firstArg, const Types&... args){
-    print(firstArg);    print(args...);}
+template <typename T, typename... Types>
+void print (const T& firstArg, const Types&... args)
+{
+    print(firstArg);
+    print(args...);
+}
 ```
 useage:
 
@@ -66,14 +72,23 @@ void print(const T &a){
     cout << "T=" << a << ", demangled=" << demangled << endl;
     free(demangled);
 }
-template <typename T, typename... Types>void print (const T& firstArg, const Types&... args){
-    print(firstArg);    print(args...);}
+template <typename T, typename... Types>
+void print (const T& firstArg, const Types&... args)
+{
+    print(firstArg);
+    print(args...);
+}
 
 void print2(){
     cout << "print2" << endl;
 }
-template <typename T, typename... Types>void print2 (const T& firstArg, const Types&... args){
-    cout << "firstArg=" << firstArg << endl;    print2(args...);}
+template <typename T, typename... Types>
+void print2 (const T& firstArg, const Types&... args)
+{
+    cout << "firstArg=" << firstArg << endl;
+    print2(args...);
+}
+
 ```
 
 
@@ -107,8 +122,12 @@ void print(){
 void print(const int val){
     cout << "int=" << val << endl;
 }
-template <typename T, typename... Types>void print (const T& firstArg, const Types&... args){
-    cout << "firstArg=" << firstArg << endl;    print(args...);}
+template <typename T, typename... Types>
+void print (const T& firstArg, const Types&... args)
+{
+    cout << "firstArg=" << firstArg << endl;
+    print(args...);
+}
 ```
 
 ```

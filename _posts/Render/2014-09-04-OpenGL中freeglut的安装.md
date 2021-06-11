@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OpenGL中freeglut的安装
-category: 游戏技术
+category: 编程开发
 tags: Game　Engine
 keywords: 
 description: 

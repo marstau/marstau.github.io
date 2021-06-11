@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Matrix Layouts, DirectX and OpenGL
-category: 游戏技术
+category: 编程开发
 tags: Game　Engine
 keywords: Matrix,Math
 description: 
@@ -40,7 +40,7 @@ Confused yet?
 So, then we come to storing matrices in memory. Of course there's two ways to store matrices -- they could be stored in the order m11 m12 m13 m14 m21 ..., or they could be stored in the order m11 m21 m31 m41 m12 ... The first version is called "row major" because you can view it as storing one row at a time. The second version is called "column major" because you can view it as storing one column at a time.
 So, if you're given a matrix as an array of floats in memory, or as a sequence of floats on a web page, you need to know both which vector convention is assumed for the matrix, AND the storage format used for the matrix. However, as luck would have it, an error in one, will cancel out an error in the other. A row-major matrix intended for row vectors will work, as-is in memory, just as well for a column vector if you just assume it's stored in column-major order.
 And, guess what? OpenGL assumes colum major matrices; DirectX assumes row major matrices. This means that the translation, in a matrix seen as a float array, will always go in elements at index 12, 13 and 14 in a matrix in memory (where index is in the range 0..15), be it OpenGL or DirectX. These locations map to m41, m42 and m43 in the DirectX conventions, and to m14, m24, m34 in the OpenGL conventions. Whew! You may actually have something wrong in your code, but because you've mis-understood the convention, an additional interpretation error negates the first mistake, and it all works out.
-##Left- and Right-handed matrices
+## Left- and Right-handed matrices
 There's this persistent rumor that there are "left-handed" and "right-handed" matrices. That's not true. In a left-handed coordinate system, a rotation of the X vector +90 degrees around Z axis projects to the Y vector. In a right-handed coordinate system, a rotation of the X vector +90 degrees around the Z axis projects to the Y vector. The math is the same; the matrix is the same. The only difference is the interpretation of the data once you get it out -- larger Z means closer to the viewer in a Y-up, X-right right-handed coordinate system, but further into the screen in a left-handed coordinate system. If your matrix attempts to some-how do something different for left- and right-handed uses, it will either end up rotating in the opposite direction of what you'd expect, or it will end up mirroring your entire geometry. If you have right-handed data, and want to display it in a left-handed coordinate system, that's what you want, but you should express that as an explicit mirror matrix that either negates one row (or column :-), or flips two rows (or columns) of the identity matrix.
 
 

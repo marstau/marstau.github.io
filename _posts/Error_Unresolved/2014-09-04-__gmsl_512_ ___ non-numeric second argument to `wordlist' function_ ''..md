@@ -1,7 +1,7 @@
 ---
 layout: post
 title: __gmsl：512：*** non-numeric second argument to `wordlist' function： ''.
-category: 游戏技术
+category: 编程开发
 tags: error／unresolved
 keywords: 
 description: 
