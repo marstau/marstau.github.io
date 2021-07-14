@@ -20,7 +20,7 @@ style="padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;">
 <div
 style="padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;">
 
-1\>GRMA.obj :<span class="Apple-converted-space"> </span><span
+1\>GRMA.obj :<span class="Apple-converted-space"> </span><span
 style="color:red;">warning LNK4006</span>: "struct HWND\_\_ \* GhDlg"
 (?GhDlg@@3PAUHWND\_\_@@A) 已在 ConnectDatabase.obj
 中定义；已忽略第二个定义
@@ -70,7 +70,7 @@ style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-l
 style="padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;">
 
 <span
-style="line-height:23px;background-color:#ffffff;font-family:simsun;color:red;">如果用头文件定义全局变量的话，就只能在一个cpp里面包含该头文件，其他地方用extern引用 </span>\
+style="line-height:23px;background-color:#ffffff;font-family:simsun;color:red;">如果用头文件定义全局变量的话，就只能在一个cpp里面包含该头文件，其他地方用extern引用 </span>\
  <span
 style="text-align:left;line-height:23px;background-color:#ffffff;font-family:simsun;color:red;">否则每个包含该头文件的cpp生成的obj都会有一个定义</span>
 

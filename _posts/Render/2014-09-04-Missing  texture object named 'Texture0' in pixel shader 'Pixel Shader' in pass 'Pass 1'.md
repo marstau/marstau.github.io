@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-  **<span style="color:#e53333;">Add Texture Object</span>**in Pass1 but
+  **<span style="color:#e53333;">Add Texture Object</span>**in Pass1 but
 **not** Add Vertex Texture Object.
 
 

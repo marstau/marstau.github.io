@@ -44,48 +44,48 @@ description:
 
 默认为：
 
-OGRE - Debug
+OGRE - Debug
 
-     - ipch
+     - ipch
 
-     - newProject
+     - newProject
 
-              - Debug
+              - Debug
 
-                newProject.vcxproj
+                newProject.vcxproj
 
-                main.cpp
+                main.cpp
 
-                newProject.vcxproj.filters
+                newProject.vcxproj.filters
 
-                newProject.vcxproj.user
+                newProject.vcxproj.user
 
-       OGRE.sdf
+       OGRE.sdf
 
-       OGRE.sln
+       OGRE.sln
 
-       OGRE.suo
+       OGRE.suo
 
-       OGRE.opensdf
+       OGRE.opensdf
 
- [属性]-\>[配置属性]-\>[常规]-\>[输出目录] :
-\$(SolutionDir)\$(Configuration)\\ // OGRE/Debug目录下
+ [属性]-\>[配置属性]-\>[常规]-\>[输出目录] :
+\$(SolutionDir)\$(Configuration)\\ // OGRE/Debug目录下
 
- [属性]-\>[配置属性]-\>[常规]-\>[中间目录] ：\$(Configuration)\\ //
+ [属性]-\>[配置属性]-\>[常规]-\>[中间目录] ：\$(Configuration)\\ //
 OGRE/newProject/Debug目录下
 
- [属性]-\>[配置属性]-\>[调试]-\>[工作目录] ：\$(ProjectDir) //
+ [属性]-\>[配置属性]-\>[调试]-\>[工作目录] ：\$(ProjectDir) //
 OGRE/newProject目录下
- 
+ 
 
-我的工程目录为E:\\Visual Studio 2010\\marstau-ml-library\\MarstauLibrary：
+我的工程目录为E:\\Visual Studio 2010\\marstau-ml-library\\MarstauLibrary：
 
-\$(SolutionDir) : MarstauLibrary
+\$(SolutionDir) : MarstauLibrary
 
-\$(PlatformName) : Win32
+\$(PlatformName) : Win32
 
-\$(Configuration) : Debug or Release
-eg : \$(SolutionDir)\$(PlatformName)\\bin.\$(Configuration)\\ 为MarstauLibrary\\Win32\\bin.Debug\\目录
+\$(Configuration) : Debug or Release
+eg : \$(SolutionDir)\$(PlatformName)\\bin.\$(Configuration)\\ 为MarstauLibrary\\Win32\\bin.Debug\\目录
 
 
 

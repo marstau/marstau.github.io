@@ -11,16 +11,16 @@ description:
     <div
     style="border-bottom:#cccccc 1px solid;border-left:#cccccc 1px solid;padding-bottom:4px;background-color:#eeeeee;padding-left:4px;width:98%;padding-right:5px;font-size:13px;word-break:break-all;border-top:#cccccc 1px solid;border-right:#cccccc 1px solid;padding-top:4px;">
 
-    sampler Texture0;\
+    sampler Texture0;\
     \
-     float4 ps\_main(\
-        float4 inPos : POSITION,\
-        float2 inTex : TEXCOORD ) : COLOR\
+     float4 ps\_main(\
+        float4 inPos : POSITION,\
+        float2 inTex : TEXCOORD ) : COLOR\
      {\
-        <span
-    style="color:#0000ff;">return</span> tex2D( inTex, Texture0 ); <span
+        <span
+    style="color:#0000ff;">return</span> tex2D( inTex, Texture0 ); <span
     style="color:#008000;">//</span><span
-    style="color:#008000;"> error:return tex2D( Texture0, inTex );</span><span
+    style="color:#008000;"> error:return tex2D( Texture0, inTex );</span><span
     style="color:#008000;">\
      </span>}
 
@@ -29,12 +29,12 @@ description:
 -   **<span style="color:#e53333;">位移一定位置注意w值.</span>**\
      当绘制两个物体的时候，另一个物体位移offsetPos(a,b,c,**1**);\
 
-    当如此设置的时候,因为Output.Position = mul( Input.Position + offsetPos, matViewProjection );\
+    当如此设置的时候,因为Output.Position = mul( Input.Position + offsetPos, matViewProjection );\
      你会发现绘制出来的缩小了一半.\
      ![](http://files.note.sdo.com/XbPJ4~kaYm72wE1cQ0063B)\
 
     因为w值为1,当你与Input.Position相加的时候变成了2,rendermonkey内部需要将坐标投影到w=1上,so,**将w设置为0**即可解决问题.\
-     ![](http://files.note.sdo.com/XbPJ4~kaYm7iwE1cQ0063E) 
+     ![](http://files.note.sdo.com/XbPJ4~kaYm7iwE1cQ0063E) 
 -   绘制多个物体到同一个renderTarget,先前绘制的物体消失不见了.\
      本来想要这种结果:\
      ![](http://files.note.sdo.com/XbPJ4~kaYZ_2wE1cQ009gZ)\
@@ -53,13 +53,13 @@ description:
 -   **<span
     style="color:#e53333;">在同一个position绘制多个同样的pass效果并不是叠加,而是不断覆盖.</span>**\
      如图,四个pass,![](http://files.note.sdo.com/XbPJ4~kb2NvOwE2pM004FP)\
-     pass1和pass2相同    着色为红色,\
+     pass1和pass2相同    着色为红色,\
      pass3位移了一点位置 着色为黄色,\
      pass4是位置和前两个pass一样,但着色为magenta(品红).
 -   **<span style="color:#e53333;">四分量和三分量相加竟然OK</span>**\
-     float4 v;
+     float4 v;
 
-    float4 vv = float4(**Pos.xyz + v**,1);\
+    float4 vv = float4(**Pos.xyz + v**,1);\
      同理,float2 texCoord; float2 x = texCoord - 0.5;也OK。
 
 -   纹理过滤模式设置\
@@ -84,26 +84,26 @@ description:
      ![](http://files.note.sdo.com/XbPJ4~kbdTjiwE0rM00nse)\
      因为
 
-    struct VS\_OUTPUT{
+    struct VS\_OUTPUT{
 
-       float4 Pos : POSITION;
+       float4 Pos : POSITION;
 
-       float2 Tex : TEXCOORD;
+       float2 Tex : TEXCOORD;
 
-       float**4** col : COLOR; // 改为float2即可.
+       float**4** col : COLOR; // 改为float2即可.
 
     };
 
 -   **<span style="color:#e53333;">pixel
     shader的输入顺序无所谓</span>**\
-     例如:float4 ps\_main(float2 inTex : TEXCOORD0,
-    float4 inCol: COLOR0) : COLOR{}\
-     和float4 ps\_main(float4 inCol: COLOR0, float2 inTex
-    : TEXCOORD0) : COLOR{}\
+     例如:float4 ps\_main(float2 inTex : TEXCOORD0,
+    float4 inCol: COLOR0) : COLOR{}\
+     和float4 ps\_main(float4 inCol: COLOR0, float2 inTex
+    : TEXCOORD0) : COLOR{}\
      都是一样的,因为他们都有标识符TEXCOORD0,COLOR0,可以正确识别.
 
 -   HLSL 的implicit type conversion\
-     float  d;\
+     float  d;\
      float4 a = d;\
      float3 b = a;
 -   TEXCOORD0错写成TEXCOORD1\
@@ -128,7 +128,7 @@ description:
      ![](http://files.note.sdo.com/XbPJ4~kcoBJywE2C4002At)
 
 -   \
-      
+      
 
 
 

@@ -17,7 +17,7 @@ Players had to move the paddles to an appropriate position at an
 appropriate time, thus rebounding the ball toward the opponent and away
 from the player. The root of this basic operation is primitive(by
 today’s standards) collision detection. Today’s games are much more
-advanced than<span class="Apple-converted-space"> </span>*Pong*, and
+advanced than<span class="Apple-converted-space"> </span>*Pong*, and
 most are based in 3D. Collision detection in 3D is many magnitudes more
 difficult to implement than a simple 2D Pong game. The experience of
 playing some of the early flight simulators illustrated how bad
@@ -65,7 +65,7 @@ style="position:relative;text-align:left;padding-bottom:10px;widows:2;text-trans
 
 \
 \
-  
+  
 
 </div>
 
@@ -117,7 +117,7 @@ update\_objects(){\
  <span></span>for (each\_object)\
  <span></span>save\_old\_position();\
  <span></span>calc new\_object\_position<span><span
-class="Apple-converted-space"> </span>\
+class="Apple-converted-space"> </span>\
  </span>{based on velocity accel. etc.}\
  <span></span>if (collide\_with\_other\_objects())\
  <span></span>new\_object\_position = old\_position();\
@@ -199,13 +199,13 @@ more clear as we move on, for now, let’s just say that it’s possible.
 (Another method for reducing the number of pair-wise comparisons in a
 scene is to build an octree. This is beyond the scope of this article,
 but you can read more about octrees in<span
-class="Apple-converted-space"> </span>*Spatial Data Structures:
+class="Apple-converted-space"> </span>*Spatial Data Structures:
 Quadtree, Octrees and Other Hierarchical Methods*, mentioned in the “For
 Further Info” section at the end of this article.) Now lets take a look
 at portal-based engines and see why they can be a pain in the neck when
 it comes to collision detection.
 
- 
+ 
 
 **Portal Engines and Object-Object Collisions**
 
@@ -315,13 +315,13 @@ and the precision varies (Figure 6).
 | <div align="center">                                                     |
 |                                                                          |
 | **Figure 6. Successive AABBs for a spinning<span                         |
-| class="Apple-converted-space"> </span>\                                  |
+| class="Apple-converted-space"> </span>\                                  |
 |  rod(<span class="trans">实心铁杆</span>) (as viewed from the side).**   |
 |                                                                          |
 | </div>                                                                   |
 +--------------------------------------------------------------------------+
 
- 
+ 
 
 So, rather than use AABBs, why can’t we use boxes that are arbitrarily
 oriented and minimize the empty space, or error, of the box
@@ -413,7 +413,7 @@ each subtree has to be multiplied by a matrix.
 \
 
 +--------------------------------------------------------------------------+
-|                                                                          |
+|                                                                          |
 +--------------------------------------------------------------------------+
 | **Detecting Collisions Using Hierarchy Trees**                           |
 |                                                                          |
@@ -438,7 +438,7 @@ each subtree has to be multiplied by a matrix.
 |                                                                          |
 | \                                                                        |
 | \                                                                        |
-|                                                                          |
+|                                                                          |
 |                                                                          |
 | </div>                                                                   |
 |                                                                          |
@@ -489,11 +489,11 @@ each subtree has to be multiplied by a matrix.
 |                                                                          |
 | BSP (Binary Space Partitioning) trees are another type of space          |
 | subdivision technique that’s been in use for many years in the game      |
-| industry (*Doom*<span class="Apple-converted-space"> </span>was the      |
+| industry (*Doom*<span class="Apple-converted-space"> </span>was the      |
 | first commercial game that used BSP trees). Even though BSP trees aren’t |
 | as popular today as they have been over the past couple of years, the    |
 | three most licensed game engines today —<span                            |
-| class="Apple-converted-space"> </span>*Quake II, Unreal*, and Lithtech — |
+| class="Apple-converted-space"> </span>*Quake II, Unreal*, and Lithtech — |
 | still use them quite extensively. The beauty and extreme efficiency of   |
 | BSP trees comes to light when we take a look at collision detection. Not |
 | only are BSP trees efficient for geometry culling, we also get very      |
@@ -583,17 +583,17 @@ each subtree has to be multiplied by a matrix.
 |                                                                          |
 | **For Further Info**                                                     |
 |                                                                          |
-| • H. Samet.<span class="Apple-converted-space"> </span>*Spatial Data     |
+| • H. Samet.<span class="Apple-converted-space"> </span>*Spatial Data     |
 | Structures: Quadtree, Octrees and Other Hierarchical Methods*. Addison   |
 | Wesley, 1989.                                                            |
 |                                                                          |
 | • For more information about AABBs take a look at J. Arvo and D. Kirk.   |
 | “A survey of ray tracing acceleration techniques,”<span                  |
-| class="Apple-converted-space"> </span>*An Introduction to Ray Tracing*.  |
+| class="Apple-converted-space"> </span>*An Introduction to Ray Tracing*.  |
 | Academic Press, 1989.                                                    |
 |                                                                          |
 | • For a transformation speedup, check out James Arvo’s paper in Andrew   |
-| S. Glassner, ed.<span class="Apple-converted-space"> </span>*Graphics    |
+| S. Glassner, ed.<span class="Apple-converted-space"> </span>*Graphics    |
 | Gems*. Academic Press, 1990.                                             |
 |                                                                          |
 | • S. Gottschalk, M. Lin, and D. Manocha. “OBBTree: A hierarchical        |
@@ -601,7 +601,7 @@ each subtree has to be multiplied by a matrix.
 | Press, 1996. has contributed a great deal to the discussion of OBBs in   |
 | terms of accuracy and speed of execution.                                |
 |                                                                          |
-| • S. Gottschalk.<span class="Apple-converted-space"> </span>*Separating  |
+| • S. Gottschalk.<span class="Apple-converted-space"> </span>*Separating  |
 | Axis Theorem*, TR96-024, UNC Chapel Hill, 1990.                          |
 |                                                                          |
 | • N. Greene. “Detecting intersection of a rectangular solid and a convex |
@@ -611,13 +611,13 @@ each subtree has to be multiplied by a matrix.
 |                                                                          |
 | **Nick Bobic is trying not to work 14 hours a day with very little       |
 | success. Any new collision tips and tricks should be sent to<span        |
-| class="Apple-converted-space"> </span>[nickb@cagedent.com](mailto:%20nic |
+| class="Apple-converted-space"> </span>[nickb@cagedent.com](mailto:%20nic |
 | kb@cagedent.com).**                                                      |
 +--------------------------------------------------------------------------+
 
 \
 
- 
+ 
 
 
 

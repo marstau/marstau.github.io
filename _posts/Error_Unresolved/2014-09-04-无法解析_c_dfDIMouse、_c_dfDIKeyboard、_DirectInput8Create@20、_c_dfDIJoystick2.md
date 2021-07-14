@@ -32,7 +32,7 @@ style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-l
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
 1\>
- 正在创建“Debug\\WinTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ 正在创建“Debug\\WinTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 
 </div>
 
@@ -46,7 +46,7 @@ style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-l
 <div
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
-1\>  main.cpp
+1\>  main.cpp
 
 </div>
 
@@ -60,7 +60,7 @@ style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-l
 <div
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
-1\>  所有输出均为最新。
+1\>  所有输出均为最新。
 
 </div>
 
@@ -68,7 +68,7 @@ style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-l
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
 1\>CDirectInput.obj : error LNK2001: 无法解析的外部符号<span
-class="Apple-converted-space"> </span><span
+class="Apple-converted-space"> </span><span
 style="color:red;">\_c\_dfDIMouse</span>
 
 </div>
@@ -77,7 +77,7 @@ style="color:red;">\_c\_dfDIMouse</span>
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
 1\>CDirectInput.obj : error LNK2001: 无法解析的外部符号<span
-class="Apple-converted-space"> </span><span
+class="Apple-converted-space"> </span><span
 style="color:red;">\_c\_dfDIKeyboard</span>
 
 </div>
@@ -86,8 +86,8 @@ style="color:red;">\_c\_dfDIKeyboard</span>
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
 1\>CDirectInput.obj : error LNK2019: 无法解析的外部符号<span
-class="Apple-converted-space"> </span><span
-style="color:red;">\_DirectInput8Create@20</span>，该符号在函数 
+class="Apple-converted-space"> </span><span
+style="color:red;">\_DirectInput8Create@20</span>，该符号在函数 
 
 </div>
 
@@ -100,7 +100,7 @@ style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-l
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
 "public: bool \_\_thiscall CDirectInputSystem::Initialize(struct
-HWND\_\_ \*,struct HINSTANCE\_\_ 
+HWND\_\_ \*,struct HINSTANCE\_\_ 
 
 </div>
 
@@ -122,7 +122,7 @@ style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-l
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
 1\>CDirectInput.obj : error LNK2001: 无法解析的外部符号<span
-class="Apple-converted-space"> </span><span
+class="Apple-converted-space"> </span><span
 style="color:red;">\_c\_dfDIJoystick2</span>
 
 </div>

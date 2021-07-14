@@ -12,10 +12,10 @@ From :
 
 We're doing some major database design at work and I raised the
 possibility of using<span
-class="Apple-converted-space"> </span>[UUID](http://en.wikipedia.org/wiki/Universally_Unique_Identifier)s
-for all our<span class="Apple-converted-space"> </span>[surrogate
+class="Apple-converted-space"> </span>[UUID](http://en.wikipedia.org/wiki/Universally_Unique_Identifier)s
+for all our<span class="Apple-converted-space"> </span>[surrogate
 keys](http://en.wikipedia.org/wiki/Surrogate_key)<span
-class="Apple-converted-space"> </span>as opposed to the traditional
+class="Apple-converted-space"> </span>as opposed to the traditional
 per-table auto-incremented integer or sequence. I personally prefer
 them, and we also have some special setup and needs that might benefit
 from them. We have distinct databases per client, where some "partners"
@@ -33,7 +33,7 @@ gradual annoyance with simplistic database-generated keys.
 My reasons have primarily been:
 
 1.  **Less Database Dependency**<span
-    class="Apple-converted-space"> </span>- When generated identifiers
+    class="Apple-converted-space"> </span>- When generated identifiers
     don't (have to) come from the database, business logic has less work
     to do when creating new data sets, especially when the new data is
     heavily interrelated, application code can simply declare a new key
@@ -44,7 +44,7 @@ My reasons have primarily been:
     especially in write-intensive applications. Modern UUID algorithms
     seem to be strong enough that a central "UUID Generation Service"
     per-host wouldn't be necessary.
-2.  **Uniqueness**<span class="Apple-converted-space"> </span>- An
+2.  **Uniqueness**<span class="Apple-converted-space"> </span>- An
     object's or row's id will be unique across the table, database,
     server, and thankfully, most-likely, the entire universe. This truly
     means that for a given set of values, (hopefully guaranteed to be
@@ -54,7 +54,7 @@ My reasons have primarily been:
     up a query "DELETE FROM foo WHERE id=178", stared at it to make sure
     178 is the right number, hit enter, and then realized that "foo"
     should have been "bar"? Say goodbye to whatever had \#178 in "foo"!
-3.  **Mocking/Testing**<span class="Apple-converted-space"> </span>-
+3.  **Mocking/Testing**<span class="Apple-converted-space"> </span>-
     When id generation can happen in the application layer, creating
     large, complex data sets for testing/integration purposes is trivial
     and requires no back and forth to the database to associate objects.
@@ -65,7 +65,7 @@ My reasons have primarily been:
     transactional environment, of course), it seems beneficial to let
     the application layer - the actual point where the new data set is
     created - specify the ID.
-4.  **Data Privacy**<span class="Apple-converted-space"> </span>-
+4.  **Data Privacy**<span class="Apple-converted-space"> </span>-
     Contemporary web applications often expose internal state through
     simplistic sequential integer IDs. How many times have you been at
     /foo.php?id=17443 and found interesting things when you go to
@@ -87,7 +87,7 @@ you end up with almost pronounceable keys. In the database all surrogate
 key columns have a default which produces hexadecimal digits if the
 surrogate key is not specified. This has been helpful for debugging and
 development, though given the weighting of the letters in English and
-the<span class="Apple-converted-space"> </span>[Birthday
+the<span class="Apple-converted-space"> </span>[Birthday
 Paradox](http://en.wikipedia.org/wiki/Birthday_Paradox), I wouldn't feel
 comfortable using this scheme on any large (billions of records)
 databases. Plus it's completely non-standard and rather silly - you
@@ -95,7 +95,7 @@ could have a "random" key like "ohhhbuttbutthaha".
 
 My last project at work used actual UUIDs as generated
 by[Hibernate](http://hibernate.org/)'s<span
-class="Apple-converted-space"> </span>[UUIDHexGenerator](http://www.hibernate.org/hib_docs/v3/api/org/hibernate/id/UUIDHexGenerator.html),
+class="Apple-converted-space"> </span>[UUIDHexGenerator](http://www.hibernate.org/hib_docs/v3/api/org/hibernate/id/UUIDHexGenerator.html),
 and the development overhead of - GOSH! - 32 character IDs was
 nonexistant. Even dealing with handwritten queries whilst testing,
 debugging and data analysis were much simpler when you don't have to
@@ -112,13 +112,13 @@ I'm of the opinion that the added hardware+software burden of supporting
 benefits described above are enough of a reason to switch all instances
 of generated keys to be UUIDs
 
- 
+ 
 
- 
+ 
 
 However: in android:
 
-Android does not impose any limitations beyond the standard SQLite concepts. We do recommend including an autoincrement value key field that can be used as a unique ID to quickly find a record. This is not required for private data, but if you implement a content provider, you must include a unique ID using the BaseColumns.\_ID constant.(from
+Android does not impose any limitations beyond the standard SQLite concepts. We do recommend including an autoincrement value key field that can be used as a unique ID to quickly find a record. This is not required for private data, but if you implement a content provider, you must include a unique ID using the BaseColumns.\_ID constant.(from
 : <http://developer.android.com/guide/topics/data/data-storage.html#db>)
 
 

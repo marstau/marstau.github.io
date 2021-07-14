@@ -35,7 +35,7 @@ style="padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;">
 <div
 style="padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;">
 
-1\>  正在创建“Debug\\Guest Room Management
+1\>  正在创建“Debug\\Guest Room Management
 App.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 
 </div>
@@ -50,7 +50,7 @@ style="padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;">
 <div
 style="padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;">
 
-1\>  所有输出均为最新。
+1\>  所有输出均为最新。
 
 </div>
 
@@ -64,7 +64,7 @@ style="padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;">
 <div
 style="padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;">
 
-1\>  所有输出均为最新。
+1\>  所有输出均为最新。
 
 </div>
 
@@ -78,7 +78,7 @@ style="padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;">
 <div
 style="padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;">
 
-1\>  所有输出均为最新。
+1\>  所有输出均为最新。
 
 </div>
 
@@ -92,7 +92,7 @@ style="padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;">
 <div
 style="padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;">
 
-1\>  所有输出均为最新。
+1\>  所有输出均为最新。
 
 </div>
 

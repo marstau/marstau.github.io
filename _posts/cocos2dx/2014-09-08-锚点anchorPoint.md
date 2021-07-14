@@ -31,7 +31,7 @@ description:
 根据上面的公式： 假设精灵的width = height = 10.
 
     actualPosition.x = 0 + 10*(0.5 - (-1)) = 15;
-    actualPosition.y = 0 + 10*(0.5 - (-1)) = 15;
+    actualPosition.y = 0 + 10*(0.5 - (-1)) = 15;
 
 (15, 15) 这个结果正是现在图片的在屏幕上的实际位置。
 
@@ -50,7 +50,7 @@ description:
 根据上面的公式： 假设精灵的width = height = 10.
 
     actualPosition.x = 10 + 10*(0.5 - (1)) = 5;
-    actualPosition.y  = 10 + 10*(0.5 - (1)) = 5; 
+    actualPosition.y  = 10 + 10*(0.5 - (1)) = 5; 
 
 (5, 5) 这个结果正是现在图片的在屏幕上的实际位置。
 

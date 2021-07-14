@@ -7,30 +7,30 @@ keywords:
 description: 
 ---
 
-要执行 **build/host-setup.sh**进行ndk安装，但找不到这个文件
+要执行 **build/host-setup.sh**进行ndk安装，但找不到这个文件
 
 在docs里面查install.txt，发现：
 
-  Previous releases required you to run the 'build/host-setup.sh' script to
+  Previous releases required you to run the 'build/host-setup.sh' script to
 
-  configure the NDK. However, this step has been removed in release 4 (a.k.a. r4).
+  configure the NDK. However, this step has been removed in release 4 (a.k.a. r4).
 
-  原来这个版本不用手动安装
+  原来这个版本不用手动安装
 
- recommended:<http://blog.csdn.net/goldroc/article/details/5444005>
+ recommended:<http://blog.csdn.net/goldroc/article/details/5444005>
 
- 
+ 
 
 **<span style="COLOR: #e53333">FIRST:</span><span
 style="COLOR: #e53333"></span>**
 
-Android NDK是什么,  NDK：Native Develpment Kit.
+Android NDK是什么,  NDK：Native Develpment Kit.
 
 众所周知，Android是基于Linux的支持，自然对C、C++提供原生的支持，Android的开发也是基于Java的语言。应用程序的运行环境主要是**Dalvik**虚拟机。虽然开发语言是Java但是我们总可以通过各种方式用C等语言开发。
 
 至于用NDK开发的流程，请阅读NDK附带的文档。
 
- 
+ 
 
 关于具体的信息了解，请访问Android开发网阅读文档了解基本的信息。
 
@@ -64,7 +64,7 @@ NDK和阅读NDK的文档获取，形成你自己的理解。
 
 当然按照本文的介绍的步骤也可以配置，但还是建议读一下。
 
- 
+ 
 
 第一步，下载Android
 的SDK，注意，SDK要1.5以后的版本(链接中有提到,原因在NDK的文档里有介绍)。
@@ -177,7 +177,7 @@ color="#444444" face="宋体" size="3"></span></span>
 <span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US"><span
-style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">     </span>NDK </span><span
+style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">     </span>NDK </span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">提供了一系列的工具，帮助开发者快速开发</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US">C</span><span
@@ -186,10 +186,10 @@ style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; 
 lang="EN-US">C++</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">）的动态库，并能自动将</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
-lang="EN-US">so </span><span
+lang="EN-US">so </span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">和</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
-lang="EN-US">java </span><span
+lang="EN-US">java </span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">应用一起打包成</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US">apk</span><span
@@ -204,19 +204,19 @@ color="#444444" face="宋体" size="3"></span></span>
 <span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US"><span
-style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">     </span>NDK </span><span
+style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">     </span>NDK </span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">集成了交叉编译器，并提供了相应的</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
-lang="EN-US">mk </span><span
+lang="EN-US">mk </span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">文件隔离</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US">CPU</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">、平台、</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
-lang="EN-US">ABI </span><span
+lang="EN-US">ABI </span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">等差异，开发人员只需要简单修改</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
-lang="EN-US">mk </span><span
+lang="EN-US">mk </span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">文件（指出</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US">“</span><span
@@ -234,13 +234,13 @@ style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; 
 lang="EN-US">so</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">。</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
-lang="EN-US">NDK </span><span
+lang="EN-US">NDK </span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">可以自动地将</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
-lang="EN-US">so </span><span
+lang="EN-US">so </span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">和</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
-lang="EN-US">Java </span><span
+lang="EN-US">Java </span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">应用一起打包，极大地减轻了开发人员的打包工作。比较简单的说，</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US">NDK</span><span
@@ -292,7 +292,7 @@ color="#444444" face="宋体" size="3"></span></span>
 <span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US"><span
-style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">    </span></span><span
+style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">    </span></span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">由于</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US">NDK</span><span
@@ -352,7 +352,7 @@ color="#444444" face="宋体" size="3"></span></span>
 <span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US"><span
-style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">    </span></span><span
+style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">    </span></span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">首先，你得先跑到</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; TEXT-DECORATION: underline; PADDING-TOP: 0px"><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #333333; PADDING-TOP: 0px"
@@ -403,7 +403,7 @@ color="#444444" face="宋体" size="3"></span></span>
 <span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US"><span
-style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">        <span
+style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">        <span
 class="Apple-converted-space"></span></span>1</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">）</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
@@ -424,7 +424,7 @@ color="#444444" face="宋体" size="3"></span></span>
 <span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US"><span
-style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">        <span
+style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">        <span
 class="Apple-converted-space"></span></span>2</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">）</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
@@ -442,7 +442,7 @@ color="#444444" face="宋体" size="3"></span></span>
 <span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US"><span
-style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">        <span
+style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">        <span
 class="Apple-converted-space"></span></span>3</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">）</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
@@ -518,7 +518,7 @@ color="#444444" face="宋体" size="3"></span></span>
 <span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US"><span
-style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">        <span
+style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">        <span
 class="Apple-converted-space"></span></span>1) Direct
 Connection</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">：直接连接。</span><span
@@ -534,7 +534,7 @@ color="#444444" face="宋体" size="3"></span></span>
 <span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US"><span
-style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">        <span
+style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">        <span
 class="Apple-converted-space"></span></span>2) Use IE5
 Settings</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">：使用</span><span
@@ -553,7 +553,7 @@ color="#444444" face="宋体" size="3"></span></span>
 <span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US"><span
-style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">        <span
+style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">        <span
 class="Apple-converted-space"></span></span>3) Use HTTP/FTP
 Proxy</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">：使用</span><span
@@ -573,7 +573,7 @@ style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; 
 color="#444444" face="宋体" size="3"></span></span>
 
 <span
-style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">　 根据自己的网络连接的实情情况进行选择，一般正常情况下，均选择第一种，也就是直接连接方式。然后再点击</span><span
+style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">　 根据自己的网络连接的实情情况进行选择，一般正常情况下，均选择第一种，也就是直接连接方式。然后再点击</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US">“</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">下一步</span><span
@@ -736,7 +736,7 @@ color="#444444" face="宋体" size="3"></span></span>
 <span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US"><span
-style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">        <span
+style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">        <span
 class="Apple-converted-space"></span></span></span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">运行</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
@@ -769,7 +769,7 @@ color="#444444" face="宋体" size="3"></span></span>
 <span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US"><span
-style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">        <span
+style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">        <span
 class="Apple-converted-space"></span></span></span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">然后依次输入</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: red; PADDING-TOP: 0px"
@@ -806,11 +806,11 @@ color="#444444" face="宋体" size="3"><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; COLOR: #444444; FONT-SIZE: small; PADDING-TOP: 0px"
 color="#444444" face="宋体" size="3"></span></span>
 
-**D:\\android-sdk-windows\\platform-tools;%SystemRoot%\\system32;%SystemRoot%;%SystemRoot%\\System32\\Wbem;C:\\Program Files\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft SQL Server\\90\\Tools\\binn\\;D:\\Program Files\\Java\\jdk1.7.0\_04\\bin**
+**D:\\android-sdk-windows\\platform-tools;%SystemRoot%\\system32;%SystemRoot%;%SystemRoot%\\System32\\Wbem;C:\\Program Files\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft SQL Server\\90\\Tools\\binn\\;D:\\Program Files\\Java\\jdk1.7.0\_04\\bin**
 
- 
+ 
 
- 
+ 
 
 <span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">三：配置</span><span
@@ -863,10 +863,10 @@ style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; 
 lang="EN-US">NDK=/cygdrive/\<</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">你的盘符</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
-lang="EN-US">\>/\<android ndk </span><span
+lang="EN-US">\>/\<android ndk </span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">目录</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
-lang="EN-US">\> </span><span
+lang="EN-US">\> </span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; PADDING-TOP: 0px">例如：</span><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US"></span>
@@ -884,13 +884,13 @@ style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; 
 
 **NDK\_ROOT=/cygdrive/d/android-ndk-r7-crystax-5.beta3-windows**
 
-**export NDK\_ROOT**
+**export NDK\_ROOT**
 
 **NDK\_SYJT=/cygdrive/d/xc2d/trunk/project/android**
 
-**export NDK\_SYJT**
+**export NDK\_SYJT**
 
- 
+ 
 
 <span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; COLOR: #444444; FONT-SIZE: small; PADDING-TOP: 0px"
@@ -905,9 +905,9 @@ style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; 
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px"
 lang="EN-US">)</span>
 
- 
+ 
 
- 
+ 
 
 <span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; COLOR: #444444; FONT-SIZE: small; PADDING-TOP: 0px"
@@ -1036,101 +1036,101 @@ color="#444444" face="宋体" size="3"><span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: 宋体; COLOR: #444444; FONT-SIZE: small; PADDING-TOP: 0px"
 color="#444444" face="宋体" size="3"></span></span>
 
- 
+ 
 
-Administrator@VJHWE1ENO \~
+Administrator@VJHWE1ENO \~
 
-**\$ cd \$NDK\_ROOT**
+**\$ cd \$NDK\_ROOT**
 
- 
+ 
 
-Administrator@VJHWE1ENO /cygdrive/d/android-ndk-r7-crystax-5.beta3-windows
+Administrator@VJHWE1ENO /cygdrive/d/android-ndk-r7-crystax-5.beta3-windows
 
-\$ ls
+\$ ls
 
-build               ndk-build      platforms    samples
+build               ndk-build      platforms    samples
 
-docs                ndk-build.cmd  prebuilt     sources
+docs                ndk-build.cmd  prebuilt     sources
 
-documentation.html  ndk-gdb        README.TXT   tests
+documentation.html  ndk-gdb        README.TXT   tests
 
-GNUmakefile         ndk-stack.exe  RELEASE.TXT  toolchains
+GNUmakefile         ndk-stack.exe  RELEASE.TXT  toolchains
 
- 
+ 
 
-Administrator@VJHWE1ENO /cygdrive/d/android-ndk-r7-crystax-5.beta3-windows
+Administrator@VJHWE1ENO /cygdrive/d/android-ndk-r7-crystax-5.beta3-windows
 
-**\$ cd samples/**
+**\$ cd samples/**
 
- 
+ 
 
-Administrator@VJHWE1ENO /cygdrive/d/android-ndk-r7-crystax-5.beta3-windows/samples
+Administrator@VJHWE1ENO /cygdrive/d/android-ndk-r7-crystax-5.beta3-windows/samples
 
-**\$ ls**
+**\$ ls**
 
-bitmap-plasma  hello-neon       native-audio   san-angeles
+bitmap-plasma  hello-neon       native-audio   san-angeles
 
-hello-gl2      module-exports   native-media   test-libstdc++
+hello-gl2      module-exports   native-media   test-libstdc++
 
-hello-jni      native-activity  native-plasma  two-libs
+hello-jni      native-activity  native-plasma  two-libs
 
- 
+ 
 
-Administrator@VJHWE1ENO /cygdrive/d/android-ndk-r7-crystax-5.beta3-windows/samples
+Administrator@VJHWE1ENO /cygdrive/d/android-ndk-r7-crystax-5.beta3-windows/samples
 
-**\$ cd san-angeles/**
+**\$ cd san-angeles/**
 
- 
+ 
 
-Administrator@VJHWE1ENO /cygdrive/d/android-ndk-r7-crystax-5.beta3-windows/samples/san-angeles
+Administrator@VJHWE1ENO /cygdrive/d/android-ndk-r7-crystax-5.beta3-windows/samples/san-angeles
 
-**\$ cd jni/**
+**\$ cd jni/**
 
- 
+ 
 
-Administrator@VJHWE1ENO /cygdrive/d/android-ndk-r7-crystax-5.beta3-windows/samples/san-angeles/jni
+Administrator@VJHWE1ENO /cygdrive/d/android-ndk-r7-crystax-5.beta3-windows/samples/san-angeles/jni
 
-**\$ ls**
+**\$ ls**
 
-Android.mk     app-linux.c  demo.c      license.txt       README.txt
+Android.mk     app-linux.c  demo.c      license.txt       README.txt
 
-app.h          app-win32.c  importgl.c  license-BSD.txt   shapes.h
+app.h          app-win32.c  importgl.c  license-BSD.txt   shapes.h
 
-app-android.c  cams.h       importgl.h  license-LGPL.txt
+app-android.c  cams.h       importgl.h  license-LGPL.txt
 
- 
+ 
 
-Administrator@VJHWE1ENO /cygdrive/d/android-ndk-r7-crystax-5.beta3-windows/samples/san-angeles/jni
+Administrator@VJHWE1ENO /cygdrive/d/android-ndk-r7-crystax-5.beta3-windows/samples/san-angeles/jni
 
 ****
 
-\$ \$NDK\_ROOT/ndk-build -j3 APP\_OPTIM=release
+\$ \$NDK\_ROOT/ndk-build -j3 APP\_OPTIM=release
 
- 
+ 
 
-Cygwin         : Generating dependency file converter script
+Cygwin         : Generating dependency file converter script
 
-StaticLibrary  : libcrystax.a
+StaticLibrary  : libcrystax.a
 
-Prebuilt       : libcrystax\_static.a \<= \<NDK\>/sources/crystax/libs/armeabi/4.6.3/
+Prebuilt       : libcrystax\_static.a \<= \<NDK\>/sources/crystax/libs/armeabi/4.6.3/
 
-Compile thumb  : sanangeles \<= importgl.c
+Compile thumb  : sanangeles \<= importgl.c
 
-Compile thumb  : sanangeles \<= demo.c
+Compile thumb  : sanangeles \<= demo.c
 
-Compile thumb  : sanangeles \<= app-android.c
+Compile thumb  : sanangeles \<= app-android.c
 
-SharedLibrary  : libsanangeles.so
+SharedLibrary  : libsanangeles.so
 
-Install        : libsanangeles.so =\> libs/armeabi/libsanangeles.so
+Install        : libsanangeles.so =\> libs/armeabi/libsanangeles.so
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 **<span
 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: red; PADDING-TOP: 0px"
@@ -1183,27 +1183,27 @@ style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; 
 
 五、重新打开Eclpise安装
 
-一. 无法创建新android项目
+一. 无法创建新android项目
 
-在eclipse创建新项目时出现： 
+在eclipse创建新项目时出现： 
 
-1 2 3 4  this template depends on the android support library,which is either not installed,or the template depends on a more recent version than the one you have installed。   Required version :8
+1 2 3 4  this template depends on the android support library,which is either not installed,or the template depends on a more recent version than the one you have installed。   Required version :8
 
 解决办法：
 
-运行sdk manager，勾选中Extras–\>Android Support Library，下载完成后重启eclipse。
+运行sdk manager，勾选中Extras–\>Android Support Library，下载完成后重启eclipse。
 
- 
+ 
 
-二. 无法更新和下载androidSDK
+二. 无法更新和下载androidSDK
 
- 
+ 
 
-打开SDK Manager时底部进度条一直不动，打开详细信息，发现卡在：
+打开SDK Manager时底部进度条一直不动，打开详细信息，发现卡在：
 
- 
+ 
 
-1  Fetching https://dl-ssl.google.com/android/repository/addons\_list-2.xml
+1  Fetching https://dl-ssl.google.com/android/repository/addons\_list-2.xml
 
 解决办法：
 
@@ -1211,29 +1211,29 @@ style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; 
 
 （1）windows下打开C:\\Windows\\System32\\drivers\\etc，以管理员身份编辑hosts文件，在最后添加：
 
-74.125.237.1 dl-ssl.google.com
+74.125.237.1 dl-ssl.google.com
 
-（2）linux下使用命令sudo vim /etc/hosts编辑hosts文件,同样在文件最后添加
+（2）linux下使用命令sudo vim /etc/hosts编辑hosts文件,同样在文件最后添加
 
-74.125.237.1 dl-ssl.google.com
+74.125.237.1 dl-ssl.google.com
 
-然后重新运行sdk manager，就可以下载了。
+然后重新运行sdk manager，就可以下载了。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

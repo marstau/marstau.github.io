@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-创建的是Win32 Console Application
+创建的是Win32 Console Application
 
 
 

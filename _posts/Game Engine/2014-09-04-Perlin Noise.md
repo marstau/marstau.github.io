@@ -59,7 +59,7 @@ otherwise the Perlin function will simply produce nonsense.
 | .elias/models/noise1.gif)            | noise function. A random value       |
 | \                                    | between 0 and 1 is assigned to every |
 |                                      | point on the X axis.<span            |
-|                                      | class="Apple-converted-space"> </spa |
+|                                      | class="Apple-converted-space"> </spa |
 |                                      | n>\                                  |
 |                                      | \                                    |
 +--------------------------------------+--------------------------------------+
@@ -79,9 +79,9 @@ otherwise the Perlin function will simply produce nonsense.
 <span style="font-size:x-small;">Definitions</span>
 
 Before I go any further, let me define what I mean by<span
-class="Apple-converted-space"> </span>**amplitude**<span
-class="Apple-converted-space"> </span>and<span
-class="Apple-converted-space"> </span>**frequency**. If you have studied
+class="Apple-converted-space"> </span>**amplitude**<span
+class="Apple-converted-space"> </span>and<span
+class="Apple-converted-space"> </span>**frequency**. If you have studied
 physics, you may well have come across the concept of amplitude and
 frequency applied to a sin wave.
 
@@ -129,14 +129,14 @@ function. This is the Perlin Noise Function.\
 | Functions</span>                                                         |
 +--------------------------------------------------------------------------+
 | ![](http://freespace.virgin.net/hugo.elias/models/noise_a.gif)<span      |
-| class="Apple-converted-space"> </span>![](http://freespace.virgin.net/hu |
+| class="Apple-converted-space"> </span>![](http://freespace.virgin.net/hu |
 | go.elias/models/noise_b.gif)<span                                        |
-| class="Apple-converted-space"> </span>![](http://freespace.virgin.net/hu |
+| class="Apple-converted-space"> </span>![](http://freespace.virgin.net/hu |
 | go.elias/models/noise_c.gif)<span                                        |
-| class="Apple-converted-space"> </span>![](http://freespace.virgin.net/hu |
+| class="Apple-converted-space"> </span>![](http://freespace.virgin.net/hu |
 | go.elias/models/noise_d.gif)![](http://freespace.virgin.net/hugo.elias/m |
 | odels/noise_e.gif)<span                                                  |
-| class="Apple-converted-space"> </span>![](http://freespace.virgin.net/hu |
+| class="Apple-converted-space"> </span>![](http://freespace.virgin.net/hu |
 | go.elias/models/noise_f.gif)                                             |
 +--------------------------------------------------------------------------+
 | ![](http://freespace.virgin.net/hugo.elias/models/perlin1.gif)\          |
@@ -160,15 +160,15 @@ You can, of course, do the same in 2 dimensions.
   <span style="font-size:xx-small;">Some noise functions are created in
   2D</span>
   ![](http://freespace.virgin.net/hugo.elias/models/perlin_a.jpg)<span
-  class="Apple-converted-space"> </span>![](http://freespace.virgin.net/hu
+  class="Apple-converted-space"> </span>![](http://freespace.virgin.net/hu
   go.elias/models/perlin_b.jpg)<span
-  class="Apple-converted-space"> </span>![](http://freespace.virgin.net/hu
+  class="Apple-converted-space"> </span>![](http://freespace.virgin.net/hu
   go.elias/models/perlin_c.jpg)<span
-  class="Apple-converted-space"> </span>![](http://freespace.virgin.net/hu
+  class="Apple-converted-space"> </span>![](http://freespace.virgin.net/hu
   go.elias/models/perlin_d.jpg)<span
-  class="Apple-converted-space"> </span>![](http://freespace.virgin.net/hu
+  class="Apple-converted-space"> </span>![](http://freespace.virgin.net/hu
   go.elias/models/perlin_e.jpg)<span
-  class="Apple-converted-space"> </span>![](http://freespace.virgin.net/hu
+  class="Apple-converted-space"> </span>![](http://freespace.virgin.net/hu
   go.elias/models/perlin_f.jpg)
 
   Adding all these functions together produces a noisy pattern.\
@@ -195,7 +195,7 @@ frequencies.
 To make it simpler, and to avoid repeating the words Amplitude and
 Frequency all the time, a single number is used to specify the amplitude
 of each frequency. This value is known as<span
-class="Apple-converted-space"> </span>**Persistence**. There is some
+class="Apple-converted-space"> </span>**Persistence**. There is some
 ambiguity as to it's exact meaning. The term was originally coined by
 Mandelbrot, one of the people behind the discovery of fractals. He
 defined noise with a lot of high frequency as having a low persistence.
@@ -209,10 +209,10 @@ Mandelbrot. So our definition of persistence is this:
 
 \
 
-Where<span class="Apple-converted-space"> </span>**i**<span
-class="Apple-converted-space"> </span>is the<span
-class="Apple-converted-space"> </span>**i**^th^<span
-class="Apple-converted-space"> </span>noise function being added. To
+Where<span class="Apple-converted-space"> </span>**i**<span
+class="Apple-converted-space"> </span>is the<span
+class="Apple-converted-space"> </span>**i**^th^<span
+class="Apple-converted-space"> </span>noise function being added. To
 illustrate the effect of persistence on the output of the Perlin Noise,
 take a look at the diagrams below. They show the component noise
 functions that are added, the effect of the persistence value, and the
@@ -433,7 +433,7 @@ result
 <span style="font-size:x-small;">Octaves</span>
 
 Each successive noise function you add is known as an<span
-class="Apple-converted-space"> </span>**octave**. The reason for this is
+class="Apple-converted-space"> </span>**octave**. The reason for this is
 that each noise function is twice the frequency of the previous one. In
 music, octaves also have this property.
 
@@ -490,36 +490,36 @@ a little program to list prime numbers for you. You can give it a start
 number and an end number, and it will find all the primes between the
 two. Source code is also included, so you can easily include it into
 your own programs to produce a random prime number.<span
-class="Apple-converted-space"> </span>[**Primes.zip**](http://freespace.virgin.net/hugo.elias/models/primes.zip)
+class="Apple-converted-space"> </span>[**Primes.zip**](http://freespace.virgin.net/hugo.elias/models/primes.zip)
 
 <span style="font-size:x-small;">Interpolation</span>
 
 Having created your noise function, you will need to smooth out the
 values it returns. Again, you can choose any method you like, but some
 look better than others. A standard interpolation function takes three
-inputs,<span class="Apple-converted-space"> </span>**a**<span
-class="Apple-converted-space"> </span>and<span
-class="Apple-converted-space"> </span>**b**, the values to be
+inputs,<span class="Apple-converted-space"> </span>**a**<span
+class="Apple-converted-space"> </span>and<span
+class="Apple-converted-space"> </span>**b**, the values to be
 interpolated between, and<span
-class="Apple-converted-space"> </span>**x**<span
-class="Apple-converted-space"> </span>which takes a value between 0 and
+class="Apple-converted-space"> </span>**x**<span
+class="Apple-converted-space"> </span>which takes a value between 0 and
 1. The Interpolation function returns a value between<span
-class="Apple-converted-space"> </span>**a**<span
-class="Apple-converted-space"> </span>and<span
-class="Apple-converted-space"> </span>**b**<span
-class="Apple-converted-space"> </span>based on the value<span
-class="Apple-converted-space"> </span>**x**. When<span
-class="Apple-converted-space"> </span>**x**<span
-class="Apple-converted-space"> </span>equals 0, it returns<span
-class="Apple-converted-space"> </span>**a**, and when<span
-class="Apple-converted-space"> </span>**x**<span
-class="Apple-converted-space"> </span>is 1, it returns<span
-class="Apple-converted-space"> </span>**b**. When<span
-class="Apple-converted-space"> </span>**x**<span
-class="Apple-converted-space"> </span>is between 0 and 1, it returns
-some value between<span class="Apple-converted-space"> </span>**a**<span
-class="Apple-converted-space"> </span>and<span
-class="Apple-converted-space"> </span>**b**.
+class="Apple-converted-space"> </span>**a**<span
+class="Apple-converted-space"> </span>and<span
+class="Apple-converted-space"> </span>**b**<span
+class="Apple-converted-space"> </span>based on the value<span
+class="Apple-converted-space"> </span>**x**. When<span
+class="Apple-converted-space"> </span>**x**<span
+class="Apple-converted-space"> </span>equals 0, it returns<span
+class="Apple-converted-space"> </span>**a**, and when<span
+class="Apple-converted-space"> </span>**x**<span
+class="Apple-converted-space"> </span>is 1, it returns<span
+class="Apple-converted-space"> </span>**b**. When<span
+class="Apple-converted-space"> </span>**x**<span
+class="Apple-converted-space"> </span>is between 0 and 1, it returns
+some value between<span class="Apple-converted-space"> </span>**a**<span
+class="Apple-converted-space"> </span>and<span
+class="Apple-converted-space"> </span>**b**.
 
 \
 
@@ -594,56 +594,56 @@ class="Apple-converted-space"> </span>**b**.
 | functions took three inputs, the     |                                      |
 | cubic interpolation takes five.      |                                      |
 | Instead of just<span                 |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>**a**<span                         |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>and<span                           |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>**b**,                             |                                      |
 | you now need<span                    |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>**v0**,<span                       |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>**v1**,<span                       |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>**v2**<span                        |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>and<span                           |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>**v3**,                            |                                      |
 | along with<span                      |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>**x**<span                         |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>as                                 |                                      |
 | before. These                        |                                      |
 | are:![](http://freespace.virgin.net/ |                                      |
 | hugo.elias/models/m_inter4b.gif)     |                                      |
 | **v0**<span                          |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>=                                  |                                      |
 | the point before<span                |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>**a**                              |                                      |
 | **v1**<span                          |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>=                                  |                                      |
 | the point<span                       |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>**a**                              |                                      |
 | **v2**<span                          |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>=                                  |                                      |
 | the point<span                       |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>**b**                              |                                      |
 | **v3**<span                          |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>=                                  |                                      |
 | the point after<span                 |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>**b**<span                         |                                      |
-| class="Apple-converted-space"> </spa |                                      |
+| class="Apple-converted-space"> </spa |                                      |
 | n>\                                  |                                      |
 | +----------------------------------- |                                      |
 | ------------------------------------ |                                      |
@@ -677,7 +677,7 @@ already be familiar with the process.\
   of the noise function at a single    .elias/models/m_inter6.gif)
   coordinate, you can take the average ![](http://freespace.virgin.net/hugo
   of that value, and it's neighbouring .elias/models/smooth_n.gif)<span
-  values. If this is unclear, take a   class="Apple-converted-space"> </spa
+  values. If this is unclear, take a   class="Apple-converted-space"> </spa
   look at the pseudo code below.       n>![](http://freespace.virgin.net/hu
   On the right, you can see a little   go.elias/models/smooth_y.gif)\
   diagram illustrating the difference  
@@ -732,8 +732,8 @@ number. So, here's a simple 1 dimensional Perlin function.
 
 The main part of the Perlin function is the loop. Each iteration of the
 loop adds another octave of twice the frequency. Each iteration calls
-a*different*<span class="Apple-converted-space"> </span>noise function,
-denoted by<span class="Apple-converted-space"> </span>**Noise~i~**. Now,
+a*different*<span class="Apple-converted-space"> </span>noise function,
+denoted by<span class="Apple-converted-space"> </span>**Noise~i~**. Now,
 you needn't actually write lots of noise functions, one for each octave,
 as the pseudo code seems to suggest. Since all the noise functions are
 essentially the same, except for the values of those three big prime
@@ -849,7 +849,7 @@ but I'll have a go.
 |                                      | boxes. Some research has been done   |
 |                                      | on making a Sketchy User Interface.\ |
 |                                      |  See:<span                           |
-|                                      | class="Apple-converted-space"> </spa |
+|                                      | class="Apple-converted-space"> </spa |
 |                                      | n>[Creating                          |
 |                                      | Informal Looking                     |
 |                                      | Interfaces](http://mrl.nyu.edu/meyer |
@@ -912,10 +912,10 @@ but I'll have a go.
 \
 
   ------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](http://freespace.virgin.net/hugo.elias/models/lakedistrict.jpg)\                                                            The land, clouds and water in this picture were all mathematically generated with Perlin Noise, and rendered with<span class="Apple-converted-space"> </span>[Terragen](http://planetside.base.org/).
+  ![](http://freespace.virgin.net/hugo.elias/models/lakedistrict.jpg)\                                                            The land, clouds and water in this picture were all mathematically generated with Perlin Noise, and rendered with<span class="Apple-converted-space"> </span>[Terragen](http://planetside.base.org/).
    <span>Copyright Matt Fairclough 1998</span>                                                                                    
 
-  [![](http://freespace.virgin.net/hugo.elias/models/cldcover.jpg)](http://freespace.virgin.net/hugo.elias/models/m_clouds.htm)   The clouds in this demo are animated with 3D perlin Noise. The algorithm had to be modified slightly to be able to produce Perlin Noise in real time. See the<span class="Apple-converted-space"> </span>[Clouds Article](http://freespace.virgin.net/hugo.elias/models/m_clouds.htm)<span class="Apple-converted-space"> </span>for more info on how this was done.
+  [![](http://freespace.virgin.net/hugo.elias/models/cldcover.jpg)](http://freespace.virgin.net/hugo.elias/models/m_clouds.htm)   The clouds in this demo are animated with 3D perlin Noise. The algorithm had to be modified slightly to be able to produce Perlin Noise in real time. See the<span class="Apple-converted-space"> </span>[Clouds Article](http://freespace.virgin.net/hugo.elias/models/m_clouds.htm)<span class="Apple-converted-space"> </span>for more info on how this was done.
   ------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 \
@@ -1011,27 +1011,27 @@ can dream up.
 
 **[Procedural
 textures:](http://developer.intel.com/drg/mmx/appnotes/proctex.htm)<span
-class="Apple-converted-space"> </span>http://developer.intel.com/drg/mmx/appnotes/proctex.htm**
+class="Apple-converted-space"> </span>http://developer.intel.com/drg/mmx/appnotes/proctex.htm**
 
 Intel Developer Site article about using the new MMX technology to
 render Perlin Noise in real time.
 
 **[Ken Perlin's Homepage:<span
-class="Apple-converted-space"> </span>](http://mrl.nyu.edu/perlin/)http://mrl.nyu.edu/perlin/**
+class="Apple-converted-space"> </span>](http://mrl.nyu.edu/perlin/)http://mrl.nyu.edu/perlin/**
 
 I assume the person responsable for Perlin Noise. He has an interesting
 page with lots of useful links to texturing and modeling stuff.
 
 **[Texturing And Modeling A Procedural
 Approach:](http://www.cs.umbc.edu/~ebert/book/book.html)<span
-class="Apple-converted-space"> </span>http://www.cs.umbc.edu/\~ebert/book/book.html**
+class="Apple-converted-space"> </span>http://www.cs.umbc.edu/\~ebert/book/book.html**
 
 Ken Perlin's book which goes in depth on using Perlin Noise, among other
 algorithms to generate textures and model various natural phenomena.
 
 **[Procedural Texture
 Page:](http://www.threedgraphics.com/pixelloom/tex_synth.html)<span
-class="Apple-converted-space"> </span>http://www.threedgraphics.com/pixelloom/tex\_synth.html**
+class="Apple-converted-space"> </span>http://www.threedgraphics.com/pixelloom/tex\_synth.html**
 
 This page is an attempt to collect any and all information and WWW links
 related to Procedural Texture Synthesis.
@@ -1041,7 +1041,7 @@ related to Procedural Texture Synthesis.
 ------------------------------------------------------------------------
 
 [![](http://freespace.virgin.net/hugo.elias/flagsmal.gif)<span
-class="Apple-converted-space"> </span>Return to the Good Looking
+class="Apple-converted-space"> </span>Return to the Good Looking
 Textured Light Sourced Bouncy Fun Smart and Stretchy
 Page.](http://freespace.virgin.net/hugo.elias)
 

@@ -19,7 +19,7 @@ Another port of log4j from Java.
 
 * 使用
   
-  打开文件目录路E:\\Source Code\\log4cplus-1.1.1-rc4\\msvc10,运行log4cplus.sln即可。
+  打开文件目录路E:\\Source Code\\log4cplus-1.1.1-rc4\\msvc10,运行log4cplus.sln即可。
 
 ## log4cpp
 

@@ -24,16 +24,16 @@ Definitions中，增加\_CRT\_SECURE\_NO\_DEPRECATE标记即可。或在程序�
 style="color:#e53333;"> **\#pragma warning(disable:4996)**</span>
 //全部关掉 \#pragma warning(once:4996) //仅显示一个
 
- 
+ 
 
-<span style="color:#e53333;"> </span>
+<span style="color:#e53333;"> </span>
 
 **<span
-style="color:#e53333;">工程-\>Configration Properties-\>C/C++-\>Advanced-\>Disable Specific Warnings</span>**
+style="color:#e53333;">工程-\>Configration Properties-\>C/C++-\>Advanced-\>Disable Specific Warnings</span>**
 
-**<span style="color:#e53333;">中添加 4996就行了</span>**
+**<span style="color:#e53333;">中添加 4996就行了</span>**
 
- 
+ 
 
 
 

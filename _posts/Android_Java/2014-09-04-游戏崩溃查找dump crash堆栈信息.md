@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
- 
+ 
 
 1.  在android上运行程序至崩溃
 
@@ -17,29 +17,29 @@ description:
     ,即可找到崩溃地址比如
 
     ajundeMacBook-Pro:\~ ajun\$ adb logcat | ndk-stack -sym
-    \$PROJECT\_PATH/obj/local/armeabi 
+    \$PROJECT\_PATH/obj/local/armeabi 
 
     Build fingerprint:
     'Coolpad/yulong89\_td\_jb/MT6589\_8190Q:4.1.2/JZO54K/4.1.027.P0.131126.8190Q:user/release-keys'
 
-    pid: 9667, tid: 9686, name: Thread-6003  \>\>\>
+    pid: 9667, tid: 9686, name: Thread-6003  \>\>\>
     com.shbreak.xinchang.jd \<\<\<
 
     signal 11 (SIGSEGV), code 1 (SEGV\_MAPERR), fault addr 00000001
 
-    Stack frame \#00  pc 00226c42
-     /mnt/asec/com.shbreak.xinchang.jd-1/lib/libgame.so
+    Stack frame \#00  pc 00226c42
+     /mnt/asec/com.shbreak.xinchang.jd-1/lib/libgame.so
     (TitleLayer::onStartClicked(cocos2d::CCObject\*, unsigned int)+17)
 
-    Stack frame \#01  pc 002736f9
-     /mnt/asec/com.shbreak.xinchang.jd-1/lib/libgame.so
+    Stack frame \#01  pc 002736f9
+     /mnt/asec/com.shbreak.xinchang.jd-1/lib/libgame.so
     (cocos2d::CCActionInterval::startWithTarget(cocos2d::CCNode\*)+4)
 
 3.  <span style="font-family:微软雅黑, sans-serif;">输入</span>
 
     <span style="font-family:微软雅黑, sans-serif;"><span
-    style="font-family:Menlo;font-size:11px;line-height:normal;">arm-linux-androideabi-addr2line</span> -e
-    obj/local/armeabi/libgame.so 00226c42</span>
+    style="font-family:Menlo;font-size:11px;line-height:normal;">arm-linux-androideabi-addr2line</span> -e
+    obj/local/armeabi/libgame.so 00226c42</span>
 
     <span
     style="font-family:微软雅黑, sans-serif;">,即可找到崩溃的文件及其行号。</span>

@@ -37,7 +37,7 @@ for your executable (not your static library).
 <div>
 
 From
-: http://gamedev.stackexchange.com/questions/37813/variables-in-static-library-are-never-initialized-why
+: http://gamedev.stackexchange.com/questions/37813/variables-in-static-library-are-never-initialized-why
 
 </div>
 

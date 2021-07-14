@@ -11,7 +11,7 @@ description:
 
 -   将shader实现的粒子系统集成到demo中时,粒子系统老是无法显示,经过不断注释代码,最终发现,原来是static
     mesh的时候\
-    EffectLightTex-\>Begin( &nPass, 0 ); //
+    EffectLightTex-\>Begin( &nPass, 0 ); //
     EffectLightTex为ID3DXEffect.\
     后不记得运行
 
@@ -29,7 +29,7 @@ description:
 
 -   
 
-     
+     
 
 
 

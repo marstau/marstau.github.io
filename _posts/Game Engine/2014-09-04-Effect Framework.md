@@ -10,7 +10,7 @@ description:
 Come From : <http://blog.sina.com.cn/s/blog_5349a6e70100i14y.html>
 
 **<span
-style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"></span>** 
+style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"></span>** 
 
 **<span
 style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">摘要</span>**
@@ -48,7 +48,7 @@ Shader主要用于对要绘制到屏幕上的每一个象素进行处理。通�
 
 <span
 style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">同CPU一样，对GPU编程也是借助一定的编程语言来进行的。</span><span
-class="Apple-converted-space"> </span><span
+class="Apple-converted-space"> </span><span
 style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">在DirectX
 8中，对GPU的编程是通过一种类似于汇编的语言进行的。而在DirectX
 9中，使用了一种类似于C语言的高级语言——Microsoft High Level Shading
@@ -62,7 +62,7 @@ Framework发生了扩充——在原来的基础上加入了对Shader程序的�
 Shader和Pixel Shader程序以函数 的方式直接书写在FX文件中。</span>
 
 <span
-style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> .FX文件</span>
+style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> .FX文件</span>
 
 <span
 style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">FX文件中的内容大致可以分成几部分：</span>
@@ -115,26 +115,26 @@ style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">
 | l;">\#include                                                            |
 | "helper\_Funcs.fx"</span></span><span                                    |
 | style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:norma |
-| l;">    <span                                                            |
-| class="Apple-converted-space"> </span><span                              |
+| l;">    <span                                                            |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//引入一个名为hel |
 | per\_funcs.fx的fx文件</span>\                                            |
 |  <span                                                                   |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">\#include   |
 | "public\_variables.fh</span>"<span                                       |
-| class="Apple-converted-space"> </span><span                              |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//引入一个名为pub |
 | lic\_variables.fh的文件</span>\                                          |
 |  <span                                                                   |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">\#define    |
-| MATRICES\_COUNT 25</span>     <span                                      |
-| class="Apple-converted-space"> </span><span                              |
+| MATRICES\_COUNT 25</span>     <span                                      |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//定义宏MATRIC |
 | ES\_COUNT为25</span>\                                                    |
 |  <span                                                                   |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">\#define    |
-| VSHADER VShader\_2\_0</span>   <span                                     |
-| class="Apple-converted-space"> </span><span                              |
+| VSHADER VShader\_2\_0</span>   <span                                     |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//定义宏VSHADE |
 | R为VShader\_2\_0</span></span>                                           |
 +--------------------------------------------------------------------------+
@@ -149,33 +149,33 @@ style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">
 | <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span |
 | style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:norma |
 | l;">mat4x4</span></span><span                                            |
-| class="Apple-converted-space"> </span><span                              |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:norma |
 | l;">matWorldViewProj;<span                                               |
-| class="Apple-converted-space"> </span><span                              |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//          |
 | 4x4世界－视－投影变换矩阵</span>\                                        |
 |  </span><span                                                            |
 | style="line-height:18px;word-wrap:normal;word-break:normal;"><span       |
 | style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:norma |
 | l;">float3</span></span><span                                            |
-| class="Apple-converted-space"> </span><span                              |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:norma |
-| l;">lightPosisiton;  <span                                               |
-| class="Apple-converted-space"> </span><span                              |
+| l;">lightPosisiton;  <span                                               |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//          |
 | 三维光源位置向量</span>\                                                 |
 |  <span                                                                   |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">float4</spa |
 | n><span                                                                  |
-| class="Apple-converted-space"> </span>lightColor;     <span              |
-| style="line-height:18px;word-wrap:normal;word-break:normal;"> <span      |
-| class="Apple-converted-space"> </span>// 光源的颜色</span>\              |
+| class="Apple-converted-space"> </span>lightColor;     <span              |
+| style="line-height:18px;word-wrap:normal;word-break:normal;"> <span      |
+| class="Apple-converted-space"> </span>// 光源的颜色</span>\              |
 |  <span                                                                   |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">float</span |
 | ><span                                                                   |
-| class="Apple-converted-space"> </span>time;             <span            |
-| class="Apple-converted-space"> </span><span                              |
+| class="Apple-converted-space"> </span>time;             <span            |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//          |
 | 当前时间</span></span>                                                   |
 +--------------------------------------------------------------------------+
@@ -185,40 +185,40 @@ style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">
  </span>
 
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">struct</span></span><span class="Apple-converted-space"> </span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">VS\_INPUT\
+  <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">struct</span></span><span class="Apple-converted-space"> </span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">VS\_INPUT\
    {\
-      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float4</span><span class="Apple-converted-space"> </span>LocalPos : POSITION;\
-      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float3</span><span class="Apple-converted-space"> </span>Normal : NORMAL;\
-      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float4</span><span class="Apple-converted-space"> </span>Color : COLOR; \
-       <span style="line-height:18px;word-wrap:normal;word-break:normal;">float2</span><span class="Apple-converted-space"> </span>Texcoord : TEXCOORD0;\
+      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float4</span><span class="Apple-converted-space"> </span>LocalPos : POSITION;\
+      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float3</span><span class="Apple-converted-space"> </span>Normal : NORMAL;\
+      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float4</span><span class="Apple-converted-space"> </span>Color : COLOR; \
+       <span style="line-height:18px;word-wrap:normal;word-break:normal;">float2</span><span class="Apple-converted-space"> </span>Texcoord : TEXCOORD0;\
    };</span>
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 
+ 
 
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">struct VS\_OUTPUT</span></span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">\
    {\
-      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float4</span><span class="Apple-converted-space"> </span>WorldPos : POSITION;\
-      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float4</span><span class="Apple-converted-space"> </span>Color : COLOR;\
-      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float2</span><span class="Apple-converted-space"> </span>Texcoord : TEXCOORD0;\
+      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float4</span><span class="Apple-converted-space"> </span>WorldPos : POSITION;\
+      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float4</span><span class="Apple-converted-space"> </span>Color : COLOR;\
+      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float2</span><span class="Apple-converted-space"> </span>Texcoord : TEXCOORD0;\
    };</span>
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 
+ 
 
 <span
 style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">//定义一个名为CaculateWorldPosition的函数。关于函数定义，下文中会有介绍\
  </span>
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">float3</span></span><span class="Apple-converted-space"> </span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">CaculateWorldPosition(<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float4</span><span class="Apple-converted-space"> </span>LocalPos )\
+  <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">float3</span></span><span class="Apple-converted-space"> </span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">CaculateWorldPosition(<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float4</span><span class="Apple-converted-space"> </span>LocalPos )\
    {\
-      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">return</span><span class="Apple-converted-space"> </span>mul( LocalPos, matWorldViewProj);\
+      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">return</span><span class="Apple-converted-space"> </span>mul( LocalPos, matWorldViewProj);\
    }</span>
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 
+ 
 
 <span
 style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">这样，当我们在另外一个文件中include这个头文件时，上面所有的定义都可以直接使用了。</span>
@@ -238,24 +238,24 @@ style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">
 |  <span                                                                   |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">VS\_OUTPUT< |
 | /span><span                                                              |
-| class="Apple-converted-space"> </span>VS\_main( VS\_INPUT In )<span      |
-| class="Apple-converted-space"> </span><span                              |
+| class="Apple-converted-space"> </span>VS\_main( VS\_INPUT In )<span      |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//          |
 | 可以直接使用结构体定义VS\_OUTPUT和VS\_INPUT</span>\                      |
 |  {\                                                                      |
-|     <span class="Apple-converted-space"> </span>VS\_OUTPUT Out = 0;\     |
-|     <span class="Apple-converted-space"> </span>Out.WorldPos =           |
+|     <span class="Apple-converted-space"> </span>VS\_OUTPUT Out = 0;\     |
+|     <span class="Apple-converted-space"> </span>Out.WorldPos =           |
 | CaculateWorldPosition( In.LocalPos );<span                               |
-| class="Apple-converted-space"> </span><span                              |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//          |
 | 可以直接使用函数</span>\                                                 |
-|     <span class="Apple-converted-space"> </span>Out.Color = In.Color;\   |
-|     <span class="Apple-converted-space"> </span>Out.Texcoord =           |
+|     <span class="Apple-converted-space"> </span>Out.Color = In.Color;\   |
+|     <span class="Apple-converted-space"> </span>Out.Texcoord =           |
 | In.Texcoord;\                                                            |
 |  }</span>                                                                |
 +--------------------------------------------------------------------------+
 
- 
+ 
 
 <span
 style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">这样不仅可以复用代码，还可以使变量名、结构体、函数名的定义统一。</span>
@@ -270,13 +270,13 @@ Framework可以在程序中识别出这些参数的类型、名称和用途，�
 float, matrix, texture等等。例如：
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">matrix</span></span><span class="Apple-converted-space"> </span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">matWorld;    <span style="line-height:18px;word-wrap:normal;word-break:normal;">//定义一个名为matWorld的矩阵类型参数变量</span>\
-   <span style="line-height:18px;word-wrap:normal;word-break:normal;">float</span><span class="Apple-converted-space"> </span>time;         <span style="line-height:18px;word-wrap:normal;word-break:normal;">//定义一个名为time的浮点类型参数变量</span>\
-   <span style="line-height:18px;word-wrap:normal;word-break:normal;">texture</span><span class="Apple-converted-space"> </span>texDiffuse;<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//定义一个名为texDiffuse的纹理类型参数变量</span></span>
+  <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">matrix</span></span><span class="Apple-converted-space"> </span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">matWorld;    <span style="line-height:18px;word-wrap:normal;word-break:normal;">//定义一个名为matWorld的矩阵类型参数变量</span>\
+   <span style="line-height:18px;word-wrap:normal;word-break:normal;">float</span><span class="Apple-converted-space"> </span>time;         <span style="line-height:18px;word-wrap:normal;word-break:normal;">//定义一个名为time的浮点类型参数变量</span>\
+   <span style="line-height:18px;word-wrap:normal;word-break:normal;">texture</span><span class="Apple-converted-space"> </span>texDiffuse;<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//定义一个名为texDiffuse的纹理类型参数变量</span></span>
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span
-style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
+style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
 
 另外，每个变量还有前缀修饰符、Semantic、Annotation等，限于篇幅，在这里不再赘述，具体的介绍请参考DirectX
 C++帮助文档的DirectX Graphics \> Reference \> HLSL Shader Reference \>
@@ -287,23 +287,23 @@ Variable Declaration Syntax条目。
 在FX文件中可以定义结构体，这些结构体一般用于Shader函数的参数和返回值。结构体的定义与C语言方式及其类似，例如：
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">struct</span></span><span class="Apple-converted-space"> </span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">VS\_OUTPUT<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//结构名称</span>\
+  <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">struct</span></span><span class="Apple-converted-space"> </span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">VS\_OUTPUT<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//结构名称</span>\
    {\
-      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float4</span><span class="Apple-converted-space"> </span>Pos : POSITION;<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//成员变量。</span>\
-      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float4</span><span class="Apple-converted-space"> </span>Color : COLOR;\
-      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float2</span><span class="Apple-converted-space"> </span>Texcoord : TEXCOORD0;\
+      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float4</span><span class="Apple-converted-space"> </span>Pos : POSITION;<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//成员变量。</span>\
+      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float4</span><span class="Apple-converted-space"> </span>Color : COLOR;\
+      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">float2</span><span class="Apple-converted-space"> </span>Texcoord : TEXCOORD0;\
    };</span>
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span
-style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
+style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
 
 上面每个成员变量后面的标识符是该变量的semantic，HLSL编译器根据这个标识符来确定该变量的用处。不一定非得是结构体成员变量才有semantic，一般来说Shader的输入输出参数变量都可以有semantic。
 
 函数
 
 函数部分是在Effect Framework加入了对Vertex<span
-class="Apple-converted-space"> </span>Shader和Pixel
+class="Apple-converted-space"> </span>Shader和Pixel
 Shader的扩充后才加入到FX文件中的。FX文件中的函数的内容可以用汇编形式书写，也可以用HLSL编写。目前一般都是使用HLSL。用这种语言书写的函数与C语言函数十分类似，可以说，只要学过C语言，书写Shader函数就绰绰有余了。在同一个fx文件中可以定义很多函数，在函数中也可以互相调用，但是最终Shader程序的入口将在fx文件的Technique部分中指定。对于哪个函数是Vertex
 shader函数，哪个是Pixel
 shader函数，也是在Technique中指定的。关于Technique，将在下文中介绍。例子：
@@ -312,64 +312,64 @@ shader函数，也是在Technique中指定的。关于Technique，将在下文�
 | <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span |
 | style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:norma |
 | l;">float4</span></span><span                                            |
-| class="Apple-converted-space"> </span><span                              |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:norma |
 | l;">CalcDiffuseColor(                                                    |
 | float3 Normal )\                                                         |
 |  {\                                                                      |
-|     <span class="Apple-converted-space"> </span><span                    |
+|     <span class="Apple-converted-space"> </span><span                    |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">float4</spa |
 | n><span                                                                  |
-| class="Apple-converted-space"> </span>Color; ...<span                    |
+| class="Apple-converted-space"> </span>Color; ...<span                    |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//用于实现该函数功能 |
 | 的多条语句</span>\                                                       |
-|     <span class="Apple-converted-space"> </span><span                    |
+|     <span class="Apple-converted-space"> </span><span                    |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">return</spa |
 | n><span                                                                  |
-| class="Apple-converted-space"> </span>Color;\                            |
+| class="Apple-converted-space"> </span>Color;\                            |
 |  }</span>                                                                |
 |                                                                          |
 | <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span |
 | style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:norma |
 | l;">VS\_OUTPUT</span></span><span                                        |
-| class="Apple-converted-space"> </span><span                              |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:norma |
 | l;">Vertex\_Shader(<span                                                 |
-| class="Apple-converted-space"> </span><span                              |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">float4</spa |
 | n><span                                                                  |
-| class="Apple-converted-space"> </span>InPos : POSITION,\                 |
-|                          <span                                           |
-| class="Apple-converted-space"> </span><span                              |
+| class="Apple-converted-space"> </span>InPos : POSITION,\                 |
+|                          <span                                           |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">float3</spa |
 | n><span                                                                  |
-| class="Apple-converted-space"> </span>InNor : NORMAL, \                  |
-|                          <span                                           |
-| class="Apple-converted-space"> </span><span                              |
+| class="Apple-converted-space"> </span>InNor : NORMAL, \                  |
+|                          <span                                           |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">float3</spa |
 | n><span                                                                  |
-| class="Apple-converted-space"> </span>InTexcoord : TEXCOORD )\           |
+| class="Apple-converted-space"> </span>InTexcoord : TEXCOORD )\           |
 |  {\                                                                      |
-|     <span class="Apple-converted-space"> </span><span                    |
+|     <span class="Apple-converted-space"> </span><span                    |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">VS\_OUTPUT< |
 | /span><span                                                              |
-| class="Apple-converted-space"> </span>Out; ...<span                      |
+| class="Apple-converted-space"> </span>Out; ...<span                      |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//用于实现该函数功能 |
 | 的多条语句</span>\                                                       |
-|     <span class="Apple-converted-space"> </span>Out.Color =              |
+|     <span class="Apple-converted-space"> </span>Out.Color =              |
 | CalcDiffuseColor(InNor);<span                                            |
-| class="Apple-converted-space"> </span><span                              |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//函数调用</spa |
 | n>\                                                                      |
-|     <span class="Apple-converted-space"> </span><span                    |
+|     <span class="Apple-converted-space"> </span><span                    |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">return</spa |
 | n><span                                                                  |
-| class="Apple-converted-space"> </span>Out;\                              |
+| class="Apple-converted-space"> </span>Out;\                              |
 |  }</span>                                                                |
 +--------------------------------------------------------------------------+
 
 <span
-style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
+style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
 
 正如上文中所说，Shader程序分为两种：Vertex shader和Pixel
 shader。在fx函数中就有两种相应的函数：Vertex shader函数和Pixel
@@ -388,26 +388,26 @@ Rendering”。但是随着硬件越来越强大，Shader程序的功能越来�
 technique的例子：
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">technique</span></span><span class="Apple-converted-space"> </span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">Tec\_Shader\_1\_X<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//定义一个名为Tec\_Shader\_1\_X的technique</span>\
+  <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">technique</span></span><span class="Apple-converted-space"> </span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">Tec\_Shader\_1\_X<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//定义一个名为Tec\_Shader\_1\_X的technique</span>\
    {\
-      <span class="Apple-converted-space"> </span>pass P0<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//一个名为P0的pass</span>\
-      <span class="Apple-converted-space"> </span>{\
-          <span class="Apple-converted-space"> </span>VertexShader = compile vs\_1\_1 Vertex\_Shader();<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//设置Vertex Shader程序入口函数</span>\
-          <span class="Apple-converted-space"> </span>PixelShader = compile ps\_1\_1 Pixel\_Shader();  <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//设置Pixel Shader程序入口函数</span>\
-          <span class="Apple-converted-space"> </span>AlphaBlendEnable= true;                       <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//设置渲染状态       </span>\
-          <span class="Apple-converted-space"> </span>SrcBlend = SrcAlpha;  \
-          <span class="Apple-converted-space"> </span>DestBlend = InvSrcAlpha; \
-          <span class="Apple-converted-space"> </span>...<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//其他设置</span>\
-      <span class="Apple-converted-space"> </span>}\
-      <span class="Apple-converted-space"> </span>pass P1<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//一个名为P1的pass</span>\
-      <span class="Apple-converted-space"> </span>{\
-          <span class="Apple-converted-space"> </span>...\
-      <span class="Apple-converted-space"> </span>}\
+      <span class="Apple-converted-space"> </span>pass P0<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//一个名为P0的pass</span>\
+      <span class="Apple-converted-space"> </span>{\
+          <span class="Apple-converted-space"> </span>VertexShader = compile vs\_1\_1 Vertex\_Shader();<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//设置Vertex Shader程序入口函数</span>\
+          <span class="Apple-converted-space"> </span>PixelShader = compile ps\_1\_1 Pixel\_Shader();  <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//设置Pixel Shader程序入口函数</span>\
+          <span class="Apple-converted-space"> </span>AlphaBlendEnable= true;                       <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//设置渲染状态       </span>\
+          <span class="Apple-converted-space"> </span>SrcBlend = SrcAlpha;  \
+          <span class="Apple-converted-space"> </span>DestBlend = InvSrcAlpha; \
+          <span class="Apple-converted-space"> </span>...<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//其他设置</span>\
+      <span class="Apple-converted-space"> </span>}\
+      <span class="Apple-converted-space"> </span>pass P1<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//一个名为P1的pass</span>\
+      <span class="Apple-converted-space"> </span>{\
+          <span class="Apple-converted-space"> </span>...\
+      <span class="Apple-converted-space"> </span>}\
    }</span>
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span
-style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
+style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
 
 <span
 style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">****ID3DXEffect接口****</span>
@@ -436,61 +436,61 @@ D3DX库中定义了一个D3DXPARAMETER\_DESC结构来专门表示参数的类型
 \
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">typedef struct</span></span><span class="Apple-converted-space"> </span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">\_D3DXPARAMETER\_DESC\
+  <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">typedef struct</span></span><span class="Apple-converted-space"> </span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">\_D3DXPARAMETER\_DESC\
    {\
-      <span class="Apple-converted-space"> </span>LPCSTR Name;              <span class="Apple-converted-space"> </span>//参数变量名\
-      <span class="Apple-converted-space"> </span>LPCSTR Semantic;          <span class="Apple-converted-space"> </span>//参数变量的Semantic\
-      <span class="Apple-converted-space"> </span>D3DXPARAMETER\_CLASS Class; //参数变量的类别，可以是标量、矢量、矩阵、对象和结构\
-      <span class="Apple-converted-space"> </span>D3DXPARAMETER\_TYPE Type;  <span class="Apple-converted-space"> </span>//参数变量的类型\
-      <span class="Apple-converted-space"> </span>UINT Rows;                 //数组型参数的行数\
-      <span class="Apple-converted-space"> </span>UINT Columns;             <span class="Apple-converted-space"> </span>//数组型参数的列数\
-      <span class="Apple-converted-space"> </span>UINT Elements;            <span class="Apple-converted-space"> </span>//数组中的元素个数\
-      <span class="Apple-converted-space"> </span>UINT Annotations;         <span class="Apple-converted-space"> </span>//参数变量的Annotation个数\
-      <span class="Apple-converted-space"> </span>UINT StructMembers;       <span class="Apple-converted-space"> </span>//结构型参数变量成员的个数\
-      <span class="Apple-converted-space"> </span>DWORD Flags;              <span class="Apple-converted-space"> </span>//参数属性\
-      <span class="Apple-converted-space"> </span>UINT Bytes;               <span class="Apple-converted-space"> </span>//参数大小，以字节记\
+      <span class="Apple-converted-space"> </span>LPCSTR Name;              <span class="Apple-converted-space"> </span>//参数变量名\
+      <span class="Apple-converted-space"> </span>LPCSTR Semantic;          <span class="Apple-converted-space"> </span>//参数变量的Semantic\
+      <span class="Apple-converted-space"> </span>D3DXPARAMETER\_CLASS Class; //参数变量的类别，可以是标量、矢量、矩阵、对象和结构\
+      <span class="Apple-converted-space"> </span>D3DXPARAMETER\_TYPE Type;  <span class="Apple-converted-space"> </span>//参数变量的类型\
+      <span class="Apple-converted-space"> </span>UINT Rows;                 //数组型参数的行数\
+      <span class="Apple-converted-space"> </span>UINT Columns;             <span class="Apple-converted-space"> </span>//数组型参数的列数\
+      <span class="Apple-converted-space"> </span>UINT Elements;            <span class="Apple-converted-space"> </span>//数组中的元素个数\
+      <span class="Apple-converted-space"> </span>UINT Annotations;         <span class="Apple-converted-space"> </span>//参数变量的Annotation个数\
+      <span class="Apple-converted-space"> </span>UINT StructMembers;       <span class="Apple-converted-space"> </span>//结构型参数变量成员的个数\
+      <span class="Apple-converted-space"> </span>DWORD Flags;              <span class="Apple-converted-space"> </span>//参数属性\
+      <span class="Apple-converted-space"> </span>UINT Bytes;               <span class="Apple-converted-space"> </span>//参数大小，以字节记\
    } D3DXPARAMETER\_DESC;</span>
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 
+ 
 
 <span
-style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
+style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
 
 其中的参数类型可以有下列几种：
 
 \
 
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">typedef</span></span><span class="Apple-converted-space"> </span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">enum \_D3DXPARAMETER\_TYPE\
+  <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">typedef</span></span><span class="Apple-converted-space"> </span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">enum \_D3DXPARAMETER\_TYPE\
    {\
-      <span class="Apple-converted-space"> </span>D3DXPT\_VOID, //Void型指针\
-      <span class="Apple-converted-space"> </span>D3DXPT\_BOOL, //Bool型\
-      <span class="Apple-converted-space"> </span>D3DXPT\_INT, //整型\
-      <span class="Apple-converted-space"> </span>D3DXPT\_FLOAT, //浮点型\
-      <span class="Apple-converted-space"> </span>D3DXPT\_STRING, //字符串\
-      <span class="Apple-converted-space"> </span>D3DXPT\_TEXTURE, //纹理\
-      <span class="Apple-converted-space"> </span>D3DXPT\_TEXTURE1D, //一维纹理\
-      <span class="Apple-converted-space"> </span>D3DXPT\_TEXTURE2D, //二维纹理\
-      <span class="Apple-converted-space"> </span>D3DXPT\_TEXTURE3D, //三维纹理\
-      <span class="Apple-converted-space"> </span>D3DXPT\_TEXTURECUBE, //立方体环境纹理\
-      <span class="Apple-converted-space"> </span>D3DXPT\_SAMPLER, //纹理取样器\
-      <span class="Apple-converted-space"> </span>D3DXPT\_SAMPLER1D, //一维纹理取样器\
-      <span class="Apple-converted-space"> </span>D3DXPT\_SAMPLER2D, //二维纹理取样器\
-      <span class="Apple-converted-space"> </span>D3DXPT\_SAMPLER3D, //三维纹理取样器\
-      <span class="Apple-converted-space"> </span>D3DXPT\_SAMPLERCUBE, //立方体环境纹理取样器\
-      <span class="Apple-converted-space"> </span>D3DXPT\_PIXELSHADER, //Pixel Shader程序\
-      <span class="Apple-converted-space"> </span>D3DXPT\_VERTEXSHADER, //Vertex Shader程序\
-      <span class="Apple-converted-space"> </span>D3DXPT\_PIXELFRAGMENT, //Pixel Shader片断\
-      <span class="Apple-converted-space"> </span>D3DXPT\_VERTEXFRAGMENT, //Vertex Shader片断\
-      <span class="Apple-converted-space"> </span>D3DXPT\_FORCE\_DWORD = 0×7fffffff\
+      <span class="Apple-converted-space"> </span>D3DXPT\_VOID, //Void型指针\
+      <span class="Apple-converted-space"> </span>D3DXPT\_BOOL, //Bool型\
+      <span class="Apple-converted-space"> </span>D3DXPT\_INT, //整型\
+      <span class="Apple-converted-space"> </span>D3DXPT\_FLOAT, //浮点型\
+      <span class="Apple-converted-space"> </span>D3DXPT\_STRING, //字符串\
+      <span class="Apple-converted-space"> </span>D3DXPT\_TEXTURE, //纹理\
+      <span class="Apple-converted-space"> </span>D3DXPT\_TEXTURE1D, //一维纹理\
+      <span class="Apple-converted-space"> </span>D3DXPT\_TEXTURE2D, //二维纹理\
+      <span class="Apple-converted-space"> </span>D3DXPT\_TEXTURE3D, //三维纹理\
+      <span class="Apple-converted-space"> </span>D3DXPT\_TEXTURECUBE, //立方体环境纹理\
+      <span class="Apple-converted-space"> </span>D3DXPT\_SAMPLER, //纹理取样器\
+      <span class="Apple-converted-space"> </span>D3DXPT\_SAMPLER1D, //一维纹理取样器\
+      <span class="Apple-converted-space"> </span>D3DXPT\_SAMPLER2D, //二维纹理取样器\
+      <span class="Apple-converted-space"> </span>D3DXPT\_SAMPLER3D, //三维纹理取样器\
+      <span class="Apple-converted-space"> </span>D3DXPT\_SAMPLERCUBE, //立方体环境纹理取样器\
+      <span class="Apple-converted-space"> </span>D3DXPT\_PIXELSHADER, //Pixel Shader程序\
+      <span class="Apple-converted-space"> </span>D3DXPT\_VERTEXSHADER, //Vertex Shader程序\
+      <span class="Apple-converted-space"> </span>D3DXPT\_PIXELFRAGMENT, //Pixel Shader片断\
+      <span class="Apple-converted-space"> </span>D3DXPT\_VERTEXFRAGMENT, //Vertex Shader片断\
+      <span class="Apple-converted-space"> </span>D3DXPT\_FORCE\_DWORD = 0×7fffffff\
    } D3DXPARAMETER\_TYPE;</span>
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 
+ 
 
 <span
-style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
+style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
 
 而真正要让Effect起作用，需要在绘制网格模型前后调用ID3DXEffect::BeginPass()和EndPass方法。在调用这两个函数之前和之后，还需调用ID3DXEffect::Begin()和
 ID3DXEffect::End()方法来界定此次Effect设置的起止。大致的形式如下：
@@ -501,13 +501,13 @@ ID3DXEffect::End()方法来界定此次Effect设置的起止。大致的形式�
 | <span                                                                    |
 | style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:norma |
 | l;">LPD3DXEffect                                                         |
-| pd3dEffect；<span class="Apple-converted-space"> </span><span            |
+| pd3dEffect；<span class="Apple-converted-space"> </span><span            |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//ID3DXEffe |
 | ct接口指针</span>\                                                       |
-|  …<span class="Apple-converted-space"> </span><span                      |
+|  …<span class="Apple-converted-space"> </span><span                      |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//初始化该指针</s |
 | pan>\                                                                    |
-|  …<span class="Apple-converted-space"> </span><span                      |
+|  …<span class="Apple-converted-space"> </span><span                      |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//程序中的其他部分< |
 | /span>\                                                                  |
 |  …</span>                                                                |
@@ -515,47 +515,47 @@ ID3DXEffect::End()方法来界定此次Effect设置的起止。大致的形式�
 | <span                                                                    |
 | style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:norma |
 | l;">UINT                                                                 |
-| numPasses;<span class="Apple-converted-space"> </span><span              |
+| numPasses;<span class="Apple-converted-space"> </span><span              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//用于接受当前所使用 |
 | 的technique中的pass个数</span>\                                          |
 |  pd3dEffect-\>Begin( & numPasses, 0 )<span                               |
-| class="Apple-converted-space"> </span><span                              |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//开始使用当前的te |
 | chnique</span>\                                                          |
 |  <span                                                                   |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">for</span>( |
 | UINT iPass = 0; iPass \< numPasses; iPass ++ )\                          |
 |  {\                                                                      |
-|     <span class="Apple-converted-space"> </span><span                    |
+|     <span class="Apple-converted-space"> </span><span                    |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//遍历所有的pass |
 | </span>\                                                                 |
-|     <span class="Apple-converted-space"> </span>pd3dEffect-\>BeginPass(  |
-| iPass );<span class="Apple-converted-space"> </span><span                |
+|     <span class="Apple-converted-space"> </span>pd3dEffect-\>BeginPass(  |
+| iPass );<span class="Apple-converted-space"> </span><span                |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//调用BeginPa |
 | ss</span>\                                                               |
-|     <span                                                                |
-| class="Apple-converted-space"> </span>DrawMesh();                    <sp |
+|     <span                                                                |
+| class="Apple-converted-space"> </span>DrawMesh();                    <sp |
 | an                                                                       |
-| class="Apple-converted-space"> </span><span                              |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//然后进行模型的绘制 |
 | 。</span>\                                                               |
-|     <span                                                                |
-| class="Apple-converted-space"> </span>pd3dEffect-\>EndPass();         <s |
+|     <span                                                                |
+| class="Apple-converted-space"> </span>pd3dEffect-\>EndPass();         <s |
 | pan                                                                      |
-| class="Apple-converted-space"> </span><span                              |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//调用EndPass |
 | </span>\                                                                 |
 |  }\                                                                      |
-|  pd3dEffect-\>End();                 <span                               |
-| class="Apple-converted-space"> </span><span                              |
+|  pd3dEffect-\>End();                 <span                               |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//不要忘记结束当前t |
 | echnique</span></span>                                                   |
 +--------------------------------------------------------------------------+
 
- 
+ 
 
 <span
-style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
+style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
 
 **3DS MAX对DirectX 9 Shader Material的支持；Effect数据获取和导出**
 
@@ -565,7 +565,7 @@ style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">
 MAX 6.0来作为模型建立 工具和Shader预览工具。
 
 在3DS MAX 6.0中，新加入了一种材质类型——DirectX 9<span
-class="Apple-converted-space"> </span>Shader材质。这种材质是基于FX文件的。一个FX文件就可以代表一种材质。它可以同MAX中的其他材质一样赋予到模型上
+class="Apple-converted-space"> </span>Shader材质。这种材质是基于FX文件的。一个FX文件就可以代表一种材质。它可以同MAX中的其他材质一样赋予到模型上
 。在MAX的Viewport中可以实时地观察到FX文件中设计的效果。通过为FX中的参数设置特定的Semantic，可以将这些参数与MAX中的场景信息联系起来，如摄像机位置、世界变换矩
 阵等。对于控制Effect效果的一些本地参数，可以通过为它们添加特定的Annotation，使MAX能够直接识别这些参数并在用户界面中显示它们的名称和调节控件。对应不同类型的参
 数，MAX可以为它们生成不同的调节控件。这样，这种材质就和MAX的其他材质一样，可以更改纹理等等的参数了。
@@ -592,18 +592,18 @@ FX文件和这些参数值的集合就形成了一个Effect实例。该模板的
 \
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">template</span></span><span class="Apple-converted-space"> </span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">EffectInstance\
+  <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">template</span></span><span class="Apple-converted-space"> </span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">EffectInstance\
    {\
-      <span class="Apple-converted-space"> </span>\< E331F7E4-0559-4cc2-8E99-1CEC1657928F \>\
-      <span class="Apple-converted-space"> </span>STRING EffectFilename;\
-      <span class="Apple-converted-space"> </span>[ ... ]\
+      <span class="Apple-converted-space"> </span>\< E331F7E4-0559-4cc2-8E99-1CEC1657928F \>\
+      <span class="Apple-converted-space"> </span>STRING EffectFilename;\
+      <span class="Apple-converted-space"> </span>[ ... ]\
    }</span>
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 
+ 
 
 <span
-style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
+style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
 
 其中， EffectFilename代表了该Effect实例中的FX文件名， [ ...
 ]代表在其中可以插入任何X文件模板对应的数据。这样就可以代表任何类型的参数值。
@@ -620,21 +620,21 @@ Material模板：
 \
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">template</span></span><span class="Apple-converted-space"> </span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">Material\
+  <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">template</span></span><span class="Apple-converted-space"> </span><span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">Material\
    {\
-      <span class="Apple-converted-space"> </span>\< 3D82AB4D-62DA-11CF-AB39-0020AF71E433 \>\
-      <span class="Apple-converted-space"> </span>ColorRGBA faceColor;\
-      <span class="Apple-converted-space"> </span>FLOAT power;\
-      <span class="Apple-converted-space"> </span>ColorRGB specularColor;\
-      <span class="Apple-converted-space"> </span>ColorRGB emissiveColor;\
-      <span class="Apple-converted-space"> </span>[...]\
+      <span class="Apple-converted-space"> </span>\< 3D82AB4D-62DA-11CF-AB39-0020AF71E433 \>\
+      <span class="Apple-converted-space"> </span>ColorRGBA faceColor;\
+      <span class="Apple-converted-space"> </span>FLOAT power;\
+      <span class="Apple-converted-space"> </span>ColorRGB specularColor;\
+      <span class="Apple-converted-space"> </span>ColorRGB emissiveColor;\
+      <span class="Apple-converted-space"> </span>[...]\
    }</span>
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 
+ 
 
 <span
-style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
+style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
 
 前面的一些颜色模板表明在Material数据中这些颜色信息是必须有的，而最后的[
 ...
@@ -646,41 +646,41 @@ style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">
 \
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  <span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">Material {<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//材质</span>\
-      <span class="Apple-converted-space"> </span>0.500000;0.500000;0.500000;1.000000;;<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//faceColor</span>\
-      <span class="Apple-converted-space"> </span>0.000000;<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//power</span>\
-      <span class="Apple-converted-space"> </span>0.900000;0.900000;0.900000;;<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//specularColor</span>\
-      <span class="Apple-converted-space"> </span>0.000000;0.000000;0.000000;;<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//emissiveColor</span>\
-      <span class="Apple-converted-space"> </span>EffectInstance\
-      <span class="Apple-converted-space"> </span>{                            <span style="line-height:18px;word-wrap:normal;word-break:normal;">//[...]，这里是EffectInstance</span>\
-          <span class="Apple-converted-space"> </span>"SkyboxNew01.fx";       <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//fx文件的文件名。通过D3DXCreateEffectFromFile()可以</span>\
-                                   <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//建立该文件对应的D3DXEffect对象\
-          <span class="Apple-converted-space"> </span>//下面是EffectInstance中的[...]</span>\
-          <span class="Apple-converted-space"> </span>EffectParamString \
-           {                       <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//EffectParamString，即字符串型参数值</span> \
-               "TexCloudTop";      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//参数的名称，通过该名称调用ID3DXEffect::GetXXXByName()方法</span>\
-                                   <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//可以得到与fx文件中对应的参数</span>。\
-              <span class="Apple-converted-space"> </span>"DarkClouds01.jpg"; <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//参数的值 </span>\
-           } \
-           EffectParamString\
-          <span class="Apple-converted-space"> </span>{                       <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//同上</span>\
-              <span class="Apple-converted-space"> </span>"TexCloudBottom";\
-              <span class="Apple-converted-space"> </span>"DarkClouds02.jpg";\
-          <span class="Apple-converted-space"> </span>}\
-          <span class="Apple-converted-space"> </span>EffectParamFloats\
-          <span class="Apple-converted-space"> </span>{                      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//EffectParamFloats，即浮点数组型参数值</span>\
-              <span class="Apple-converted-space"> </span>"Brightness";      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//参数名称</span>\
-              <span class="Apple-converted-space"> </span>1;                 <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//浮点数组大小</span>\
-              <span class="Apple-converted-space"> </span>0.500000;          <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//值</span>\
-          <span class="Apple-converted-space"> </span>}\
-      <span class="Apple-converted-space"> </span>}\
+  <span style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:normal;">Material {<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//材质</span>\
+      <span class="Apple-converted-space"> </span>0.500000;0.500000;0.500000;1.000000;;<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//faceColor</span>\
+      <span class="Apple-converted-space"> </span>0.000000;<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//power</span>\
+      <span class="Apple-converted-space"> </span>0.900000;0.900000;0.900000;;<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//specularColor</span>\
+      <span class="Apple-converted-space"> </span>0.000000;0.000000;0.000000;;<span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//emissiveColor</span>\
+      <span class="Apple-converted-space"> </span>EffectInstance\
+      <span class="Apple-converted-space"> </span>{                            <span style="line-height:18px;word-wrap:normal;word-break:normal;">//[...]，这里是EffectInstance</span>\
+          <span class="Apple-converted-space"> </span>"SkyboxNew01.fx";       <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//fx文件的文件名。通过D3DXCreateEffectFromFile()可以</span>\
+                                   <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//建立该文件对应的D3DXEffect对象\
+          <span class="Apple-converted-space"> </span>//下面是EffectInstance中的[...]</span>\
+          <span class="Apple-converted-space"> </span>EffectParamString \
+           {                       <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//EffectParamString，即字符串型参数值</span> \
+               "TexCloudTop";      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//参数的名称，通过该名称调用ID3DXEffect::GetXXXByName()方法</span>\
+                                   <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//可以得到与fx文件中对应的参数</span>。\
+              <span class="Apple-converted-space"> </span>"DarkClouds01.jpg"; <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//参数的值 </span>\
+           } \
+           EffectParamString\
+          <span class="Apple-converted-space"> </span>{                       <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//同上</span>\
+              <span class="Apple-converted-space"> </span>"TexCloudBottom";\
+              <span class="Apple-converted-space"> </span>"DarkClouds02.jpg";\
+          <span class="Apple-converted-space"> </span>}\
+          <span class="Apple-converted-space"> </span>EffectParamFloats\
+          <span class="Apple-converted-space"> </span>{                      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//EffectParamFloats，即浮点数组型参数值</span>\
+              <span class="Apple-converted-space"> </span>"Brightness";      <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//参数名称</span>\
+              <span class="Apple-converted-space"> </span>1;                 <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//浮点数组大小</span>\
+              <span class="Apple-converted-space"> </span>0.500000;          <span class="Apple-converted-space"> </span><span style="line-height:18px;word-wrap:normal;word-break:normal;">//值</span>\
+          <span class="Apple-converted-space"> </span>}\
+      <span class="Apple-converted-space"> </span>}\
    }</span>
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 
+ 
 
 <span
-style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
+style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
 
 当我们在程序中调用D3DXLoadMeshFromX()或D3DXLoadMeshHierarchyFromX()时，就可以通过其LPD3DXBUFFER \*ppEffectInstances参数来接收到网格所用的所有EffectInstance的信息。
 
@@ -692,51 +692,51 @@ style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">
 | <span style="line-height:18px;word-wrap:normal;word-break:normal;"><span |
 | style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:norma |
 | l;">typedef                                                              |
-| struct</span></span><span class="Apple-converted-space"> </span><span    |
+| struct</span></span><span class="Apple-converted-space"> </span><span    |
 | style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:norma |
 | l;">\_D3DXEFFECTINSTANCE\                                                |
-|  {<span class="Apple-converted-space"> </span><span                      |
+|  {<span class="Apple-converted-space"> </span><span                      |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//EffectIns |
 | tance</span>\                                                            |
-|     <span class="Apple-converted-space"> </span>LPSTR                    |
-| pEffectFilename; <span                                                   |
+|     <span class="Apple-converted-space"> </span>LPSTR                    |
+| pEffectFilename; <span                                                   |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//fx文件名</sp |
 | an>\                                                                     |
-|     <span class="Apple-converted-space"> </span>DWORD NumDefaults;<span  |
-| class="Apple-converted-space"> </span><span                              |
+|     <span class="Apple-converted-space"> </span>DWORD NumDefaults;<span  |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//参数个数</spa |
 | n>\                                                                      |
-|     <span class="Apple-converted-space"> </span>LPD3DXEFFECTDEFAULT      |
-| pDefaults;<span class="Apple-converted-space"> </span><span              |
+|     <span class="Apple-converted-space"> </span>LPD3DXEFFECTDEFAULT      |
+| pDefaults;<span class="Apple-converted-space"> </span><span              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//参数数组</spa |
 | n>\                                                                      |
 |  } D3DXEFFECTINSTANCE, \*LPD3DXEFFECTINSTANCE;</span>                    |
 |                                                                          |
-|                                                                          |
+|                                                                          |
 |                                                                          |
 | <span                                                                    |
 | style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:norma |
 | l;"><span                                                                |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">typedef     |
 | struct</span><span                                                       |
-| class="Apple-converted-space"> </span>\_D3DXEFFECTDEFAULT\               |
-|  {<span class="Apple-converted-space"> </span><span                      |
+| class="Apple-converted-space"> </span>\_D3DXEFFECTDEFAULT\               |
+|  {<span class="Apple-converted-space"> </span><span                      |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//EffectDef |
 | ault，即EffectParam</span>\                                              |
-|     <span class="Apple-converted-space"> </span>LPSTR                    |
-| pParamName;          <span class="Apple-converted-space"> </span><span   |
+|     <span class="Apple-converted-space"> </span>LPSTR                    |
+| pParamName;          <span class="Apple-converted-space"> </span><span   |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//参数名</span |
 | >\                                                                       |
-|     <span class="Apple-converted-space"> </span>D3DXEFFECTDEFAULTTYPE    |
-| Type;<span class="Apple-converted-space"> </span><span                   |
+|     <span class="Apple-converted-space"> </span>D3DXEFFECTDEFAULTTYPE    |
+| Type;<span class="Apple-converted-space"> </span><span                   |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//参数类型</spa |
 | n>\                                                                      |
-|     <span class="Apple-converted-space"> </span>DWORD                    |
-| NumBytes;            <span class="Apple-converted-space"> </span><span   |
+|     <span class="Apple-converted-space"> </span>DWORD                    |
+| NumBytes;            <span class="Apple-converted-space"> </span><span   |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//参数大小，以字节记 |
 | </span>\                                                                 |
-|     <span class="Apple-converted-space"> </span>LPVOID                   |
-| pValue;             <span class="Apple-converted-space"> </span><span    |
+|     <span class="Apple-converted-space"> </span>LPVOID                   |
+| pValue;             <span class="Apple-converted-space"> </span><span    |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//指向参数的值的指针 |
 | </span>\                                                                 |
 |  } D3DXEFFECTDEFAULT, \*LPD3DXEFFECTDEFAULT;</span>                      |
@@ -745,33 +745,33 @@ style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">
 |  <span                                                                   |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">typedef</sp |
 | an><span                                                                 |
-| class="Apple-converted-space"> </span>enum \_D3DXEFFECTDEFAULTTYPE\      |
+| class="Apple-converted-space"> </span>enum \_D3DXEFFECTDEFAULTTYPE\      |
 |  {\                                                                      |
-|     <span class="Apple-converted-space"> </span>D3DXEDT\_STRING =        |
-| 1,<span class="Apple-converted-space"> </span><span                      |
+|     <span class="Apple-converted-space"> </span>D3DXEDT\_STRING =        |
+| 1,<span class="Apple-converted-space"> </span><span                      |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//字符串</span |
 | >\                                                                       |
-|     <span class="Apple-converted-space"> </span>D3DXEDT\_FLOATS =        |
-| 2,<span class="Apple-converted-space"> </span><span                      |
+|     <span class="Apple-converted-space"> </span>D3DXEDT\_FLOATS =        |
+| 2,<span class="Apple-converted-space"> </span><span                      |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//浮点数组</spa |
 | n>\                                                                      |
-|     <span class="Apple-converted-space"> </span>D3DXEDT\_DWORD =         |
-| 3, <span class="Apple-converted-space"> </span><span                     |
+|     <span class="Apple-converted-space"> </span>D3DXEDT\_DWORD =         |
+| 3, <span class="Apple-converted-space"> </span><span                     |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//长整型</span |
 | >\                                                                       |
-|     <span class="Apple-converted-space"> </span>D3DXEDT\_FORCE\_DWORD =  |
-| 0×7fffffff<span class="Apple-converted-space"> </span><span              |
+|     <span class="Apple-converted-space"> </span>D3DXEDT\_FORCE\_DWORD =  |
+| 0×7fffffff<span class="Apple-converted-space"> </span><span              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//此值不使用</sp |
 | an>\                                                                     |
 |  } D3DXEFFECTDEFAULTTYPE;                                                |
 |                                                                          |
-|                                                                          |
+|                                                                          |
 +--------------------------------------------------------------------------+
 
- 
+ 
 
 <span
-style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
+style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
 
 在调用了D3DXLoadMeshFromX()和D3DXLoadMeshHierarchyFromX()之后，X文件中的所有Effect数据信息就以上述结构体的形式放置在ppEffectInstances中了。
 另外，在从3DS
@@ -783,10 +783,10 @@ MAX导出参数到X文件时，对于整型和浮点数组型的变量，它们�
 根据D3DXEFFECTINSTANCE结构中的pEffectFilename字符串寻找对应的FX文件;\
  根据该FX文件建立ID3DXEffect，并将指针保存在CEffectInstance中;\
 
-根据D3DXEFFECTINSTANCE结构中的pDefaults设置CEffectInstance中的参数信息： 
+根据D3DXEFFECTINSTANCE结构中的pDefaults设置CEffectInstance中的参数信息： 
 
 > \
->  对于长整型和浮点数组，直接拷贝； \
+>  对于长整型和浮点数组，直接拷贝； \
 >
 > 对于字符串，首先调用ID3DXEffect接口中的GetParameterByName()和GetParameterDesc()方法，得到该参数的类型；
 > 然后进一步判断：
@@ -823,13 +823,13 @@ MAX导出参数到X文件时，对于整型和浮点数组型的变量，它们�
 | 绘制</span>\                                                             |
 |  …                                                                       |
 |                                                                          |
-|                                                                          |
+|                                                                          |
 +--------------------------------------------------------------------------+
 
- 
+ 
 
 <span
-style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
+style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
 
 [**在DirectX 9 SDK Summer 2004中的做法**]：
 
@@ -845,14 +845,14 @@ style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">
 |  hParam2 = pEffect-\>GetParameterByName( NULL, "LightColor" );\          |
 |  …\                                                                      |
 |  pEffect-\>BeginParameterBlock();<span                                   |
-| class="Apple-converted-space"> </span><span                              |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//          |
 | 开始绑定</span>\                                                         |
 |  pEffect-\>SetValue( hParam, value1 );\                                  |
 |  pEffect-\>SetValue( hParam, value2 );\                                  |
 |  …\                                                                      |
 |  hParamBlock = pEffect-\>EndParameterBlock();<span                       |
-| class="Apple-converted-space"> </span><span                              |
+| class="Apple-converted-space"> </span><span                              |
 | style="line-height:18px;word-wrap:normal;word-break:normal;">//          |
 | 结束绑定，返回句柄</span></span>                                         |
 |                                                                          |
@@ -860,7 +860,7 @@ style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">
 | style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:norma |
 | l;">在实时绘制时：统一设置绑定值</span>                                  |
 |                                                                          |
-|                                                                          |
+|                                                                          |
 |                                                                          |
 | <span                                                                    |
 | style="line-height:18px;font-family:宋体;word-wrap:normal;word-break:norma |
@@ -871,13 +871,13 @@ style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;">
 | 绘制</span>\                                                             |
 |  …</span>                                                                |
 |                                                                          |
-|                                                                          |
+|                                                                          |
 +--------------------------------------------------------------------------+
 
- 
+ 
 
 <span
-style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
+style="line-height:21px;font-family:宋体;word-wrap:normal;word-break:normal;"> </span>
 
 这样不仅简化了在读取时对参数的分析过程，而且提高了实际绘制时参数设置过程的效率。
 
@@ -889,9 +889,9 @@ Framework，程序员和美工可以为实时三维程序实现多种多样的�
 由于内容实在太多，限于篇幅，本文只是对Effect
 Framework中相关概念的一个总体概括和简要介绍，所以显得有些晦涩。在以后的文章中，将分批对这个Framework以及在其之上进行工作的流程进行比较详细的介绍
 
- 
+ 
 
- 
+ 
 
 
 

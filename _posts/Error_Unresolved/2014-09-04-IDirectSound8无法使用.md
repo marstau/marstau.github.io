@@ -9,13 +9,13 @@ description:
 
 IDirectSound8、LPDIRECTSOUND8无法使用
 
-** **
+** **
 
 **解决：**
 
 **替换成IDirectSound、LPDIRECTSOUND即可**
 
- 
+ 
 
 
 

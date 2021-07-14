@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
- release下面引用了debug下面编译出来的静态库。由于生成了一个release的静态库再试一下，问题解决。
+ release下面引用了debug下面编译出来的静态库。由于生成了一个release的静态库再试一下，问题解决。
 
 
 

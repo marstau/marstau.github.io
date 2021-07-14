@@ -7,14 +7,14 @@ keywords: OGRE
 description: 
 ---
 
- 
+ 
 
- 
+ 
 
 用CMake编译OGRE的时候出现这种情况，原因是从官网下过来的Dependencies文件没有编译，编译Dependencies\\src目录下的.sln文件即可
 
 \
-   
+   
 
 <span style="color:#ff0000;">CMake Error at
 CMake/Utils/MacroLogFeature.cmake:100 (MESSAGE):</span>
@@ -75,35 +75,35 @@ style="color:#ff0000;">---------------------------------------------------------
 
 <span style="color:#ff0000;">CMakeLists.txt:175 (include)</span>
 
- 
+ 
 
 记住要debug版本和release版本都生成,如果只生成debug版本,会报如下错误。
 
 <span
-style="color:#e53333;">send\_errorE:/Source Code/OGRE/OGRE/Dependencies/bin/release/OIS.dll did not exist, can't install!</span>
+style="color:#e53333;">send\_errorE:/Source Code/OGRE/OGRE/Dependencies/bin/release/OIS.dll did not exist, can't install!</span>
 
 <span
-style="color:#e53333;">send\_errorE:/Source Code/OGRE/OGRE/Dependencies/bin/release/cg.dll did not exist, can't install!</span>
+style="color:#e53333;">send\_errorE:/Source Code/OGRE/OGRE/Dependencies/bin/release/cg.dll did not exist, can't install!</span>
 
 <span
-style="color:#e53333;">send\_errorE:/Source Code/OGRE/OGRE/Dependencies/bin/debug/libgles\_cm.dll did not exist, can't install!</span>
+style="color:#e53333;">send\_errorE:/Source Code/OGRE/OGRE/Dependencies/bin/debug/libgles\_cm.dll did not exist, can't install!</span>
 
 <span
-style="color:#e53333;">send\_errorE:/Source Code/OGRE/OGRE/Dependencies/bin/release/libgles\_cm.dll did not exist, can't install!</span>
+style="color:#e53333;">send\_errorE:/Source Code/OGRE/OGRE/Dependencies/bin/release/libgles\_cm.dll did not exist, can't install!</span>
 
- 
+ 
 
- 然后再次configure。
+ 然后再次configure。
 
 ![](http://files.note.sdo.com/XbPJ4~kfgoSOwE02I000aM)
 
 红色表示第一次生成，为了确认不会出错，再次点击configure。
 
- 
+ 
 
 确认无误后，点击generate即可。
 
- 
+ 
 
 
 

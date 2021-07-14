@@ -19,30 +19,30 @@ style="border-right:#cccccc 1px solid;padding-right:5px;border-top:#cccccc 1px s
 <div
 style="border-right:#cccccc 1px solid;padding-right:5px;border-top:#cccccc 1px solid;padding-left:4px;padding-bottom:4px;border-left:#cccccc 1px solid;width:98%;word-break:break-all;padding-top:4px;border-bottom:#cccccc 1px solid;">
 
-\#include "stdafx.h"\
- <span style="color:#0000ff;">class</span> C{\
+\#include "stdafx.h"\
+ <span style="color:#0000ff;">class</span> C{\
  <span style="color:#0000ff;">public</span>:\
-     \~C(){ cout \<\< "\~C" \<\< endl; }\
+     \~C(){ cout \<\< "\~C" \<\< endl; }\
  };\
 \
 \
- <span style="color:#0000ff;">class</span> B:<span
-style="color:#0000ff;">public</span> C{\
+ <span style="color:#0000ff;">class</span> B:<span
+style="color:#0000ff;">public</span> C{\
  <span style="color:#0000ff;">public</span>:\
 \
-     \~B(){ cout \<\< "\~B" \<\< endl; }\
+     \~B(){ cout \<\< "\~B" \<\< endl; }\
  };\
- <span style="color:#0000ff;">int</span> main(){\
-     B b;\
-     static\_cast\<C\>(b);\
-     (C)b;\
+ <span style="color:#0000ff;">int</span> main(){\
+     B b;\
+     static\_cast\<C\>(b);\
+     (C)b;\
  }\
  <span style="color:#008000;">/\*</span><span style="color:#008000;">\
  \~C\
  \~C\
  \~B\
  \~C\
- 请按任意键继续. . .</span><span style="color:#008000;">\*/</span>
+ 请按任意键继续. . .</span><span style="color:#008000;">\*/</span>
 
 </div>
 
@@ -51,24 +51,24 @@ style="border-right:#cccccc 1px solid;padding-right:5px;border-top:#cccccc 1px s
 
 <span style="color:#0000ff;">\#include "stdafx.h"</span>
 
-<span style="color:#0000ff;">class</span> C{\
+<span style="color:#0000ff;">class</span> C{\
  <span style="color:#0000ff;">public</span>:\
-     \~C(){ cout \<\< "\~C" \<\< endl; }\
+     \~C(){ cout \<\< "\~C" \<\< endl; }\
  };\
 \
 \
- <span style="color:#0000ff;">class</span> B:<span
-style="color:#0000ff;">public</span> C{\
+ <span style="color:#0000ff;">class</span> B:<span
+style="color:#0000ff;">public</span> C{\
  <span style="color:#0000ff;">public</span>:\
 \
-     \~B(){ cout \<\< "\~B" \<\< endl; }\
+     \~B(){ cout \<\< "\~B" \<\< endl; }\
  };\
- <span style="color:#0000ff;">int</span> main(){\
-     B b;\
-     C\* pc;\
-     pc = static\_cast\<C\*\>(&b);\
-     pc = (C\*)&b;\
- } 
+ <span style="color:#0000ff;">int</span> main(){\
+     B b;\
+     C\* pc;\
+     pc = static\_cast\<C\*\>(&b);\
+     pc = (C\*)&b;\
+ } 
 
 /\*
 
@@ -78,7 +78,7 @@ style="color:#0000ff;">public</span> C{\
 
 \*/
 
-// 没有分配内存,所以不会有其他构造和析构函数
+// 没有分配内存,所以不会有其他构造和析构函数
 
 </div>
 

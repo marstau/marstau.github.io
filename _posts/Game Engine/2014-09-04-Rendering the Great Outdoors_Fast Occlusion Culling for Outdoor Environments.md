@@ -75,24 +75,24 @@ objects for bounding volumes are spheres and boxes. For the techniques
 presented in this article, I recommend using both types and defining a
 structure representing the bounding volume:
 
- 
+ 
 
 > struct S\_bounding\_volume{<span
-> class="Apple-converted-space"> </span>\
->  struct{<span class="Apple-converted-space"> </span>\
->  struct{<span class="Apple-converted-space"> </span>\
->  float x,y,z;<span class="Apple-converted-space"> </span>\
->  }min,max;<span class="Apple-converted-space"> </span>\
+> class="Apple-converted-space"> </span>\
+>  struct{<span class="Apple-converted-space"> </span>\
+>  struct{<span class="Apple-converted-space"> </span>\
+>  float x,y,z;<span class="Apple-converted-space"> </span>\
+>  }min,max;<span class="Apple-converted-space"> </span>\
 >  }box;\
->  struct{<span class="Apple-converted-space"> </span>\
->  struct{<span class="Apple-converted-space"> </span>\
+>  struct{<span class="Apple-converted-space"> </span>\
+>  struct{<span class="Apple-converted-space"> </span>\
 >  float x,y,z;\
->  }pos;<span class="Apple-converted-space"> </span>\
+>  }pos;<span class="Apple-converted-space"> </span>\
 >  float radius;\
 >  }sphere;\
 >  };
 
- 
+ 
 
 You’re probably already using an HSR technique utilizing bounding boxes
 or spheres, so why use a combination of both? The answer is simple:
@@ -151,7 +151,7 @@ style="position:relative;text-align:left;padding-bottom:10px;widows:2;text-trans
 
 \
 \
-  
+  
 
 </div>
 
@@ -228,22 +228,22 @@ hull. If a point in space is behind all the edge faces of the hull
 (assuming the planes’ normals point out from the hull), then it is
 inside of the hull (Listing 1).
 
- 
+ 
 
 > bool IsPointInHull(const S\_vector &v,const vector<span
-> class="Apple-converted-space"> </span>\
->  &planes){<span class="Apple-converted-space"> </span>\
+> class="Apple-converted-space"> </span>\
+>  &planes){<span class="Apple-converted-space"> </span>\
 > \
 >  for(int i =planes.size();i —;){\
 >  float d =v.DistanceToPlane(planes [i]);\
->  if(d \>=0.0f)<span class="Apple-converted-space"> </span>\
->  return false;<span class="Apple-converted-space"> </span>\
+>  if(d \>=0.0f)<span class="Apple-converted-space"> </span>\
+>  return false;<span class="Apple-converted-space"> </span>\
 >  } return true;\
 >  }
 
- 
+ 
 
- 
+ 
 
 > **Listing 1: Checks if a 3D point is inside a convex hull. A convex
 > hull is defined as a set of planes with normals pointing away from the
@@ -252,7 +252,7 @@ inside of the hull (Listing 1).
 > tor::DistanceToPlane(const S\_plane&) const that determines the
 > distance from a 3D point to a plane.**
 
- 
+ 
 
 Several algorithms exist for computing a convex hull from a set of
 points. Some commonly used ones include incremental, **gift-wrapping,
@@ -275,7 +275,7 @@ After I struggled for months with code that computed it wrong, then
 spending another month writing my own convex-hull computation code, I
 finally switched to **Qhull**, a freeware package that utilizes the
 quick-hull algorithm. It’s available at<span
-class="Apple-converted-space"> </span>[www.geom.umn.edu/software/qhull](http://www.geom.umn.edu/software/qhull).
+class="Apple-converted-space"> </span>[www.geom.umn.edu/software/qhull](http://www.geom.umn.edu/software/qhull).
 
 Although the QHull library is a robust, platform-independent package
 that can do many additional tasks, we will only be needing it to compute
@@ -292,33 +292,33 @@ The final result we need after computation is a set of filtered points
 that form a skeleton of the hull, and a set of faces. Following is an
 example of what we get (faces are kept as indices in the point set):
 
- 
+ 
 
-> struct S\_vector{<span class="Apple-converted-space"> </span>\
+> struct S\_vector{<span class="Apple-converted-space"> </span>\
 >  float x,y,z;\
 >  }; struct S\_face{\
->  int num\_points;<span class="Apple-converted-space"> </span>\
+>  int num\_points;<span class="Apple-converted-space"> </span>\
 >  unsigned short \*indices;\
 >  };
 
- 
+ 
 
 Now we use the help of C++ STL vector class for storing our vertices and
 faces:
 
- 
+ 
 
-> std::vectorhull\_points;<span class="Apple-converted-space"> </span>\
+> std::vectorhull\_points;<span class="Apple-converted-space"> </span>\
 >  std::vectorhull\_faces;
 
- 
+ 
 
 Note that when inserting into vector , a copy constructor of the class
 being inserted is called. Make sure you have implemented a copy
 constructor of S\_face so that memory for indices is properly allocated
 and freed.
 
- 
+ 
 
 **The View Frustum**
 
@@ -336,7 +336,7 @@ style="position:relative;text-align:left;padding-bottom:10px;widows:2;text-trans
 
 \
 \
-  
+  
 
 </div>
 
@@ -420,7 +420,7 @@ should be rendered, resulting in an ugly graphical artifact.
 </div>
 
 \
- ![](http://files.note.sdo.com/XbPJ4~kd5GbywE01400hmc) 
+ ![](http://files.note.sdo.com/XbPJ4~kd5GbywE01400hmc) 
 
 \
 
@@ -430,7 +430,7 @@ should be rendered, resulting in an ugly graphical artifact.
 
 ![](http://www.gamasutra.com/redesign/images/corner_bottom_left.gif)
 
-****Figure 4:<span class="Apple-converted-space"> </span>**A house,
+****Figure 4:<span class="Apple-converted-space"> </span>**A house,
 suitable for occluding other objects in 3D scene.\
 ** **Figure 5: The occluder object (drawn in green wire-frame),
 representing the simplified shape of the house.\
@@ -438,7 +438,7 @@ representing the simplified shape of the house.\
 
 \
 
-**** 
+**** 
 
 **The Occluder ’s Place in the Pipeline**
 
@@ -474,7 +474,7 @@ You should reject occluders that occupy a small area of screen space.
 
 ![](http://www.gamasutra.com/redesign/images/corner_bottom_left.gif)
 
-****Figure 6:<span class="Apple-converted-space"> </span>**Image showing
+****Figure 6:<span class="Apple-converted-space"> </span>**Image showing
 an occluder hidden by another occluder. Any\
  visual occluded by the occluder B is also occluded by occluder A, so
 we\
@@ -514,7 +514,7 @@ edges (as seen from the camera) expanded away from the camera (Figure
 
 ![](http://www.gamasutra.com/redesign/images/corner_bottom_left.gif)
 
-****Figure 7:<span class="Apple-converted-space"> </span>**An Oocclusion
+****Figure 7:<span class="Apple-converted-space"> </span>**An Oocclusion
 frustum built from an occluder, using current\
  viewer position.**
 
@@ -567,7 +567,7 @@ Occlusion testing will work well without this optimization, but
 implementing it will speed up further computations without loss of
 accuracy.
 
- 
+ 
 
 **Detecting Occlusion**
 
@@ -630,7 +630,7 @@ from all planes.\
 
 \
 
- 
+ 
 
 \
 
@@ -640,7 +640,7 @@ from all planes.\
 |  S\_vector \*verts,int num\_verts){\ |  const S\_vector &sphere\_pos,float  |
 | \                                    | sphere\_radius,bool &clip){\         |
 |  for(int i =0;i<span                 | \                                    |
-| class="Apple-converted-space"> </spa |  clip =false;\                       |
+| class="Apple-converted-space"> </spa |  clip =false;\                       |
 | n>\                                  |  for(int i =planes.size();i —;){\    |
 |  for(int j =planes.size();j —;){\    |  float d =planes [i                  |
 |  float d =planes [j ].d +planes [j   | ].normal.Dot(sphere\_pos)+planes [i  |
@@ -720,7 +720,7 @@ cclusion is switched off. The number of rendered triangles rose to
 
 \
 
- 
+ 
 
 Finally, fine-tune editing support by visually displaying occluders in
 edit mode while designing your missions or modi-fying the occluder’s

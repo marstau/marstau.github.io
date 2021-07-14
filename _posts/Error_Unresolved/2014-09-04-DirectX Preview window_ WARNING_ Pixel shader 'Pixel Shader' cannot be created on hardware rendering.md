@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-DirectX Preview window: WARNING: Pixel shader 'Pixel Shader' cannot be created on hardware rendering。
+DirectX Preview window: WARNING: Pixel shader 'Pixel Shader' cannot be created on hardware rendering。
 
 ![](http://files.note.sdo.com/XbPJ4~kbbG0iwE0rM00cl7)
 

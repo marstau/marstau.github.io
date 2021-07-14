@@ -31,7 +31,7 @@ style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-l
 <div
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
-1\>  正在对“Debug\\WinTest.unsuccessfulbuild”执行 Touch 任务。
+1\>  正在对“Debug\\WinTest.unsuccessfulbuild”执行 Touch 任务。
 
 </div>
 
@@ -45,7 +45,7 @@ style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-l
 <div
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
-1\>  所有输出均为最新。
+1\>  所有输出均为最新。
 
 </div>
 
@@ -59,7 +59,7 @@ style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-l
 <div
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
-1\>  所有输出均为最新。
+1\>  所有输出均为最新。
 
 </div>
 
@@ -67,7 +67,7 @@ style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-l
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
 1\>PlayVideo.obj : error LNK2001: 无法解析的外部符号<span
-class="Apple-converted-space"> </span><span
+class="Apple-converted-space"> </span><span
 style="color:red;">\_TID\_D3DRMFrameTransformMatrix</span>
 
 </div>
@@ -76,7 +76,7 @@ style="color:red;">\_TID\_D3DRMFrameTransformMatrix</span>
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
 1\>PlayVideo.obj : error LNK2001: 无法解析的外部符号<span
-class="Apple-converted-space"> </span><span
+class="Apple-converted-space"> </span><span
 style="color:red;">\_TID\_D3DRMFrame</span>
 
 </div>
@@ -85,7 +85,7 @@ style="color:red;">\_TID\_D3DRMFrame</span>
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
 1\>PlayVideo.obj : error LNK2001: 无法解析的外部符号<span
-class="Apple-converted-space"> </span><span
+class="Apple-converted-space"> </span><span
 style="color:red;">\_TID\_D3DRMMesh</span>
 
 </div>
@@ -94,7 +94,7 @@ style="color:red;">\_TID\_D3DRMMesh</span>
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
 1\>PlayVideo.obj : error LNK2001: 无法解析的外部符号<span
-class="Apple-converted-space"> </span><span
+class="Apple-converted-space"> </span><span
 style="color:red;">\_TID\_D3DRMAnimation</span>
 
 </div>
@@ -103,7 +103,7 @@ style="color:red;">\_TID\_D3DRMAnimation</span>
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
 1\>PlayVideo.obj : error LNK2001: 无法解析的外部符号<span
-class="Apple-converted-space"> </span><span
+class="Apple-converted-space"> </span><span
 style="color:red;">\_TID\_D3DRMAnimationSet</span>
 
 </div>
@@ -112,7 +112,7 @@ style="color:red;">\_TID\_D3DRMAnimationSet</span>
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
 1\>PlayVideo.obj : error LNK2001: 无法解析的外部符号<span
-class="Apple-converted-space"> </span><span
+class="Apple-converted-space"> </span><span
 style="color:red;">\_TID\_D3DRMAnimationKey</span>
 
 </div>
@@ -215,7 +215,7 @@ style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-l
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
 1\>
- 正在创建“Debug\\WinTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ 正在创建“Debug\\WinTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 
 </div>
 
@@ -229,7 +229,7 @@ style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-l
 <div
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
-1\>  所有输出均为最新。
+1\>  所有输出均为最新。
 
 </div>
 
@@ -243,7 +243,7 @@ style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-l
 <div
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
-1\>  所有输出均为最新。
+1\>  所有输出均为最新。
 
 </div>
 
@@ -257,7 +257,7 @@ style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-l
 <div
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
-1\>  所有输出均为最新。
+1\>  所有输出均为最新。
 
 </div>
 
@@ -266,7 +266,7 @@ style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-l
 
 1\>PlayVideo.obj : error LNK2019: 无法解析的外部符号<span
 style="color:red;"><span
-class="Apple-converted-space"> </span>\_\_imp\_\_CoUninitialize@0</span>，该符号在函数 
+class="Apple-converted-space"> </span>\_\_imp\_\_CoUninitialize@0</span>，该符号在函数 
 
 </div>
 
@@ -286,8 +286,8 @@ style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-l
 style="padding-bottom:0px;widows:2;text-transform:none;text-indent:0px;padding-left:0px;padding-right:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:#000000;word-spacing:0px;padding-top:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
 
 1\>PlayVideo.obj : error LNK2019: 无法解析的外部符号<span
-class="Apple-converted-space"> </span><span
-style="color:red;">\_\_imp\_\_CoInitialize@4</span>，该符号在函数 
+class="Apple-converted-space"> </span><span
+style="color:red;">\_\_imp\_\_CoInitialize@4</span>，该符号在函数 
 
 </div>
 

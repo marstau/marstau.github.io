@@ -16,22 +16,22 @@ style="widows:2;text-transform:none;text-indent:0px;display:inline !important;fo
  <span class="Apple-style-span"
 style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">1\>InitializeBuildStatus:</span>\
  <span class="Apple-style-span"
-style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">1\> 
+style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">1\> 
 正在对“Debug\\WinTest.unsuccessfulbuild”执行 Touch 任务。</span>\
  <span class="Apple-style-span"
 style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">1\>ClCompile:</span>\
  <span class="Apple-style-span"
-style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">1\> 
+style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">1\> 
 所有输出均为最新。</span>\
  <span class="Apple-style-span"
 style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">1\>ResourceCompile:</span>\
  <span class="Apple-style-span"
-style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">1\> 
+style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">1\> 
 所有输出均为最新。</span>\
  <span class="Apple-style-span"
 style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">1\>ManifestResourceCompile:</span>\
  <span class="Apple-style-span"
-style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">1\> 
+style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">1\> 
 所有输出均为最新。</span>\
  <span class="Apple-style-span"
 style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">1\>d3dUtility.obj
@@ -51,11 +51,11 @@ class="Apple-style-span"
 style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">)，该符号在函数</span><_WinMain@16><span
 class="Apple-style-span"
 style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"><span
-class="Apple-converted-space"> </span>中被引用</span>\
+class="Apple-converted-space"> </span>中被引用</span>\
  <span class="Apple-style-span"
 style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">1\>dxutil.obj
 : error LNK2019: 无法解析的外部符号<span
-class="Apple-converted-space"> </span></span><__imp__RegCloseKey@4><span
+class="Apple-converted-space"> </span></span><__imp__RegCloseKey@4><span
 class="Apple-style-span"
 style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">，该符号在函数
 "long \_\_cdecl DXUtil\_GetDXSDKMediaPathCch(wchar\_t \*,int)"
@@ -66,7 +66,7 @@ style="widows:2;text-transform:none;text-indent:0px;display:inline !important;fo
  <span class="Apple-style-span"
 style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">1\>dxutil.obj
 : error LNK2019: 无法解析的外部符号<span
-class="Apple-converted-space"> </span></span><__imp__RegQueryValueExW@24><span
+class="Apple-converted-space"> </span></span><__imp__RegQueryValueExW@24><span
 class="Apple-style-span"
 style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">，该符号在函数
 "long \_\_cdecl DXUtil\_GetDXSDKMediaPathCch(wchar\_t \*,int)"
@@ -77,7 +77,7 @@ style="widows:2;text-transform:none;text-indent:0px;display:inline !important;fo
  <span class="Apple-style-span"
 style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">1\>dxutil.obj
 : error LNK2019: 无法解析的外部符号<span
-class="Apple-converted-space"> </span></span><__imp__RegOpenKeyExW@20><span
+class="Apple-converted-space"> </span></span><__imp__RegOpenKeyExW@20><span
 class="Apple-style-span"
 style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">，该符号在函数
 "long \_\_cdecl DXUtil\_GetDXSDKMediaPathCch(wchar\_t \*,int)"
@@ -88,7 +88,7 @@ style="widows:2;text-transform:none;text-indent:0px;display:inline !important;fo
  <span class="Apple-style-span"
 style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">1\>dxutil.obj
 : error LNK2019: 无法解析的外部符号<span
-class="Apple-converted-space"> </span></span><__imp__RegSetValueExW@24><span
+class="Apple-converted-space"> </span></span><__imp__RegSetValueExW@24><span
 class="Apple-style-span"
 style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">，该符号在函数
 "long \_\_cdecl DXUtil\_WriteStringRegKey(struct
@@ -136,10 +136,10 @@ class="Apple-style-span"
 style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">)，该符号在函数</span><_WinMain@16><span
 class="Apple-style-span"
 style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"><span
-class="Apple-converted-space"> </span>中被引用</span>
+class="Apple-converted-space"> </span>中被引用</span>
 
 <span class="Apple-style-span"
-style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"></span> 
+style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"></span> 
 
 <span class="Apple-style-span"
 style="widows:2;text-transform:none;text-indent:0px;display:inline !important;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;float:none;letter-spacing:normal;color:#000000;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">
@@ -180,7 +180,7 @@ CreateDMSound(class CSoundSystemInterface \* \*)"
 
 ========== 生成: 成功 0 个，失败 1 个，最新 1 个，跳过 0 个 ==========
 
- 
+ 
 
 <span
 style="widows:2;text-transform:none;text-indent:0px;font:14px/21px verdana, 'courier new';white-space:normal;orphans:2;letter-spacing:normal;color:red;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;">这几个错误有点莫名其妙：将问题函数声明重新敲一遍...不能复制的</span>

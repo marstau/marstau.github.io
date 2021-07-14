@@ -34,13 +34,13 @@ style="font-size:small;">[1]快捷键（F8）直接执行程序,直到下一个�
  [3]快捷键（F6）单步执行程序，遇到方法时跳过。\
  [4]快捷键（F7）单步执行程序，从当前方法跳出。</span>
 
- 
+ 
 
 3.停止调试
 
 右上角有两个按钮(Java和Debug)，选择Java按钮即可![](http://files.note.sdo.com/XbPJ4~keoW9OwE04400feD)
 
- 
+ 
 
 **caution:有一个选项是 跳过所有断点，必须得去掉才能正常调试**
 

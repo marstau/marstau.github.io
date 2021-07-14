@@ -9,27 +9,27 @@ description:
 
 FORMAT:
 
-    less important.
+    less important.
 
-    **important.**
+    **important.**
 
-    <span style="color:#e53333;">important.</span>
+    <span style="color:#e53333;">important.</span>
 
-    **<span style="color:#e53333;">very important.</span>**
+    **<span style="color:#e53333;">very important.</span>**
 
-    <span style="color:#cc33e5;"><span style="color:#000000;"><span
+    <span style="color:#cc33e5;"><span style="color:#000000;"><span
 style="color:#ee33ee;">a little don't </span><span
 style="color:#ee33ee;">understand</span></span><span
 style="color:#ee33ee;">.</span></span>
 
-    <span style="color:#00d5ff;">can't understand.</span>
+    <span style="color:#00d5ff;">can't understand.</span>
 
-    **<span style="background-color:#e53333;">Functions and
+    **<span style="background-color:#e53333;">Functions and
 Structures</span>**
 
 ------------------------------------------------------------------------
 
- Reference:
+ Reference:
 
 <http://msdn.microsoft.com/en-us/library/windows/desktop/ee418998(v=vs.85).aspx>
 
@@ -43,12 +43,12 @@ well as for force-feedback (input/output) devices.</span>
 <span style="font-size:14px;">This topic provides a brief overview of
 the capabilities of DirectInput and how to set it up in an application.
 For a more comprehensive view of how DirectInput works, see</span><span
-class="Apple-converted-space" style="font-size:14px;"> </span>[<span
+class="Apple-converted-space" style="font-size:14px;"> </span>[<span
 style="font-size:14px;">Understanding
 DirectInput</span>](http://msdn.microsoft.com/en-us/library/windows/desktop/ee418998(v=vs.85).aspx)<span
 style="font-size:14px;">. For a step-by-step guide to using the
 DirectInput API, see</span><span class="Apple-converted-space"
-style="font-size:14px;"> </span>[<span style="font-size:14px;">Using
+style="font-size:14px;"> </span>[<span style="font-size:14px;">Using
 DirectInput</span>](http://msdn.microsoft.com/en-us/library/windows/desktop/ee416845(v=vs.85).aspx)<span
 style="font-size:14px;">.</span>
 
@@ -80,7 +80,7 @@ Windows.</span>**
 <span style="font-size:14px;">DirectInput does not provide any
 advantages for applications that use the keyboard for text entry or the
 mouse for navigation. For more information, see</span><span
-class="Apple-converted-space" style="font-size:14px;"> </span>[<span
+class="Apple-converted-space" style="font-size:14px;"> </span>[<span
 style="font-size:14px;">Interaction with
 Windows</span>](http://msdn.microsoft.com/en-us/library/windows/desktop/ee418998(v=vs.85).aspx#Interaction_with_Windows)<span
 style="font-size:14px;">.</span>
@@ -102,7 +102,7 @@ application.</span>
 
 <span style="font-size:14px;">For details and examples of these steps,
 see</span><span class="Apple-converted-space"
-style="font-size:14px;"> </span>[<span style="font-size:14px;">Using
+style="font-size:14px;"> </span>[<span style="font-size:14px;">Using
 DirectInput</span>](http://msdn.microsoft.com/en-us/library/windows/desktop/ee416845(v=vs.85).aspx)<span
 style="font-size:14px;">.</span>
 
@@ -222,7 +222,7 @@ than by the device objects that generated them.</span>
 
 </div>
 
- 
+ 
 
 Understanding DirectInput {#TopicTitle style="padding-bottom:35px;widows:2;text-transform:none;text-indent:0px;margin:0px;font:36px 'Segoe UI Light', 'Segoe UI', 'Lucida Grande', Verdana, Arial, Helvetica, sans-serif;white-space:normal;orphans:2;letter-spacing:normal;color:#707070;word-spacing:0px;padding-top:30px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"}
 =========================
@@ -233,7 +233,7 @@ message system.</span>
 
 <span style="font-size:14px;">For practical information about how to
 implement the elements of DirectInput introduced here, see</span><span
-class="Apple-converted-space" style="font-size:14px;"> </span>[<span
+class="Apple-converted-space" style="font-size:14px;"> </span>[<span
 style="font-size:14px;">Using
 DirectInput</span>](http://msdn.microsoft.com/en-us/library/windows/desktop/ee416845(v=vs.85).aspx)<span
 style="font-size:14px;">.</span>
@@ -249,23 +249,23 @@ style="widows:2;text-transform:none;text-indent:0px;font:12px 'Segoe UI', 'Lucid
 
 An input-only DirectInput implementation consists of the DirectInput
 object, which supports<span
-class="Apple-converted-space"> </span>[IDirectInput8
+class="Apple-converted-space"> </span>[IDirectInput8
 Interface](http://msdn.microsoft.com/en-us/library/windows/desktop/ee417799(v=vs.85).aspx),
 a <span style="color:#e53333;">Component Object Model (COM)</span>
 interface, and a DirectInputDevice object for each input device that
 provides data. Each DirectInputDevice object in turn has<span
-class="Apple-converted-space"> </span>*device objects*, which are
+class="Apple-converted-space"> </span>*device objects*, which are
 individual controls or switches, such as keys, buttons, or axes. Device
 objects are also called<span
-class="Apple-converted-space"> </span>***device object instances*****.**
+class="Apple-converted-space"> </span>***device object instances*****.**
 
 **Each DirectInputDevice object represents one input device, such as a
 mouse, keyboard, or joystick**. In the DirectInput API, the <span
 style="font-size:14px;">word</span><span class="Apple-converted-space"
-style="font-size:14px;"> </span>*<span
+style="font-size:14px;"> </span>*<span
 style="color:#e53333;font-size:14px;">**joystick**</span>*<span
 class="Apple-converted-space"
-style="color:#e53333;font-size:14px;">** **</span><span
+style="color:#e53333;font-size:14px;">** **</span><span
 style="font-size:14px;">means any type of input device other than a
 mouse or keyboard</span><span style="font-size:14px;">. A piece of
 hardware that is really a combination of different types of input
@@ -276,19 +276,19 @@ single joystick object that handles both input and output.</span>
 
 <span style="font-size:14px;">DirectInputDevice objects instantiate
 the</span><span class="Apple-converted-space"
-style="font-size:14px;"> </span>[<span
+style="font-size:14px;"> </span>[<span
 style="background-color:#e53333;color:#000000;font-size:14px;">**IDirectInputDevice8
 Interface**</span>](http://msdn.microsoft.com/en-us/library/windows/desktop/ee417816(v=vs.85).aspx)<span
 style="background-color:#e53333;color:#000000;font-size:14px;">**.**</span><span
 style="font-size:14px;"> The application ascertains the number and type
 of device objects available by using the</span><span
-class="Apple-converted-space" style="font-size:14px;"> </span>[**<span
+class="Apple-converted-space" style="font-size:14px;"> </span>[**<span
 style="background-color:#e53333;font-size:14px;">IDirectInputDevice8::EnumObjects</span>**](http://msdn.microsoft.com/en-us/library/windows/desktop/microsoft.directx_sdk.idirectinputdevice8.idirectinputdevice8.enumobjects(v=vs.85).aspx)<span
-class="Apple-converted-space" style="font-size:14px;"> </span><span
+class="Apple-converted-space" style="font-size:14px;"> </span><span
 style="font-size:14px;">method. Individual device objects are not
 encapsulated as code objects, but are described in</span>[<span
 style="background-color:#e53333;font-size:14px;">**DIDEVICEOBJECTINSTANCE**</span>](http://msdn.microsoft.com/en-us/library/windows/desktop/microsoft.directx_sdk.reference.dideviceobjectinstance(v=vs.85).aspx)<span
-class="Apple-converted-space" style="font-size:14px;"> </span><span
+class="Apple-converted-space" style="font-size:14px;"> </span><span
 style="font-size:14px;">structures.</span>
 
 <span style="font-size:14px;">All DirectInput interfaces are available
@@ -349,12 +349,12 @@ the middle button as two clicks of the primary button.</span>
 
 ------------------------------------------------------------------------
 
-  {#TopicTitle style="padding-bottom:35px;widows:2;text-transform:none;text-indent:0px;margin:0px;font:36px 'Segoe UI Light', 'Segoe UI', 'Lucida Grande', Verdana, Arial, Helvetica, sans-serif;white-space:normal;orphans:2;letter-spacing:normal;color:#707070;word-spacing:0px;padding-top:30px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"}
+  {#TopicTitle style="padding-bottom:35px;widows:2;text-transform:none;text-indent:0px;margin:0px;font:36px 'Segoe UI Light', 'Segoe UI', 'Lucida Grande', Verdana, Arial, Helvetica, sans-serif;white-space:normal;orphans:2;letter-spacing:normal;color:#707070;word-spacing:0px;padding-top:30px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px;"}
 =
 
 \
 
- 
+ 
 
 
 

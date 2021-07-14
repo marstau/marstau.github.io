@@ -25,7 +25,7 @@ style="color:black;font-size:12pt;"><span
 style="font-family:Times New Roman;">Exception
 Specifications</span></span><span>。</span><span
 style="font-size:12pt;"><span
-style="font-family:Times New Roman;"> </span></span>
+style="font-family:Times New Roman;"> </span></span>
 
 <span style="font-size:12pt;"><span
 style="font-family:Times New Roman;"></span></span>
@@ -37,9 +37,9 @@ style="color:blue;font-size:11pt;">\#pragma </span><span
 style="font-size:11pt;"><span style="color:blue;">warning</span> (<span
 style="color:blue;">disable</span>:4290)</span>
 
- 
+ 
 
- 
+ 
 
 <span>此方案只是保证编译器不再弹出警告，但是不能保证编译器接受异常规范</span>
 

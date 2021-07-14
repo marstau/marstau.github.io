@@ -13,7 +13,7 @@ description:
 style="display:block;font-style:normal;font-variant:normal;font-weight:normal;font-size:14px;line-height:17.804800033569336px;font-family:Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif;height:470.4375px;padding:0px;text-align:left;text-decoration:none;width:660px;word-wrap:break-word;">
 
 From
-: <http://stackoverflow.com/questions/14402320/xcode-duplicate-symbol-error-when-using-global-variable>
+: <http://stackoverflow.com/questions/14402320/xcode-duplicate-symbol-error-when-using-global-variable>
 
 Here's my code:
 

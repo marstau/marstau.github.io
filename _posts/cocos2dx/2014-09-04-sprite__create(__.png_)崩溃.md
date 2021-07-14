@@ -14,7 +14,7 @@ image with a .png extension... This causes the crash.\
  Actually it is rather a memory-leak than a system crash [Don't know
 much about this things, maybe i0m wrong].
 
-From : <https://github.com/Compass/compass/issues/860>
+From : <https://github.com/Compass/compass/issues/860>
 
 
 

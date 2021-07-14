@@ -22,7 +22,7 @@ description:
 <div>
 
 android-ndk-r8e/build/gmsl/\_\_gmsl:512: \*\*\* non-numeric second
-argument to \`wordlist' function: ''.  Stop.
+argument to \`wordlist' function: ''.  Stop.
 
 </div>
 
@@ -40,7 +40,7 @@ argument to \`wordlist' function: ''.  Stop.
 
 <div>
 
-From: <http://www.mmihome.net/forum.php?mod=viewthread&tid=3>
+From: <http://www.mmihome.net/forum.php?mod=viewthread&tid=3>
 
 </div>
 

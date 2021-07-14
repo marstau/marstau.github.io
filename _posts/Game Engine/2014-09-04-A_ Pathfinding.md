@@ -51,7 +51,7 @@ style="FONT-SIZE: 14px">can be complicated for beginners. While there
 are many articles on the web that explain A\*, most are written for
 people who understand the basics already. This article is for the true
 beginner.</span></span><span
-style="FONT-FAMILY: Arial; FONT-SIZE: 14px"> </span>
+style="FONT-FAMILY: Arial; FONT-SIZE: 14px"> </span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">This article does not
 try to be the definitive work on the subject. Instead it describes the
@@ -65,7 +65,7 @@ is not program-specific. You should be able to adapt what's here to any
 computer language. As you might expect, however, I have included a link
 to a sample program at the end of this article. The sample package
 contains two versions: one in C++ and one in Blitz Basic. It also
-contains executables if you just want to see A\* in action. </span>
+contains executables if you just want to see A\* in action. </span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">But we are getting
 ahead of ourselves. Let's start at the beginning ...</span>
@@ -82,12 +82,12 @@ blue filled squares being the wall in between. </span>
 <span style="FONT-FAMILY: Arial; FONT-SIZE: xx-small"><span
 style="FONT-FAMILY: Arial; FONT-SIZE: xx-small"></span></span>
 
-<span style="FONT-SIZE: 14px"> 
+<span style="FONT-SIZE: 14px"> 
 </span>![](http://www.policyalmanac.org/games/aStarT1.jpg)<span
-style="FONT-SIZE: 14px">  </span>\
+style="FONT-SIZE: 14px">  </span>\
 <span style="FONT-SIZE: 14px">[Figure 1]</span>
 
- 
+ 
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: x-small"><span
 style="FONT-SIZE: 14px">The first thing you should notice is that we
@@ -104,7 +104,7 @@ status is recorded as walkable or unwalkable</span></span><span
 style="FONT-SIZE: 14px">. The path is found by figuring out which
 squares we should take to get from A to B. Once the path is found, our
 person moves from the center of one square to the center of the next
-until the target is reached. </span></span>
+until the target is reached. </span></span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: x-small"><span
 style="TEXT-DECORATION: underline"><span style="FONT-SIZE: 14px">These
@@ -127,7 +127,7 @@ simplified our search area into a manageable number of nodes, as we have
 done with the grid layout above, the next step is to conduct a search to
 find the shortest path. We do this by starting at point A, checking the
 adjacent squares, and generally searching outward until we find our
-target.  </span>
+target.  </span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">**We begin the search
 by doing the following:**</span>
@@ -138,7 +138,7 @@ by doing the following:**</span>
     an “</span></span>**<span style="TEXT-DECORATION: underline"><span
     style="FONT-SIZE: 14px">open list</span></span>**<span
     style="TEXT-DECORATION: underline"><span style="FONT-SIZE: 14px">”
-    of squares to be considered. The open list is a kind of like a
+    of squares to be considered. The open list is a kind of like a
     shopping list. Right now there is just one item on the list, but we
     will have more later. It contains squares that might fall along the
     path you want to take, but maybe not. Basically, this is a list of
@@ -174,13 +174,13 @@ square. It is outlined in light blue to indicate that the square has
 been added to the closed list. All of the adjacent squares are now on
 the open list of squares to be checked, and they are outlined in light
 green. Each has a gray pointer that points back to its parent, which is
-the starting square.  </span><span
+the starting square.  </span><span
 style="FONT-FAMILY: Arial; FONT-SIZE: xx-small"></span>
 
 ![](http://www.policyalmanac.org/games/aStarT2.jpg)\
-<span style="FONT-SIZE: 14px">  [Figure 2]</span>
+<span style="FONT-SIZE: 14px">  [Figure 2]</span>
 
- 
+ 
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">Next, we choose one of
 the adjacent squares on the open list and more or less repeat the
@@ -195,7 +195,7 @@ which squares to use when figuring out the path is the following
 equation:</span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: x-small"><span
-style="FONT-SIZE: 14px">F = G + H  </span>\
+style="FONT-SIZE: 14px">F = G + H  </span>\
 <span style="FONT-SIZE: 14px">Fitness = Goal + Heuristic.</span></span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">where </span>
@@ -207,7 +207,7 @@ style="FONT-SIZE: 14px">F = G + H  </span>\
     style="FONT-SIZE: 14px">movement cost to move from the starting
     point A to a given square on the grid</span></span><span
     style="FONT-SIZE: 14px">, following the path generated to get
-    there. </span></span>
+    there. </span></span>
 
 -   <span style="FONT-FAMILY: Arial; FONT-SIZE: x-small"><span
     style="FONT-SIZE: 14px">H = the estimated movement </span><span
@@ -244,7 +244,7 @@ to calculate square roots and we avoid decimals. This isn’t just because
 we are dumb and don’t like math. Using whole numbers like these is a lot
 faster for the computer, too. As you will soon find out, pathfinding can
 be very slow if you don’t use short cuts like these.</span><span
-style="FONT-SIZE: 14px"> </span></span>
+style="FONT-SIZE: 14px"> </span></span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">Since we are
 calculating the G cost along a specific path to a given square, the way
@@ -282,7 +282,7 @@ what is called an "inadmissible heuristic."</span></span>
 <span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">Technically, in this
 example, the Manhattan method is inadmissible because it slightly
 overestimates the remaining distance. But we will use it anyway because
-it is </span><span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">a lot
+it is </span><span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">a lot
 easier to understand for our purposes</span><span
 style="FONT-FAMILY: Arial; FONT-SIZE: x-small"><span
 style="FONT-SIZE: 14px">, and because it is only a slight
@@ -301,17 +301,17 @@ bottom left, and H is printed in the bottom right. </span><span
 style="FONT-FAMILY: Arial; FONT-SIZE: xx-small"></span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: xx-small"><span
-style="FONT-SIZE: 14px"> 
+style="FONT-SIZE: 14px"> 
 </span>![](http://www.policyalmanac.org/games/aStarT3.jpg)\
-<span style="FONT-SIZE: 14px">  </span><span
-style="FONT-FAMILY: Arial; FONT-SIZE: 14px">[Figure 3]  </span></span>
+<span style="FONT-SIZE: 14px">  </span><span
+style="FONT-FAMILY: Arial; FONT-SIZE: 14px">[Figure 3]  </span></span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">So let’s look at some
 of these squares. In the square with the letters in it, G = 10. This is
 because it is just one square from the starting square in a horizontal
 direction. The squares immediately above, below, and to the left of the
 starting square all have the same G score of 10. The diagonal squares
-have G scores of 14. </span>
+have G scores of 14. </span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">The H scores are
 calculated by estimating the Manhattan distance to the red target
@@ -320,7 +320,7 @@ that is in the way. Using this method, the square to the immediate right
 of the start is 3 squares from the red square, for a H score of 30. The
 square just above this square is 4 squares away (remember, only move
 horizontally and vertically) for an H score of 40. You can probably see
-how the H scores are calculated for the other squares. </span>
+how the H scores are calculated for the other squares. </span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">The F score for each
 square, again, is simply calculated by adding G and H together.</span>
@@ -338,7 +338,7 @@ following with the selected square: </span></span>
 <span style="FONT-FAMILY: Arial; FONT-SIZE: x-small"><span
 style="FONT-SIZE: 14px">4)</span><span
 style="FONT-VARIANT: normal; FONT-STYLE: normal; FONT-WEIGHT: normal"><span
-style="FONT-SIZE: 14px"> </span><span
+style="FONT-SIZE: 14px"> </span><span
 style="TEXT-DECORATION: underline"><span style="FONT-SIZE: 14px">Drop it
 from the open list and add it to the closed list.</span></span></span>
 </span>
@@ -347,20 +347,20 @@ from the open list and add it to the closed list.</span></span></span>
 style="FONT-VARIANT: normal; FONT-STYLE: normal; FONT-WEIGHT: normal"></span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: 14px"><span
-style="TEXT-DECORATION: underline">5) Check all of the adjacent squares.
+style="TEXT-DECORATION: underline">5) Check all of the adjacent squares.
 Ignoring those that are on the closed list or unwalkable (terrain with
 walls, water, or other illegal terrain), add squares to the open list if
 they are not on the open list already. Make the selected square the
 “parent” of the new squares. </span></span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: x-small"><span
-style="FONT-SIZE: 14px">6) </span><span
+style="FONT-SIZE: 14px">6) </span><span
 style="TEXT-DECORATION: underline"><span style="FONT-SIZE: 14px">If an
 adjacent square is already on the open list, check to see if this path
 to that square is a better one. In other words, check to see if the G
 score for that square is lower if we use the current square to get
-there. </span></span><span style="TEXT-DECORATION: underline"><span
-style="FONT-SIZE: 14px">If not, don’t do anything. </span></span>\
+there. </span></span><span style="TEXT-DECORATION: underline"><span
+style="FONT-SIZE: 14px">If not, don’t do anything. </span></span>\
 <span style="TEXT-DECORATION: underline"><span
 style="FONT-SIZE: 14px">On the other hand, if the G cost of the new path
 is lower, change the parent of the adjacent square to the selected
@@ -373,7 +373,7 @@ illustrated below.</span></span> </span>
 style="FONT-SIZE: 14px">Okay, so let’s see how this works. Of our
 initial 9 squares, we have 8 left on the open list after the starting
 square was switched to the closed list.</span><span
-style="FONT-SIZE: 14px">  Of these, the one with the lowest F cost is
+style="FONT-SIZE: 14px">  Of these, the one with the lowest F cost is
 the one to the immediate right of the starting square, with an F score
 of 40. So we select this square as our next square. It is highlight in
 blue in the following </span></span><span
@@ -384,10 +384,10 @@ style="FONT-FAMILY: Arial; FONT-SIZE: xx-small"></span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: xx-small"><span
 style="FONT-FAMILY: Arial; FONT-SIZE: xx-small"><span
-style="FONT-SIZE: 14px"> 
+style="FONT-SIZE: 14px"> 
 </span>![](http://www.policyalmanac.org/games/aStarT4.jpg)<span
-style="FONT-SIZE: 14px">  </span>\
-<span style="FONT-SIZE: 14px">[Figure 4]  </span></span></span>
+style="FONT-SIZE: 14px">  </span>\
+<span style="FONT-SIZE: 14px">[Figure 4]  </span></span></span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: xx-small"></span>
 
@@ -396,11 +396,11 @@ style="FONT-VARIANT: normal; FONT-STYLE: normal; FONT-WEIGHT: normal"><span
 style="FONT-FAMILY: Arial; FONT-SIZE: x-small"><span
 style="FONT-SIZE: 14px">First, we drop it from our open list and add it
 to our closed list (that’s why it’s now highlighted in
-blue).</span><span style="FONT-SIZE: 14px">  Then we check the adjacent
+blue).</span><span style="FONT-SIZE: 14px">  Then we check the adjacent
 squares. Well, the ones to the immediate right of this square are wall
 squares, so we ignore those. The one to the immediate left is the
 starting square. That’s on the closed list, so we ignore that,
-too. </span> </span></span>
+too. </span> </span></span>
 
 <span
 style="FONT-VARIANT: normal; FONT-STYLE: normal; FONT-SIZE: 14px; FONT-WEIGHT: normal"><span
@@ -415,7 +415,7 @@ vertically to the one just above it). A G score of 20 is higher than 14,
 so this is not a better path. That should make sense if you look at the
 diagram. It’s more direct to get to that square from the starting square
 by simply moving one square diagonally to get there, rather than moving
-horizontally one square, and then vertically one square. </span></span>
+horizontally one square, and then vertically one square. </span></span>
 
 <span
 style="FONT-VARIANT: normal; FONT-STYLE: normal; FONT-SIZE: 14px; FONT-WEIGHT: normal"><span
@@ -424,7 +424,7 @@ for all 4 of the adjacent squares already on the open list, we find that
 none of the paths are improved by going through the current square, so
 we don’t change anything. So now that we looked at all of the adjacent
 squares, we are done with this square, and ready to move to the next
-square. </span></span>
+square. </span></span>
 
 <span
 style="FONT-VARIANT: normal; FONT-STYLE: normal; FONT-WEIGHT: normal"><span
@@ -440,7 +440,7 @@ style="FONT-SIZE: 14px">last</span>**</span>**<span
 style="FONT-SIZE: 14px"> one you added to the open list.</span>**<span
 style="FONT-SIZE: 14px"> This biases the search in favor of squares that
 get found later on in the search, when you have gotten closer to the
-target. But it doesn’t really matter. (Differing treatment of ties is
+target. But it doesn’t really matter. (Differing treatment of ties is
 why two versions of A\* may find different paths of equal
 length.)</span></span></span>
 
@@ -457,8 +457,8 @@ style="FONT-FAMILY: Arial; FONT-SIZE: 14px">.</span></span>
 
 <span
 style="FONT-FAMILY: Arial; FONT-SIZE: xx-small">![](http://www.policyalmanac.org/games/aStarT5.jpg)<span
-style="FONT-SIZE: 14px">  </span>\
-</span><span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">[Figure 5] 
+style="FONT-SIZE: 14px">  </span>\
+</span><span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">[Figure 5] 
 </span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: x-small"><span
@@ -472,7 +472,7 @@ without cutting across the corner of the nearby
 wall.(因为要当前square走向右下角的时候碰到墙壁遮挡了一半的来路,要穿过去是不现实的.)</span></span><span
 style="FONT-SIZE: 14px"> You really need to go down first and then move
 over to that square, moving around the corner in the
-process. (</span><span style="TEXT-DECORATION: underline"><span
+process. (</span><span style="TEXT-DECORATION: underline"><span
 style="FONT-SIZE: 14px">Note: This rule on cutting corners is optional.
 </span></span></span><span
 style="FONT-FAMILY: Arial; FONT-SIZE: x-small"><span
@@ -482,7 +482,7 @@ style="FONT-SIZE: 14px">.)</span></span>
 
 <span style="FONT-SIZE: 14px"><span
 style="FONT-FAMILY: Arial; FONT-SIZE: 14px">That leaves five other
-squares.  The other two squares below the current square aren’t already
+squares.  The other two squares below the current square aren’t already
 on the open list, so we add them and the current square becomes their
 parent. Of the other three squares, two are already on the closed list
 (the starting square, and the one just above the current square, both
@@ -490,7 +490,7 @@ highlighted in blue in the diagram), so we ignore them. And the last
 square, to the immediate left of the current square, is checked to see
 if the G score is any lower if you go through the current square to get
 there. No dice. So we’re done and ready to check the next square on our
-open list.  </span></span>
+open list.  </span></span>
 
 <span style="FONT-SIZE: 14px"><span style="FONT-SIZE: 14px"><span
 style="FONT-FAMILY: Arial; FONT-SIZE: 14px">We repeat this process until
@@ -502,10 +502,10 @@ style="FONT-FAMILY: Arial; FONT-SIZE: 14px">below.</span></span></span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: xx-small"></span>
 
-<span style="FONT-FAMILY: Arial; FONT-SIZE: 14px"> 
+<span style="FONT-FAMILY: Arial; FONT-SIZE: 14px"> 
 </span>![](http://www.policyalmanac.org/games/aStarT6.jpg)<span
-style="FONT-SIZE: 14px">  </span>\
-<span style="FONT-SIZE: 14px">[Figure 6] </span>
+style="FONT-SIZE: 14px">  </span>\
+<span style="FONT-SIZE: 14px">[Figure 6] </span>
 
 <span
 style="FONT-VARIANT: normal; FONT-STYLE: normal; FONT-SIZE: 14px; FONT-WEIGHT: normal"><span
@@ -522,7 +522,7 @@ it turned out to be lower using a new path – so the parent was switched
 and the G and F scores were recalculated. While this change doesn’t seem
 too important in this example, there are plenty of possible situations
 where this constant checking will make all the difference in determining
-the best path to your target. </span></span>
+the best path to your target. </span></span>
 
 <span
 style="FONT-VARIANT: normal; FONT-STYLE: normal; FONT-WEIGHT: normal"><span
@@ -542,9 +542,9 @@ the path, until you reach the target.</span></span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: xx-small"></span>
 
-<span style="FONT-SIZE: 14px">  </span><span
+<span style="FONT-SIZE: 14px">  </span><span
 style="FONT-FAMILY: Arial; FONT-SIZE: xx-small">![](http://www.policyalmanac.org/games/aStarT7.jpg)<span
-style="FONT-SIZE: 14px">  </span>\
+style="FONT-SIZE: 14px">  </span>\
 </span><span style="FONT-SIZE: 14px">[Figure 7]</span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">Summary of the A\* Method</span>
@@ -560,7 +560,7 @@ style="COLOR: #e53333; FONT-SIZE: 14px">Add the starting square (or
 node) to the open list. </span>**</span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: x-small"><span
-style="FONT-SIZE: 14px">2) </span>**<span
+style="FONT-SIZE: 14px">2) </span>**<span
 style="COLOR: #e53333; FONT-SIZE: 14px">Repeat the
 following:</span>**</span>
 
@@ -587,7 +587,7 @@ adjacent to this current square …</span>**</span>
     <span style="FONT-FAMILY: Arial; FONT-SIZE: 14px"><span
     style="FONT-FAMILY: Arial; FONT-SIZE: 14px">**If it is not walkable
     or if it is on the closed list, ignore it. Otherwise do the
-    following.           ** </span></span>
+    following.           ** </span></span>
 
     \
 
@@ -597,7 +597,7 @@ adjacent to this current square …</span>**</span>
     style="FONT-SIZE: 14px">If it isn’t on the open list, add it to the
     open list. Make the current square the parent of this square. Record
     the F, G, and H costs of the square.</span>**<span
-    style="FONT-SIZE: 14px"> </span></span>
+    style="FONT-SIZE: 14px"> </span></span>
 
     \
 
@@ -628,34 +628,34 @@ style="COLOR: #e53333; FONT-SIZE: 14px">Stop when you:</span>**</span>
 -   <span style="FONT-FAMILY: Arial; FONT-SIZE: x-small">**<span
     style="FONT-SIZE: 14px">Fail to find the target square, and the open
     list is empty. In this case, there is no path. </span>**<span
-    style="FONT-FAMILY: Arial; FONT-SIZE: 14px">**  **</span></span>
+    style="FONT-FAMILY: Arial; FONT-SIZE: 14px">**  **</span></span>
 
 -   \
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: x-small"><span
-style="FONT-SIZE: 14px">3) </span>**<span
+style="FONT-SIZE: 14px">3) </span>**<span
 style="COLOR: #e53333; FONT-SIZE: 14px">Save the path. Working backwards
 from the target square, go from each square to its parent square until
 you reach the starting square. That is your path</span>**<span
-style="FONT-SIZE: 14px">. </span></span>
+style="FONT-SIZE: 14px">. </span></span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: x-small"><span
 style="TEXT-DECORATION: underline"><span
 style="FONT-SIZE: 14px">Note</span></span><span
 style="FONT-SIZE: 14px">: In earlier versions of this article, it was
 suggested that you can stop when the target square (or node) has been
-added to the open list, rather than the closed list.  Doing this will be
+added to the open list, rather than the closed list.  Doing this will be
 faster and it will </span><span style="TEXT-DECORATION: underline"><span
 style="FONT-SIZE: 14px">almost</span></span><span
 style="FONT-SIZE: 14px"> always give you the shortest path, but not
-always.  Situations where doing this could make a difference are when
+always.  Situations where doing this could make a difference are when
 the movement cost to move from the second to the last node to the last
 (target) node can vary significantly -- as in the case of a river
 crossing between two nodes, for example.</span></span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: 14px"><span
 style="FONT-VARIANT: normal; FONT-STYLE: normal; FONT-SIZE: 14px">**Notes
-on Implementation **</span></span>
+on Implementation **</span></span>
 
 <span
 style="FONT-VARIANT: normal; FONT-STYLE: normal; FONT-WEIGHT: normal"></span>
@@ -672,9 +672,9 @@ valid in other languages.</span></span></span>\
 style="FONT-VARIANT: normal; FONT-STYLE: normal; FONT-WEIGHT: normal"><span
 style="FONT-VARIANT: normal; FONT-STYLE: normal; FONT-WEIGHT: normal"></span></span>
 
- 
+ 
 
-***<span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">1.  Other Units
+***<span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">1.  Other Units
 (collision avoidance):</span>*** <span
 style="FONT-FAMILY: Arial; FONT-SIZE: 14px">If you happen to look
 closely at my example code, you will notice that it completely ignores
@@ -897,7 +897,7 @@ have a decent number of pathfinding units on the board and a reasonably
 large map. If you read the stuff on the net, you will find that this is
 true even for the professionals who design games like Starcraft or Age
 of Empires. If you see things start to slow down due to pathfinding,
-here are some ideas that may speed things up: </span></span>
+here are some ideas that may speed things up: </span></span>
 
 -   \
 
@@ -1061,7 +1061,7 @@ you have the basics and a sense of some of the advanced concepts. At
 this point, I’d suggest wading into my source code. The package contains
 two versions, one in C++ and one in Blitz Basic. Both versions are
 heavily commented and should be fairly easy to follow, relatively
-speaking.  Here is the link.</span></span>
+speaking.  Here is the link.</span></span>
 
 -   \
 
@@ -1147,13 +1147,13 @@ style="TEXT-DECORATION: underline"><span
 style="FONT-SIZE: 14px">highly</span></span><span
 style="FONT-SIZE: 14px"> recommend the following books, which have a
 bunch of articles on pathfinding and other AI topics. They also have CDs
-with sample code. I own them both. Plus, if you buy them from Amazon
+with sample code. I own them both. Plus, if you buy them from Amazon
 through these links, I'll get a few pennies from Amazon.
 :)</span></span>
 
 <span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">Well, that’s it. If
 you happen to write a program that uses any of these concepts, I’d love
-to see it. I can be reached at  </span>
+to see it. I can be reached at  </span>
 
 <span
 style="FONT-FAMILY: Arial; FONT-SIZE: x-small">![](http://www.policyalmanac.org/graphics/mail2.jpg)
@@ -1162,20 +1162,20 @@ style="FONT-FAMILY: Arial; FONT-SIZE: x-small">![](http://www.policyalmanac.org/
 <span style="FONT-FAMILY: Arial; FONT-SIZE: 14px">Until then, good luck!
 </span>
 
-<span style="FONT-SIZE: 14px"> </span>
+<span style="FONT-SIZE: 14px"> </span>
 
 <span
 style="FONT-SIZE: 14px">原来是我设置的速度太快了,弄得一移动起来帧就忒慢了,所以我采取了降低速度,将路径保存到list中的方法来解决这个问题.</span>
 
-<span style="FONT-SIZE: 14px"> </span>
+<span style="FONT-SIZE: 14px"> </span>
 
 ------------------------------------------------------------------------
 
 [<span
 style="FONT-SIZE: 14px">http://aima.cs.berkeley.edu/ai.html</span>](http://aima.cs.berkeley.edu/ai.html)<span
-style="FONT-SIZE: 14px"> AI on the Web</span>
+style="FONT-SIZE: 14px"> AI on the Web</span>
 
-<span style="FONT-SIZE: 14px"> </span>
+<span style="FONT-SIZE: 14px"> </span>
 
 ------------------------------------------------------------------------
 

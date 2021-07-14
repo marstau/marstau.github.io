@@ -7,14 +7,14 @@ keywords:
 description: 
 ---
 
- 
+ 
 
- 
+ 
 
- References: Automatically Generated Texture Coordinates (Direct3D 9) in
+ References: Automatically Generated Texture Coordinates (Direct3D 9) in
 Windows DirectX Graphics SDK.
 
- 
+ 
 
 
 

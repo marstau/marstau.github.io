@@ -7,15 +7,15 @@ keywords:
 description: 
 ---
 
-Buildfile: E:\\Workspaces\\syjt\\trunk\\project\\android\\build.xml
+Buildfile: E:\\Workspaces\\syjt\\trunk\\project\\android\\build.xml
 
 default:
 
-  [foreach] The nested fileset element is deprectated, use a nested path instead
+  [foreach] The nested fileset element is deprectated, use a nested path instead
 
- 
+ 
 
- ![](http://files.note.sdo.com/XbPJ4~kg7NRiwE02I000FV)
+ ![](http://files.note.sdo.com/XbPJ4~kg7NRiwE02I000FV)
 
 
 
