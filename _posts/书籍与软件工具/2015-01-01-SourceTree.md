@@ -115,6 +115,15 @@ sudo cpan install SVN::Core
 --with-apr=/usr/local/opt/apr --with-apr-util=/usr/local/opt/apr-util
 ```
 
+
+cpan install自动commit导致无法输入配置,直接在`~/.cpan/xxx`目录下修改build.PL
+
+```
+$configure_args = $configure_args.'--with-apr=/usr/local/opt/apr --with-apr-util=/usr/local/opt/apr-util';
+然后在安装当前目录sudo cpan install .
+```
+
+
 #### you may need to install the SVN::Core module[More](https://blog.meathill.com/perl/set-up-perl-on-new-mac.html)
 
 ```
