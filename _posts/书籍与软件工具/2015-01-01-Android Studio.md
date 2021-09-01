@@ -122,6 +122,9 @@ android:theme="@android:style/Theme.NoTitleBar" />
     tools:ignore="ProtectedPermissions"/>
 ```
 
+#### 代理配置路径
+
+`~/.gradle/gradle.properties`
 
 ## Reference
 
