@@ -105,7 +105,7 @@ Ctrl + Shift + P, 调用命令面板
 
 #### `HexViewer`: 文件十六进制查看器
 
-#### `JsFormat`: sublime text 2 对js进行重新排版[More](http://www.iplaysoft.com/sublimetext.html)
+#### `JsFormat`: 格式化javascript sublime text 2 对js进行重新排版[More](http://www.iplaysoft.com/sublimetext.html)
 
 JsFormat 的功能就是可以将一些凌乱的 JavaScript 代码重新排版，
 以方便更好地阅读与编辑。

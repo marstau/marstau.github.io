@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-#### [go-git](https://github.com/src-d/go-git)
+#### [go-git](https://github.com/go-git/go-git)
 
 #### [git2go](https://github.com/libgit2/git2go)
 
