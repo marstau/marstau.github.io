@@ -25,6 +25,8 @@ import package -> Alt + Enter
 ## Errors
 
 
+#### 
+
 #### Install repository and sync project[More](https://stackoverflow.com/questions/43495549/cannot-install-repository-and-sync-project-in-android-studio)
 
 ```
