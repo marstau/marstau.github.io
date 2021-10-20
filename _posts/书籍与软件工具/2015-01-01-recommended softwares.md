@@ -246,6 +246,10 @@ license:GBPduHjWfJU1mZqcPM3BikjYKF6xKhlKIys3i1MU2eJHqWGImDHzWdD6xhMNLGVpbP2M5SN6
 
 截图+ 贴图,提高您的工作效率
 
+### MediaInfo
+
+视频信息读取工具
+
 ## Android
 
 ####
