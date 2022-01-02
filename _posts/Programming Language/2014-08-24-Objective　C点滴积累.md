@@ -159,6 +159,11 @@ UIViewController is a classic MVC pattern.
 
 The GLKViewController class provides all of the standard view controller functionality, but additionally implements an OpenGL ES rendering loop. A GLKViewController object works in conjunction with a GLKView object to display frames of animation in the view.
 
+#### 获取设备当前使用语言device language
+
+```
+NSString * language = [[NSLocale preferredLanguages] firstObject];
+```
 
 ## ERROR
 
@@ -177,5 +182,7 @@ Solution:
 或者在appcontroller.h文件添加：
 @property(nonatomic,retain)UIWindow * window;
 ```
+
+#### 
 
 ## Reference
