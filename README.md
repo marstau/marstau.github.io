@@ -39,3 +39,4 @@ cocos2dx,Game　Engine,game　design,OpengGL　ES,testing,error／unresolved,Obj
 ## Question
 * category和tags不能使用'/'、'空格',特殊字符用全角。
 * windows下不能使用全角命名文件或者目录。
+* 
