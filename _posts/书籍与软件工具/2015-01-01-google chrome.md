@@ -18,6 +18,7 @@ chrome://apps/
 
 ```
 C:\Users\mars\AppData\Local\Google\Chrome\User Data\Profile 1\Extensions\
+~/Library/Application\ Support/Google/Chrome/Default/Extensions
 ```
 
 #### mac下google chrome时不时弹出chrome图标 [More](http://zhidao.baidu.com/link?url=7oSB3pd_Z8ANGjGMaXn8OzvEBWhuY_GLyCVKKfCg-PAhsswMHqYHR_LIXp5pqCQbY2eUEvVlgXoRo7Ep10Cx__QwzZMXnZgMEAAvXk2jFxa)
