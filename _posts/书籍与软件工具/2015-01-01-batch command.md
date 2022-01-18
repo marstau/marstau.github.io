@@ -92,6 +92,12 @@ echo %0
 goto :eof
 ```
 
+### 打开windows exploerer
+
+```
+start explorer %UserProfile%\AppData\LocalLow\
+```
+
 ### 路径
 
 ```
