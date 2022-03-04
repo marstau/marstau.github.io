@@ -141,6 +141,11 @@ exit /b 0
 
 ```
 
+### 同时运行多个bat
+
+```
+start "" cmd /k call ../test.bat
+```
 
 ### 去掉字符串变量的引号[More](http://blog.sina.com.cn/s/blog_4ad042e50100p7zx.html)
 
