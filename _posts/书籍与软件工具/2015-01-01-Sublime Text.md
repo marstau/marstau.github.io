@@ -103,6 +103,8 @@ Ctrl + Shift + P, 调用命令面板
 输入“Package Control: Install Package”(安装扩展包)，
 ```
 
+#### `ConvertToUTF8`: 修复查看中文乱码[More](https://www.cnblogs.com/QQ931697811/p/5488340.html)
+
 #### `HexViewer`: 文件十六进制查看器
 
 #### `JsFormat`: 格式化javascript sublime text 2 对js进行重新排版[More](http://www.iplaysoft.com/sublimetext.html)
