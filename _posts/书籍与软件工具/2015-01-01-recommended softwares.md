@@ -225,7 +225,7 @@ mac安装ios的ipa工具
 
 ### snailSVN
 
-类似windows的tortoiseSVN
+mac下的类似windows的tortoiseSVN
 
 KEY:
 ```

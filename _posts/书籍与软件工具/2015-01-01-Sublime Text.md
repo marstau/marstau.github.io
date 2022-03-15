@@ -68,7 +68,7 @@ description:
 
 #### 隐藏某些文件[More](https://zhidao.baidu.com/question/2057317553393860987.html)
 
-`preffernce-->setting-->user`
+`preference-->setting-->user`
 ```
 "file_exclude_patterns": ["*.meta"]
 ```
@@ -79,7 +79,7 @@ description:
 
 ```
 [
-    { "keys": ["ctrl+shift+r"], "command": "reveal_in_side_bar"}
+    { "keys": ["ctrl+shift+w"], "command": "reveal_in_side_bar"}
 ]
 ```
 
