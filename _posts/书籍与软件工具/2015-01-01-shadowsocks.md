@@ -17,5 +17,9 @@ shadowsocks->PAC->使用本地PAC->从GFWList更新本地PAC
 wget https://download.libsodium.org/libsodium/releases/LATEST.tar.gz
 ```
 
+#### mac 12.2.1网速测试成功 但是safari无法打开
+
+是新版本safari无法通过以前的方式科学上网了
+
 ## Reference
 
