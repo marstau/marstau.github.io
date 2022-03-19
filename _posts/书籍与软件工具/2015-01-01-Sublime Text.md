@@ -122,7 +122,7 @@ JsFormat 的功能就是可以将一些凌乱的 JavaScript 代码重新排版�
 
 会自动打开网页
 
-#### `babel` javascript高亮
+#### `babel`: javascript高亮
 
 安装`MarkdownPreview`后，设置按键
 
@@ -206,6 +206,12 @@ hkcr,"Directory\shell\SublimeText3\command",,,"""%1%\sublime_text.exe"" ""%%1"""
     { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"}  },
     { "keys": ["ctrl+u"], "command": "open_dir",  "args": { "dir": "$file_path", "file": "$file_name" } }
 ]
+```
+
+#### 每次鼠标经过变量时,都会弹出definitions提示 关闭定义提示
+
+```
+"show_definitions": false,
 ```
 
 #### 不同格式设置tab的缩进
