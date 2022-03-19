@@ -114,11 +114,15 @@ JsFormat 的功能就是可以将一些凌乱的 JavaScript 代码重新排版�
 安装成功后，随便打开一个js文件（最好是换行、对齐特别凌乱的那种），按下 Ctrl+Shift+P 调用命令面板，你会发现已经多了一项命令叫做
 “Format: Javascript”，快捷键是“CTRL+ALT+F”
 
+若无法格式化,则是因为语法检查不通过可以复制一段简单代码尝试
+
 #### `Ethereum`： Ethereum插件
 
 #### `MarkdownPreview` + `LiveReload`： markdown预览工具
 
 会自动打开网页
+
+#### `babel` javascript高亮
 
 安装`MarkdownPreview`后，设置按键
 
@@ -214,7 +218,7 @@ hkcr,"Directory\shell\SublimeText3\command",,,"""%1%\sublime_text.exe"" ""%%1"""
 
 #### 修改主题颜色
 
-工具栏-》工具-》命令面板,Package Resource Viewer:Open Resource,回车后选择Color Scheme:Monokai
+工具栏->工具->命令面板,Package Resource Viewer:Open Resource,回车后选择Color Scheme:Monokai
 
 ## Reference
 
