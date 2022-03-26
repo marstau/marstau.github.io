@@ -233,4 +233,4 @@ let query = function( sql, values ) {
 
 * [Minify JS](https://javascript-minifier.com/)
 
-
+* [best-javascript-mysql-libraries](https://openbase.com/categories/js/best-javascript-mysql-libraries)
