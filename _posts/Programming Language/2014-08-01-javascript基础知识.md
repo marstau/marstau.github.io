@@ -229,8 +229,13 @@ let query = function( sql, values ) {
 }
 ```
 
-## Reference
+### minify js or [Minify JS](https://javascript-minifier.com/)
 
-* [Minify JS](https://javascript-minifier.com/)
+```
+npm install minify
+```
+
+
+## Reference
 
 * [best-javascript-mysql-libraries](https://openbase.com/categories/js/best-javascript-mysql-libraries)
