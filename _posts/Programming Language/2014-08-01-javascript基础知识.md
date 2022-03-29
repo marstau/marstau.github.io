@@ -235,6 +235,20 @@ let query = function( sql, values ) {
 npm install minify
 ```
 
+#### Load node.js module from string in memory[More](https://stackoverflow.com/questions/17581830/load-node-js-module-from-string-in-memory)
+
+```
+function requireFromString(src, filename) {
+  var m = new module.constructor();
+  m.paths = module.paths;
+  m._compile(src, filename);
+  return m.exports;
+}
+
+var codeString = fs.readFileSync("./text.js", "utf-8");
+var Js = requireFromString(codeString, '')
+```
+
 
 ## Reference
 
