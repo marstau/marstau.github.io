@@ -7,6 +7,16 @@ keywords:
 description: 
 ---
 
+
+## Guide[More](https://www.tutorialspoint.com/react_native/react_native_quick_guide.htm)
+
+
+```
+npm install -g create-react-native-app
+create-react-native-app MyReactNative
+```
+
+
 ## Error
 
 #### The development server returned respose error code:404 react native[More](https://stackoverflow.com/questions/46773509/the-development-server-returned-respose-error-code404-react-native)
