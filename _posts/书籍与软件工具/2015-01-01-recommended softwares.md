@@ -11,6 +11,10 @@ description:
 ## Windows
 
 
+#### glary disk cleaner
+
+磁盘清理工具
+
 ### ApowerREC录屏软件
 
 ### 分区助手
