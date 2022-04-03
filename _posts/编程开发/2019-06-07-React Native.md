@@ -32,6 +32,13 @@ remove cache and then download by hand, replace in the directory.
 
 #### Could not determine the dependencies of task ':app:compileDebugJavaWithJavac' Cannot query the value of this provider because it has no value available
 
+Did u install ANDROID_SDK_ROOT by android studio?
+
+```
+export ANDROID_SDK_ROOT=$HOME/softwares/AndroidStudioSDK
+export PATH=$PATH:$ANDROID_SDK_ROOT
+```
+
 ## Reference
 
 * [Create Native Modules](https://facebook.github.io/react-native/docs/native-modules-android)
