@@ -8,7 +8,9 @@ description:
 ---
 
 
-## Guide[More](https://www.tutorialspoint.com/react_native/react_native_quick_guide.htm)
+## Guide
+
+#### create project and run app[More](https://www.tutorialspoint.com/react_native/react_native_quick_guide.htm)
 
 
 ```
@@ -16,8 +18,16 @@ npm install -g create-react-native-app
 create-react-native-app MyReactNative
 npm install -g react-native-cli
 npm start
+expo run:android
 ```
 
+#### generate index.android.bundle
+
+```
+mkdir android/app/src/main/assets
+react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+react-native run-android
+```
 
 ## Error
 
@@ -30,7 +40,7 @@ npm start
 remove cache and then download by hand, replace in the directory.
 
 
-#### Could not determine the dependencies of task ':app:compileDebugJavaWithJavac' Cannot query the value of this provider because it has no value available
+#### Could not determine the dependencies of task ':app:compileDebugJavaWithJavac' Cannot query the value of this provider because it has no value available[More](https://github.com/expo/expo/issues/15183)
 
 Did u install ANDROID_SDK_ROOT by android studio?
 
