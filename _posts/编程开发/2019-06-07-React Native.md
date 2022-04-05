@@ -29,6 +29,17 @@ react-native bundle --platform android --dev false --entry-file index.js --bundl
 react-native run-android
 ```
 
+#### index.android.bundle
+
+```
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap)
+```
+
+
+## FAQ
+
+#### 官方的实现存在的问题是Id值从0开始分配，所以任意改动业务代码可能引起模块构建的顺序变动，致使同一个模块在两次构建分配了有2个不同的Id值。[More](https://juejin.cn/post/6844904192646053902#heading-1)
+
 ## Error
 
 #### The development server returned respose error code:404 react native[More](https://stackoverflow.com/questions/46773509/the-development-server-returned-respose-error-code404-react-native)
@@ -48,6 +59,7 @@ Did u install ANDROID_SDK_ROOT by android studio?
 export ANDROID_SDK_ROOT=$HOME/softwares/AndroidStudioSDK
 export PATH=$PATH:$ANDROID_SDK_ROOT
 ```
+
 
 ## Reference
 
