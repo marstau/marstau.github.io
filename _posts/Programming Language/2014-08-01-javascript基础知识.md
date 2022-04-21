@@ -163,6 +163,23 @@ fetch('https://mywebsite.com/endpoint/', {
 })
 ```
 
+#### get
+
+```
+fetch("https://mywebsite.com/endpoint", {
+  method: 'GET',
+  headers: {
+    'Accept': 'application/json',
+  }
+  })
+  .then((response) => {
+      return response.json();
+  }).then((response) => {
+      console.log("response=" + JSON.stringify(response))
+  }
+);
+```
+
 #### AES加密[More](http://www.fairyland.live/wordpress/2017/03/16/php%E4%B8%8Ejavascript%E5%85%BC%E5%AE%B9%E7%9A%84aes%E5%8A%A0%E8%A7%A3%E5%AF%86/)
 
 ```
