@@ -10,8 +10,11 @@ description:
 
 ## Windows
 
+### clash
 
-#### glary disk cleaner
+网关路由
+
+### glary disk cleaner
 
 磁盘清理工具
 
@@ -202,6 +205,10 @@ device id (android device id)
 
 ## MAC OS X
 
+
+### surge
+
+网关路由
 
 ### monkeyGUI
 
