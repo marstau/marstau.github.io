@@ -40,6 +40,8 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
 #### 官方的实现存在的问题是Id值从0开始分配，所以任意改动业务代码可能引起模块构建的顺序变动，致使同一个模块在两次构建分配了有2个不同的Id值。[More](https://juejin.cn/post/6844904192646053902#heading-1)
 
+#### 热更新[More](http://www.phpheidong.com/blog/article/141487/811747775abfb2b381fd/)[More2](https://cloud.tencent.com/developer/article/1896497)[More3](https://juejin.cn/post/6844903477492056078)
+
 ## Error
 
 #### The development server returned respose error code:404 react native[More](https://stackoverflow.com/questions/46773509/the-development-server-returned-respose-error-code404-react-native)
