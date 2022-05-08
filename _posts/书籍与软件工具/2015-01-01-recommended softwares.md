@@ -185,6 +185,10 @@ VA510-23F57-M85PY-7FN7C-MCRG0
 
 ## IOS
 
+#### FlyRouter
+
+ios shadowsocksR
+
 #### Stream[More](https://cloud.tencent.com/developer/article/1858102)
 
 ios抓包工具
