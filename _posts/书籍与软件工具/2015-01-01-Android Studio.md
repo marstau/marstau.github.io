@@ -25,7 +25,12 @@ import package -> Alt + Enter
 ## Errors
 
 
-#### 
+#### Modules 'fast_follow_asset_pack' and 'install_time_asset_pack' contain entry 'assets/.DS_Store' with different content.[More](https://stackoverflow.com/questions/18080950/google-play-developer-console-shows-ds-store-in-native-platforms-section-of-uplo)
+
+Solution:
+You need to close Finder and remove these files (named .DS_Store) from console with "rm".
+
+Don't open finder when compiling, then running `find . -name '.DS_Store' -type f -delete`
 
 #### Install repository and sync project[More](https://stackoverflow.com/questions/43495549/cannot-install-repository-and-sync-project-in-android-studio)
 
