@@ -7,6 +7,18 @@ keywords: vpn
 description: 
 ---
 
+## Installation
+
+#### CentOS 7.4[More](https://pypi.org/project/shadowsocksr-cli/)
+
+
+```
+git clone https://github.com/TyrantLucifer/ssr-command-client.git
+cd ssr-command-client
+python3 setup.py install --install-scripts=/usr/local/bin
+shadowsocksr-cli -h
+```
+
 #### 使用PAC
 
 shadowsocks->PAC->使用本地PAC->从GFWList更新本地PAC
