@@ -10,6 +10,10 @@ description:
 
 ## FAQ
 
+#### invalid key hash. the key hash does not match any stored key hashes GooglePlay 二次签名，造成Facebook ,Google 登录失败[More](https://blog.csdn.net/Jason_HD/article/details/124443963)
+
+google 后台会重新签名导致的
+
 #### `Error checking for billing v3 support. (response: 3:Billing Unavailable`
 
 要用美国VPN,香港VPN都不行
