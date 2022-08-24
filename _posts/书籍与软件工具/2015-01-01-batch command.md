@@ -45,6 +45,17 @@ ping -n 30 127.1>nul
 pause
 ```
 
+### 复合语句中使用输入[More](https://zhidao.baidu.com/question/744717720920092492.html)
+
+```
+setlocal EnableDelayedExpansion
+
+if %a%==12 (
+	set /p c=请输入:
+	echo !c!
+)
+```
+
 ### 注释
 
 ```
