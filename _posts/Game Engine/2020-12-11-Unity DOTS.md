@@ -77,3 +77,4 @@ If you're using .NET 4.x try to switch to .NET Standard 2.0 and reimport the DOT
 * [Job System](https://zhuanlan.zhihu.com/p/47920129)
 * <https://github.com/liuhaopen/UnityMMO>
 * [Burst](https://blogs.unity3d.com/cn/2020/08/17/enhancing-mobile-performance-with-the-burst-compiler/)
+* [Unity项目技术方案Dots架构方案简介](https://blog.csdn.net/qq_42672770/article/details/123458808)

@@ -12,7 +12,7 @@ description:
 
 #### Network Emulator for Windows Toolkit
 
-弱网环境软件
+弱网络环境软件
 
 ### clash
 
