@@ -205,6 +205,7 @@ hkcr,"Directory\shell\SublimeText3\command",,,"""%1%\sublime_text.exe"" ""%%1"""
 [
     { "keys": ["ctrl+shift+w"], "command": "reveal_in_side_bar"},
     { "keys": ["alt+f2"], "command": "toggle_bookmark" },
+    { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
     { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"}  },
     { "keys": ["ctrl+u"], "command": "open_dir",  "args": { "dir": "$file_path", "file": "$file_name" } }
 ]
