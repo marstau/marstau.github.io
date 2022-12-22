@@ -25,6 +25,8 @@ description:
 
 前一视图: ctrl + tab
 
+一直按住选中光标框选当前变量名: ctrl + d
+
 #### 正则
 
 替换数字
@@ -228,6 +230,14 @@ hkcr,"Directory\shell\SublimeText3\command",,,"""%1%\sublime_text.exe"" ""%%1"""
 #### 修改主题颜色
 
 工具栏->工具->命令面板,Package Resource Viewer:Open Resource,回车后选择Color Scheme:Monokai
+
+#### 配置lua编译环境
+
+windows安装minGW,配置环境变量,安装ming32-lua版本,重启sublime,新建test.lua,编译使用`ctrl + B`
+
+#### SublimeTmpl
+
+自动保存utf8文件 新建文本自动填充模板内容
 
 ## Reference
 
