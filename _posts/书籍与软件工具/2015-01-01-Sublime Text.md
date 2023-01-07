@@ -215,6 +215,22 @@ hkcr,"Directory\shell\SublimeText3\command",,,"""%1%\sublime_text.exe"" ""%%1"""
 ]
 ```
 
+```
+{
+    "font_size": 12,
+    "file_exclude_patterns": ["*.meta"],
+    "ignored_packages":
+    [
+        "Vintage",
+    ],
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "translate_tabs_to_spaces": true,
+    "word_wrap": "true",
+    "auto_find_in_selection": true,
+}
+```
+
 #### 每次鼠标经过变量时,都会弹出definitions提示 关闭定义提示
 
 ```
