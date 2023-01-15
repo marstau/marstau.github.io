@@ -29,6 +29,8 @@ description:
 
 批量选中变量到变量尾部： shift + end
 
+选中文字全小/大写： ctrl + K + L/U
+
 #### 正则
 
 替换数字
@@ -83,7 +85,7 @@ description:
 
 ```
 [
-    { "keys": ["ctrl+shift+w"], "command": "reveal_in_side_bar"}
+    { "keys": ["ctrl+shift+r"], "command": "reveal_in_side_bar"}
 ]
 ```
 
@@ -207,7 +209,7 @@ hkcr,"Directory\shell\SublimeText3\command",,,"""%1%\sublime_text.exe"" ""%%1"""
 
 ```
 [
-    { "keys": ["ctrl+shift+w"], "command": "reveal_in_side_bar"},
+    { "keys": ["ctrl+shift+r"], "command": "reveal_in_side_bar"},
     { "keys": ["alt+f2"], "command": "toggle_bookmark" },
     { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
     { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"}  },
@@ -223,13 +225,14 @@ hkcr,"Directory\shell\SublimeText3\command",,,"""%1%\sublime_text.exe"" ""%%1"""
     [
         "Vintage",
     ],
-    "highlight_line": true,
     "highlight_modified_tabs": true,
     "translate_tabs_to_spaces": true,
     "word_wrap": "true",
     "auto_find_in_selection": true,
+    "expand_tabs_on_save" : true,
 }
 ```
+
 
 #### 每次鼠标经过变量时,都会弹出definitions提示 关闭定义提示
 
