@@ -11,6 +11,11 @@ description:
 #### 查ip和浏览器指纹[More](https://browserleaks.com/ip)[More2](https://whoer.net/)
 
 
+#### 自己搭建网桥[More](https://community.torproject.org/relay/setup/bridge/)
+
+
+非公开网桥`telegram @GetBridgesBot`
+
 #### 网站
 
 
