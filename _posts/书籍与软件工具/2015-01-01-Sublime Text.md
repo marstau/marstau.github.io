@@ -260,6 +260,12 @@ hkcr,"Directory\shell\SublimeText3\command",,,"""%1%\sublime_text.exe"" ""%%1"""
 
 windows安装minGW,配置环境变量,安装ming32-lua版本,重启sublime,新建test.lua,编译使用`ctrl + B`
 
+#### 配置c编译环境
+
+保证安装了c编译器,新建c文件,选择`C_Run`或`C_RuninCommand`：
+
+按`ctrl + shift + b`
+
 #### SublimeTmpl
 
 自动保存utf8文件 新建文本自动填充模板内容

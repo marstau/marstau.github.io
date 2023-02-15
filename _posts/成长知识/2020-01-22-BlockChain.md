@@ -12,4 +12,8 @@ description:
 
 #### TRC20[More](https://tronscan.io/)
 
+#### BEP20
+
+BEP20 (Binance Smart Chain Token Standard) 是在 Binance Smart Chain（BSC）上发行的代币标准。
+
 ## Reference

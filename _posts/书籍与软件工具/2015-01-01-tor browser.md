@@ -11,10 +11,125 @@ description:
 #### 查ip和浏览器指纹[More](https://browserleaks.com/ip)[More2](https://whoer.net/)
 
 
-#### 自己搭建网桥[More](https://community.torproject.org/relay/setup/bridge/)
+#### 自己搭建网桥[More](https://community.torproject.org/relay/setup/bridge/)[More2](https://community.torproject.org/relay/setup/bridge/post-install/)
 
 
 非公开网桥`telegram @GetBridgesBot`
+
+```
+yum install epel-release
+```
+
+```
+vi /etc/yum.repos.d/Tor.repo
+```
+
+add following contents:
+```
+[tor]
+name=Tor for Enterprise Linux $releasever - $basearch
+baseurl=https://rpm.torproject.org/centos/$releasever/$basearch
+enabled=1
+gpgcheck=1
+gpgkey=https://rpm.torproject.org/centos/public_gpg.key
+cost=100
+```
+
+```
+yum install tor
+yum install git golang policycoreutils-python-utils
+```
+
+```
+export GOPATH='mktemp -d'
+go install gitlab.com/yawning/obfs4.git/obfs4proxy
+sudo cp $GOPATH/bin/obfs4proxy /usr/local/bin/
+# chcon --reference=/usr/bin/tor /usr/local/bin/obfs4proxy
+```
+
+Edit your Tor config file, usually located at `/etc/tor/torrc` and replace its content with:
+
+```
+RunAsDaemon 1
+BridgeRelay 1
+
+# Replace "TODO1" with a Tor port of your choice.  This port must be externally
+# reachable.  Avoid port 9001 because it's commonly associated with Tor and
+# censors may be scanning the Internet for this port.
+# just write:
+# ORPort 1.2.3.4:443
+# where 1.2.3.4 would be your public IPv4
+ORPort TODO1
+
+ServerTransportPlugin obfs4 exec /usr/local/bin/obfs4proxy
+
+# Replace "TODO2" with an obfs4 port of your choice.  This port must be
+# externally reachable and must be different from the one specified for ORPort.
+# Avoid port 9001 because it's commonly associated with
+# Tor and censors may be scanning the Internet for this port.
+ServerTransportListenAddr obfs4 0.0.0.0:TODO2
+
+# Local communication port between Tor and obfs4.  Always set this to "auto".
+# "Ext" means "extended", not "external".  Don't try to set a specific port
+# number, nor listen on 0.0.0.0.
+ExtORPort auto
+
+# Replace "<address@email.com>" with your email address so we can contact you if
+# there are problems with your bridge.  This is optional but encouraged.
+ContactInfo <address@email.com>
+
+# Pick a nickname that you like for your bridge.  This is optional.
+Nickname PickANickname
+```
+
+```
+sudo semanage port -a -t tor_port_t -p tcp [TODO1]
+sudo semanage port -a -t tor_port_t -p tcp [TODO2]
+```
+
+replace `TODO1` to 10000, `TODO2` to 10002 above.
+
+```
+systemctl enable --now tor
+systemctl restart tor
+systemctl status tor
+```
+
+output following means success, log file:
+
+```
+: Bootstrapped 10% (conn_done): Connected to a relay
+: Bootstrapped 14% (handshake): Handshaking with a relay
+: Bootstrapped 15% (handshake_done): Handshake with a relay done
+: Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+: Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+: Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+: Bootstrapped 100% (done): Done
+: Now checking whether IPv4 ORPort x.x.x.x:10000 is reachable... (this may take up to 20 minutes -- look for log messages indicating success)
+: Self-testing indicates your ORPort x.x.x.x:10000 is reachable from the outside. Excellent. Publishing server descriptor.
+: Performing bandwidth self-test...done.
+```
+
+
+```
+/var/log/tor/log
+/var/log/syslog
+```
+```
+[notice] Your Tor server's identity key fingerprint is '<NICKNAME> <FINGERPRINT>'
+[notice] Your Tor bridge's hashed identity key fingerprint is '<NICKNAME> <HASHED FINGERPRINT>'
+[notice] Registered server transport 'obfs4' at '[::]:46396'
+[notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+[notice] Bootstrapped 100%: Done
+[notice] Now checking whether ORPort <redacted>:3818 is reachable... (this may take up to 20 minutes -- look for log messages indicating success)
+[notice] Self-testing indicates your ORPort is reachable from the outside. Excellent. Publishing server descriptor.
+```
+
+```
+Bridge obfs4 <IP ADDRESS>:<PORT> <FINGERPRINT> cert=k27hqWApaAmlRzDdkekpXnRcLGI3XJQgGh6PvSfPV8ejWWQqkXmZxO37yYe5HzLvMuJ0dg iat-mode=0
+```
+
+[reachable test](https://bridges.torproject.org/scan/)
 
 #### 网站
 
