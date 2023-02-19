@@ -2,7 +2,7 @@
 layout: post
 title: ndk编译出错-Werror
 category: 书籍与软件工具
-tags: mac／ios
+tags: MAC
 keywords: 
 description: 
 ---
