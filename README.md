@@ -28,16 +28,16 @@ undo,
 #### 文件目录
 
 ```
-解题笔记,经典题目,数据结构与算法,点滴知识,左右互搏,书籍,软件工具,error unresolved,hacker,block chain,back end,
+解题笔记,经典题目,数据结构与算法,点滴知识,左右互搏,书籍,软件工具,error unresolved,hacker,back end,
 programming language,objective c,lua,php,python,c＃,c,cpp,java,golang,易语言,assembly,
 operating system,android,mac,ios,windows,linux,centos,unix,
-framework,unity3d,cocos2dx,thinkphp,
+framework,unity3d,cocos2dx,thinkphp,block chain,
 ```
 
 #### tags
 
 ```
-unity3d,cocos2dx,game-engine,game-design,hacker,algorithm,
+unity3d,cocos2dx,game-engine,game-design,hacker,algorithm,block-chain,
 objective-c,lua,php,python,c＃,c,cpp,java,golang,易语言,assembly,solidity,
 android,mac,ios,windows,linux,centos,unix
 normal-knowledge,software,database,back-end,testing,error-unresolved,
