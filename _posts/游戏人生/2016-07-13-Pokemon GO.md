@@ -2,7 +2,7 @@
 layout: post
 title: Pokemon GO
 category: 游戏人生
-tags: game　design
+tags: GameDesign
 keywords: game
 description: 
 ---
