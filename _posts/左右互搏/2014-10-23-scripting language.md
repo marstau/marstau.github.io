@@ -2,7 +2,7 @@
 layout: post
 title: scripting language
 category: 左右互搏
-tags: GameEngine
+tags: game-engine
 keywords: 
 description: 
 ---

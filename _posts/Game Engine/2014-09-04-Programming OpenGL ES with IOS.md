@@ -2,7 +2,7 @@
 layout: post
 title: Programming OpenGL ES with IOS
 category: 编程开发
-tags: GameEngine
+tags: game-engine
 keywords: ios,OpenGL ES,pipeline
 description: 
 ---

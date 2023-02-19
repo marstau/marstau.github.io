@@ -2,7 +2,7 @@
 layout: post
 title: Steering Behaviors For Autonomous Charac
 category: 编程开发
-tags: GameEngine
+tags: game-engine
 keywords: 
 description: 
 ---

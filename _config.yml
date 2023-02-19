@@ -41,7 +41,7 @@ active: 编程开发
 
 # 显示分类
 cates: 
-  - GameEngine
+  - game-engine
   - cocos2dx
 
 # 中文本地化

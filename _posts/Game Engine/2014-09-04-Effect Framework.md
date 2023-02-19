@@ -2,7 +2,7 @@
 layout: post
 title: Effect Framework
 category: 编程开发
-tags: GameEngine
+tags: game-engine
 keywords: DirectX
 description: 
 ---
