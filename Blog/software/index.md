@@ -251,7 +251,7 @@ In the home directory of your Pi, clone the Jasper source code:
 git clone https://github.com/marstau/jasper-client.git jasper
 {% endhighlight %}
 
-Jasper requires various Python libraries that we can install in one line with:
+Jasper requires various python libraries that we can install in one line with:
 
 {% highlight bash %}
 sudo pip install --upgrade setuptools
@@ -399,7 +399,7 @@ Upon restarting your Jasper, you should be able to issue a "Spotify" command tha
 
 Having installed the required libraries, it is worth taking a moment to understand how they interact and how the client code is architected.
 
-Jasper utilizes a number of open source libraries to function. [Pocketsphinx](http://cmusphinx.sourceforge.net/2010/03/pocketsphinx-0-6-release/) performs speech recognition via Python bindings to the [CMUSphinx](http://cmusphinx.sourceforge.net) engine. Jasper’s voice is owed to the popular TTS program, [eSpeak](http://espeak.sourceforge.net). [Phonetisaurus](https://code.google.com/p/phonetisaurus/) and CMUCLMTK enable Jasper to generate dictionaries and language models on-the-fly based on the custom module vocabularies. Mopidy enables streaming from Spotify, for those users who wish to use the module.
+Jasper utilizes a number of open source libraries to function. [Pocketsphinx](http://cmusphinx.sourceforge.net/2010/03/pocketsphinx-0-6-release/) performs speech recognition via python bindings to the [CMUSphinx](http://cmusphinx.sourceforge.net) engine. Jasper’s voice is owed to the popular TTS program, [eSpeak](http://espeak.sourceforge.net). [Phonetisaurus](https://code.google.com/p/phonetisaurus/) and CMUCLMTK enable Jasper to generate dictionaries and language models on-the-fly based on the custom module vocabularies. Mopidy enables streaming from Spotify, for those users who wish to use the module.
 
 The client architecture is organized into a number of different components:
 

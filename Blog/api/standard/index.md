@@ -83,7 +83,7 @@ Modules can thus define an optional attribute `PRIORITY`, which should be an int
 
 In the above example, the 'Hacker News' module defines `PRIORITY = 4`, while the 'News' module defines `PRIORITY = 3`. So if we're passed in "What's on Hacker News?", the 'Hacker News' module will be checked first and will subsequently be passed in the input.
 
-If a module does not define a `PRIORITY`, it will be defaulted to 0. Note that the 'Unclear' module has `PRIORITY` equal to Python's smallest possible integer.
+If a module does not define a `PRIORITY`, it will be defaulted to 0. Note that the 'Unclear' module has `PRIORITY` equal to python's smallest possible integer.
 
 <h2 class="linked" id='user-interaction'><a href="#user-interaction" title="Permalink to this headline">User Interaction</a></h2>
 
