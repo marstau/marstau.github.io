@@ -2,7 +2,7 @@
 layout: post
 title: Fibonacci
 category: 数据结构与算法
-tags: data　structure／algorithm
+tags: algorithm
 keywords: 
 description: 
 ---

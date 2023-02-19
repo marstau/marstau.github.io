@@ -2,7 +2,7 @@
 layout: post
 title: Build Tools
 category: 左右互搏
-tags: software／tool
+tags: software
 keywords:
 description: 
 ---

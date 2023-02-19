@@ -2,7 +2,7 @@
 layout: post
 title: CocosBuilder
 category: 书籍与软件工具
-tags: software／tool
+tags: software
 keywords: CocosBuilder,mac,ios
 description: 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Navicat for MySQL
 category: 书籍与软件工具
-tags: software／tool
+tags: software
 keywords: 
 description: 
 ---

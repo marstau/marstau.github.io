@@ -2,7 +2,7 @@
 layout: post
 title: Sublime Text
 category: 书籍与软件工具
-tags: software／tool
+tags: software
 keywords: Sublime
 description: 
 ---

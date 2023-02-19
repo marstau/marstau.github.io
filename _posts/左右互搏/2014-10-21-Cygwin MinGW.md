@@ -2,7 +2,7 @@
 layout: post
 title: Cygwin MinGW
 category: 左右互搏
-tags: software／tool
+tags: software
 keywords: OS,mac
 description: 
 ---

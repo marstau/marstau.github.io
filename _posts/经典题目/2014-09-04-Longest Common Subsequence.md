@@ -2,7 +2,7 @@
 layout: post
 title: Longest Common Subsequence
 category: 数据结构与算法
-tags: data　structure／algorithm
+tags: algorithm
 keywords: 
 description: 
 ---

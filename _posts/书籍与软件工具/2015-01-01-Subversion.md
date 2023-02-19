@@ -2,7 +2,7 @@
 layout: post
 title: Subversion
 category: 书籍与软件工具
-tags: software／tool
+tags: software
 keywords: Subversion
 description: 
 ---

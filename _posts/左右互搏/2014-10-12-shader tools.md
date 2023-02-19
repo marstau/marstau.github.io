@@ -2,7 +2,7 @@
 layout: post
 title: shader tools
 category: 左右互搏
-tags: software／tool
+tags: software
 keywords: shader,mac,ios
 description: 
 ---

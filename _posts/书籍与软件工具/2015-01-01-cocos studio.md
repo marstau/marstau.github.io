@@ -2,7 +2,7 @@
 layout: post
 title: cocos studio
 category: 书籍与软件工具
-tags: software／tool
+tags: software
 keywords: cocos2dx
 description: 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: TortoiseGit
 category: 书籍与软件工具
-tags: software／tool
+tags: software
 keywords: TortoiseGit, git
 description: 
 
