@@ -37,12 +37,12 @@ disqus:
   shortname: mars
 
 # 主题设置，自动激活某个标签
-active: 编程开发
+active: programming
 
 # 显示分类
 cates: 
   - game-engine
-  - cocos2dx
+  - unity3d
 
 # 中文本地化
 locals:
