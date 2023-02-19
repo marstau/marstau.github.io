@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SpringBoard 无法启动应用程序 -4
-category: 书籍与软件工具
+category: 软件工具
 tags: mac
 keywords: 
 description: 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: use static Variables in static library
-category: 书籍与软件工具
+category: 软件工具
 tags: mac
 keywords: 
 description: 

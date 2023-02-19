@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Beyond Compare
-category: 书籍与软件工具
+category: 软件工具
 tags: software
 keywords: 
 description: 
