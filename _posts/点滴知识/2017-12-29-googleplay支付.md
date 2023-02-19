@@ -1,7 +1,7 @@
 ---
 layout: post
 title: googleplay支付
-category: 编程开发
+category: 点滴知识
 tags: googleplay pay
 keywords: 
 description: 

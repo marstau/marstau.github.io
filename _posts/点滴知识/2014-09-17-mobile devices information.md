@@ -1,7 +1,7 @@
 ---
 layout: post
 title: mobile devices information
-category: 编程开发
+category: 点滴知识
 tags: android java mac ios
 keywords: resolution
 description: 

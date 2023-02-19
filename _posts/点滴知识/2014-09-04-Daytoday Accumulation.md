@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Daytoday Accumulation
-category: 编程开发
+category: 点滴知识
 tags: normal-knowledge
 keywords: 
 description: 
