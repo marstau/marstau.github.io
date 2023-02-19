@@ -2,7 +2,7 @@
 layout: post
 title: eclipse下android环境搭建
 category: 编程开发
-tags: Android-Java
+tags: android java
 keywords: 
 description: 
 ---

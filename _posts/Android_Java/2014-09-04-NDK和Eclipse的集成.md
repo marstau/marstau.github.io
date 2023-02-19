@@ -2,7 +2,7 @@
 layout: post
 title: NDK和Eclipse的集成
 category: 编程开发
-tags: Android-Java
+tags: android java
 keywords: 
 description: 
 ---

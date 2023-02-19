@@ -2,7 +2,7 @@
 layout: post
 title: android assets常见问题
 category: 编程开发
-tags: Android-Java
+tags: android java
 keywords: 
 description: 
 ---

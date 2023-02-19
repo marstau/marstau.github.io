@@ -2,7 +2,7 @@
 layout: post
 title: android ndk 开发之Application.mk
 category: 编程开发
-tags: Android-Java
+tags: android java
 keywords: 
 description: 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: The nested fileset element is deprectated, use a nested path instead
 category: 编程开发
-tags: Android-Java
+tags: android java
 keywords: 
 description: 
 ---

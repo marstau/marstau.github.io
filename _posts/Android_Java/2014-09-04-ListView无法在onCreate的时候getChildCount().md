@@ -2,7 +2,7 @@
 layout: post
 title: ListView无法在onCreate的时候getChildCount()
 category: 编程开发
-tags: Android-Java
+tags: android java
 keywords: 
 description: 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: android error solutions
 category: 编程开发
-tags: Android-Java
+tags: android java
 keywords: 
 description: 
 ---

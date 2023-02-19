@@ -2,7 +2,7 @@
 layout: post
 title: NDK工具之 addr2line
 category: 编程开发
-tags: Android-Java
+tags: android java
 keywords: 
 description: 
 ---
