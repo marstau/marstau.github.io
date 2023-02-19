@@ -31,7 +31,7 @@ marstau.github.io
 #### tags
 
 ```
-cocos2dx,game-engine,game-design,testing,error-unresolved,Objective-C,lua,php,Python,C＃,C-Cpp,Assembly,Android-Java,MAC,IOS,normal　knowledge,software／tool,data　structure／algorithm,undo,database,心灵鸡汤,易语言,back-end,Go
+cocos2dx,game-engine,game-design,testing,error-unresolved,objective-c,lua,php,Python,C＃,C-Cpp,Assembly,Android-Java,MAC,IOS,normal　knowledge,software／tool,data　structure／algorithm,undo,database,心灵鸡汤,易语言,back-end,Go
 ```
 
 #### keywords

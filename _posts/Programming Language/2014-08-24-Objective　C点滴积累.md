@@ -2,7 +2,7 @@
 layout: post
 title: Objective-C点滴积累
 category: 编程开发
-tags: Objective-C
+tags: objective-c
 keywords: 
 description: 
 ---
@@ -26,7 +26,7 @@ description:
 atomic,assign和readwrited都是默认行为。
 
 
-#### `@interface` and `@implementation`[More](http://blog.csdn.net/l271640625/article/details/8393531),[<\<Programming in Objective-C 4th>>]
+#### `@interface` and `@implementation`[More](http://blog.csdn.net/l271640625/article/details/8393531),[<\<Programming in objective-c 4th>>]
 
 interface和implementation共同代表一个类，两者的组合相当于java中的class，即oc中的类必须包括两部分，interface部分和implementation部分，这才是oc中的一个类的完整声明；然后OC中将成员变量和成员方法的声明部分放置在interface部分中，包括继承关系，protocal实现关系，都在interface里面的头部进行声明，然后将实现部分放置在implementation部分中，相当于是将类拆分成声明和实现两部分，这两部分缺一不可，所以在OC中，不妨不要将interface叫做接口，直接叫做类声明部分来得容易理解多了，简而言之，oc中interface是类的一个部分，和implementation共同组成一个完整的类。
 
@@ -42,7 +42,7 @@ applicationDidFinishLaunching:
 这两个方法，后者是前期版本下的。在iOS3.0以及之后，应该使用前者来完成开始这个过程。XCode4运行的是application:didFinishLaunchingWithOptions:
 当然，你也可以删除application:didFinishLaunchingWithOptions:，自己添加applicationDidFinishLaunching方法来实现。不推荐此操作。
 
-#### C++、Objective-C 混合编程[More](http://blog.csdn.net/jiarusun000/article/details/6996984)[More2](http://beanchen.iteye.com/blog/522028)
+#### C++、objective-c 混合编程[More](http://blog.csdn.net/jiarusun000/article/details/6996984)[More2](http://beanchen.iteye.com/blog/522028)
 
 
 在XCODE中想使用C++代码，你需要把文件的扩展名从.m改成.mm，这样才会启动g++编译器。
