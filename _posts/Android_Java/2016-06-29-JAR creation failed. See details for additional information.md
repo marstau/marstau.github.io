@@ -2,7 +2,7 @@
 layout: post
 title: JAR creation failed. See details for additional information
 category: 编程开发
-tags: android／java
+tags: Android-Java
 keywords: 
 description: 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: mobile devices information
 category: 编程开发
-tags: android／java mac／ios
+tags: Android-Java mac／ios
 keywords: resolution
 description: 
 ---

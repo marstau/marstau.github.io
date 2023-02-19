@@ -2,7 +2,7 @@
 layout: post
 title: Re-installation failed due to different application signatures.
 category: 编程开发
-tags: android／java
+tags: Android-Java
 keywords: 
 description: 
 ---

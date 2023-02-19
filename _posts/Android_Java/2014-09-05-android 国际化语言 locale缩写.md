@@ -2,7 +2,7 @@
 layout: post
 title: android 国际化语言 locale缩写
 category: 编程开发
-tags: android／java
+tags: Android-Java
 keywords: 
 description: 
 ---

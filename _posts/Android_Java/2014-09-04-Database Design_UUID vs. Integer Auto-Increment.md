@@ -2,7 +2,7 @@
 layout: post
 title: Database Design/UUID vs Integer Auto-Increment
 category: 编程开发
-tags: android／java
+tags: Android-Java
 keywords: 
 description: 
 ---

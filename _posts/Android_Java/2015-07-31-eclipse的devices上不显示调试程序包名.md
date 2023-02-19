@@ -2,7 +2,7 @@
 layout: post
 title: eclipse的devices上不显示调试程序包名
 category: 编程开发
-tags: android／java
+tags: Android-Java
 keywords: 
 description: 
 ---

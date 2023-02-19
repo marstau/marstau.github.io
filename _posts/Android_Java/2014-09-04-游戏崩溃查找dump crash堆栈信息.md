@@ -2,7 +2,7 @@
 layout: post
 title: 游戏崩溃查找dump crash堆栈信息
 category: 编程开发
-tags: android／java
+tags: Android-Java
 keywords: 
 description: 
 ---

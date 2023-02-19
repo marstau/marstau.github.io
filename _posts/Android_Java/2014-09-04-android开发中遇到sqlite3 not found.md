@@ -2,7 +2,7 @@
 layout: post
 title: android开发中遇到sqlite3 not found
 category: 编程开发
-tags: android／java
+tags: Android-Java
 keywords: 
 description: 
 ---
