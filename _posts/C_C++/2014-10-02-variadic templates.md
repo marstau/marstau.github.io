@@ -2,7 +2,7 @@
 layout: post
 title: variadic templates
 category: 编程开发
-tags: Ｃ／Ｃ＋＋
+tags: c＋＋
 keywords: variadic templates
 description: 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: static DWORD成员变量定义
 category: 编程开发
-tags: Ｃ／Ｃ＋＋
+tags: c＋＋
 keywords: windows, DWORD
 description: 
 ---

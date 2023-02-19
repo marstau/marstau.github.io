@@ -2,7 +2,7 @@
 layout: post
 title: singleton class
 category: 编程开发
-tags: Ｃ／Ｃ＋＋
+tags: c＋＋
 keywords: singleton
 description: 
 ---
