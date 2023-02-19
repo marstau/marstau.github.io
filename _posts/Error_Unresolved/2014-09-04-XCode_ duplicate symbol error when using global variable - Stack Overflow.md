@@ -2,7 +2,7 @@
 layout: post
 title: XCode： duplicate symbol error when using global variable - Stack Overflow
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: 
 description: 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: pragma warning(disable:4996)
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: 
 description: 
 ---

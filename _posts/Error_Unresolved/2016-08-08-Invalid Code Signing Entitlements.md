@@ -2,7 +2,7 @@
 layout: post
 title: Invalid Code Signing Entitlements
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: windows
 description: 
 ---	

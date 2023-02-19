@@ -2,7 +2,7 @@
 layout: post
 title: error LNK2001 无法解析的外部符号_mainCRTStartup
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: 
 description: 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: IDirectSound8无法使用
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: 
 description: 
 ---

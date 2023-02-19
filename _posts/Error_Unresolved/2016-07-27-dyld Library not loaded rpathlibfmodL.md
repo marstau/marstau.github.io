@@ -2,7 +2,7 @@
 layout: post
 title: dyld Library not loaded rpathlibfmodL
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: mac,ios
 description: 
 ---	

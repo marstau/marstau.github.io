@@ -2,7 +2,7 @@
 layout: post
 title: a2003- cant connect to MYSQL server on localhost
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: mysql
 description: 
 ---	

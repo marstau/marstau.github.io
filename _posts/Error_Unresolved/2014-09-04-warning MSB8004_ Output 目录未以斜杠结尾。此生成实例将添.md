@@ -2,7 +2,7 @@
 layout: post
 title: warning MSB8004： Output 目录未以斜杠结尾。此生成实例将添
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: 
 description: 
 ---

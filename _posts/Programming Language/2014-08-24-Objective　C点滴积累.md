@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Objective　C点滴积累
+title: Objective-C点滴积累
 category: 编程开发
-tags: Objective　C
+tags: Objective-C
 keywords: 
 description: 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: warning C4290： 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: 
 description: 
 ---

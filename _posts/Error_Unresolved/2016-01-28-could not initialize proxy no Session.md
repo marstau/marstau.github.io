@@ -2,7 +2,7 @@
 layout: post
 title: could not initialize proxy no Session
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: 
 description: 
 ---

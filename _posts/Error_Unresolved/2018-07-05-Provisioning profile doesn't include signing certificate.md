@@ -2,7 +2,7 @@
 layout: post
 title: Provisioning profile doesn't include signing certificate
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: web
 description: 
 ---	

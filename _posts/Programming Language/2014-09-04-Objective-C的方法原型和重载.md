@@ -2,7 +2,7 @@
 layout: post
 title: Objective-C的方法原型和重载
 category: 编程开发
-tags: Objective　C
+tags: Objective-C
 keywords: 
 description: 
 ---
@@ -73,4 +73,4 @@ calculateArea:andHeight:
 
 ## Reference
 * <http://blog.csdn.net/lonelyroamer/article/details/7661745>
-* <https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/DefiningClasses/DefiningClasses.html>
+* <https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjective-C/DefiningClasses/DefiningClasses.html>

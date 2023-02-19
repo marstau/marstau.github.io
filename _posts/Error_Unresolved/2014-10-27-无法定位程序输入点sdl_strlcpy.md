@@ -2,7 +2,7 @@
 layout: post
 title: 无法定位程序输入点sdl_strlcpy
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: git,xcode
 description: 
 ---

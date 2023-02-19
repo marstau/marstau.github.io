@@ -2,7 +2,7 @@
 layout: post
 title: 1>------ 已启动生成： 项目： Init Direct3D, 配置： D
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: 
 description: 
 ---

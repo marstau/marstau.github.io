@@ -2,7 +2,7 @@
 layout: post
 title: indenting spaces must be used in groups of 2
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: web
 description: 
 ---	

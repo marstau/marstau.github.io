@@ -2,7 +2,7 @@
 layout: post
 title: LNK2001 ： unresolved externals
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: 
 description: 
 ---

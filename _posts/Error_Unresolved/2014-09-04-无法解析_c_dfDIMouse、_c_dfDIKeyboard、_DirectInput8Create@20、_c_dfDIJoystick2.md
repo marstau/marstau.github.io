@@ -2,7 +2,7 @@
 layout: post
 title: 无法解析_c_dfDIMouse、_c_dfDIKeyboard、_DirectInput8Create@20、_c_dfDIJoystick2
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: 
 description: 
 ---

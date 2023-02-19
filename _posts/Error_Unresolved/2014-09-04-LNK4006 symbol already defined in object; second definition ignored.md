@@ -2,7 +2,7 @@
 layout: post
 title: LNK4006 symbol already defined in object; second definition ignored
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: 
 description: 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Uncaught ReferenceError Buffer is not defined
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: preact
 description: 
 ---	

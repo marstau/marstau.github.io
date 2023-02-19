@@ -2,7 +2,7 @@
 layout: post
 title: not a valid ELF
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: cocos2dx
 description: 
 ---	

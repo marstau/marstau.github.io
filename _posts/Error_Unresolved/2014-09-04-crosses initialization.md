@@ -2,7 +2,7 @@
 layout: post
 title: crosses initialization
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: 
 description: 
 ---

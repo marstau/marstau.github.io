@@ -2,7 +2,7 @@
 layout: post
 title: static_cast<int *>(pStr)
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: 
 description: 
 ---

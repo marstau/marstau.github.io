@@ -2,7 +2,7 @@
 layout: post
 title: error LNK2019  __imp__InitCommonControls@0
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: 
 description: 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: xcode __nwlog_err_simulate_crash_libsystem
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: xcode
 description: 
 ---	

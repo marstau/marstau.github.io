@@ -2,7 +2,7 @@
 layout: post
 title: no suitable device found no device found for connection
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: linux
 description: 
 ---	

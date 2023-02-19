@@ -2,7 +2,7 @@
 layout: post
 title: COMMON ERROR - python
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: 
 description: 
 ---

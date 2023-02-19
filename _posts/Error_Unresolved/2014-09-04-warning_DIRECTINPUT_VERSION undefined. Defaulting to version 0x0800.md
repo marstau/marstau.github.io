@@ -2,7 +2,7 @@
 layout: post
 title: warning:DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
 category: 编程开发
-tags: error／unresolved
+tags: error-unresolved
 keywords: 
 description: 
 ---
