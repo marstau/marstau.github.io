@@ -2,7 +2,7 @@
 layout: post
 title: send TEXCOORD from DirectX9.0 to HLSL
 category: 编程开发
-tags: Game　Engine
+tags: GameEngine
 keywords: DirectX
 description: 
 ---

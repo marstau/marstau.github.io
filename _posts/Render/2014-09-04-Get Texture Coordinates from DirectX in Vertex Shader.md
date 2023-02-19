@@ -2,7 +2,7 @@
 layout: post
 title: Get Texture Coordinates from DirectX in Vertex Shader
 category: 编程开发
-tags: Game　Engine
+tags: GameEngine
 keywords: 
 description: 
 ---

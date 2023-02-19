@@ -2,7 +2,7 @@
 layout: post
 title: DirectInput 
 category: 编程开发
-tags: Game　Engine
+tags: GameEngine
 keywords: DirectX
 description: 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: 《Fighting, Antiquity》遇见的各种问题
 category: 编程开发
-tags: Game　Engine
+tags: GameEngine
 keywords: DirectX
 description: 
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: 编译ogre_src_v1-7-4 windows
 category: 编程开发
-tags: Game　Engine
+tags: GameEngine
 keywords: OGRE
 description: 
 ---
