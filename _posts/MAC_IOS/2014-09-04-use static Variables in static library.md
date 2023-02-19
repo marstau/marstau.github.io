@@ -2,7 +2,7 @@
 layout: post
 title: use static Variables in static library
 category: 书籍与软件工具
-tags: MAC
+tags: mac
 keywords: 
 description: 
 ---

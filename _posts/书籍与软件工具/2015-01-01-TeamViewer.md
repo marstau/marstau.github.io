@@ -26,13 +26,13 @@ import sys
 
 print('''
 --------------------------------
-TeamViewer 14 ID Changer for MAC OS
+TeamViewer 14 ID Changer for mac OS
 Version: 0.2 2019
 --------------------------------
 ''')
 
 if platform.system() != "Darwin":
-    print("This script can be run only on MAC OS.")
+    print("This script can be run only on mac OS.")
     sys.exit()
 
 if os.geteuid() != 0:

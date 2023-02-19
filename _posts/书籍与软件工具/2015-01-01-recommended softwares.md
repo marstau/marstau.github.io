@@ -211,7 +211,7 @@ device id (android device id)
 安卓逆向工具
 
 
-## MAC OS X
+## mac OS X
 
 
 ### surge
