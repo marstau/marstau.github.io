@@ -20,7 +20,8 @@ marstau.github.io
 #### 博客分类(category)
 
 ```
-数据结构与算法,点滴知识,书籍与软件工具,左右互搏,未读文章,programming
+数据结构与算法,点滴知识,书籍与软件工具,左右互搏,programming,
+undo,
 ```
 #### 文件目录
 
@@ -35,7 +36,8 @@ Objective C,lua,php,python,c＃,c,cpp,java,golang,易语言,assembly,
 unity3d,cocos2dx,game-engine,game-design,hacker,
 objective-c,lua,php,python,c＃,c,cpp,java,golang,易语言,assembly,solidity,
 android,mac,ios,windows,linux,centos,unix
-normal-knowledge,software,algorithm,undo,database,心灵鸡汤,back-end,testing,error-unresolved,
+normal-knowledge,software,algorithm,database,心灵鸡汤,back-end,testing,error-unresolved,
+undo,
 ```
 
 #### keywords

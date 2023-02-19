@@ -1,7 +1,7 @@
 ---
 layout: post
 title: git as a database
-category: 编程开发
+category: programming
 tags: solidity
 keywords: 
 description: 
