@@ -20,22 +20,21 @@ marstau.github.io
 #### 博客分类(category)
 
 ```
-编程开发,数据结构与算法,书籍,软件工具,左右互搏,概念,hacker,
-objective-c,lua,php,python,c＃,c,cpp,java,golang,易语言,assembly,
+数据结构与算法,点滴知识,书籍,软件工具,左右互搏,概念,hacker,未读文章,
 ```
 #### 文件目录
 
 ```
-概念编程,解题笔记,经典题目,数据结构与算法,点滴知识,左右互搏,书籍,软件工具,error unresolved,hacker,programming language,
+解题笔记,经典题目,数据结构与算法,点滴知识,左右互搏,书籍,软件工具,error unresolved,hacker,programming language,
 Objective C,lua,php,python,c＃,c,cpp,java,golang,易语言,assembly,
 ```
 
 #### tags
 
 ```
-cocos2dx,game-engine,game-design,hacker,
-objective-c,lua,php,python,c＃,c,cpp,java,golang,易语言,assembly,
-android,mac,ios,windows,linux,centos,unix,
+unity3d,cocos2dx,game-engine,game-design,hacker,
+objective-c,lua,php,python,c＃,c,cpp,java,golang,易语言,assembly,solidity,
+android,mac,ios,windows,linux,centos,unix
 normal-knowledge,software,algorithm,undo,database,心灵鸡汤,back-end,testing,error-unresolved,
 ```
 
