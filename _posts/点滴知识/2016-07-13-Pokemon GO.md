@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pokemon GO
-category: 游戏人生
+category: 点滴知识
 tags: game-design
 keywords: game
 description: 
