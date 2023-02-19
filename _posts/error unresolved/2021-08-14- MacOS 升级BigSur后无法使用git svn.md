@@ -2,7 +2,7 @@
 layout: post
 title:  MacOS 升级BigSur后无法使用git svn
 category: 编程开发
-tags: error-unresolved Mac
+tags: error-unresolved mac
 keywords: 
 description: 
 ---
