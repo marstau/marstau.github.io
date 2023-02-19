@@ -1,7 +1,7 @@
 ---
 layout: post
 title: gorm查询sqlite3报错
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: gorm
 description: 

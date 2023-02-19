@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nokogiri install failures
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: web
 description: 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: file is universal 3 slices but does not contain an armv7s slice
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: 
 description: 

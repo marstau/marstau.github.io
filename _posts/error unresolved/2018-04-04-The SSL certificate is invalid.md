@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The SSL certificate is invalid
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: cargo
 description: 

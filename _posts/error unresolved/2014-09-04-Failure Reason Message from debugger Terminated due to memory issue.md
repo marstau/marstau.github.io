@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Failure Reason Message from debugger Terminated due to memory issue
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: 
 description: 

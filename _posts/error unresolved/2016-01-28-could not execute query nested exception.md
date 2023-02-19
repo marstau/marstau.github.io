@@ -1,7 +1,7 @@
 ---
 layout: post
 title: could not execute query nested exception
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: 
 description: 

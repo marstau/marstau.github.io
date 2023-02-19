@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Provisioning profile doesn't include signing certificate
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: web
 description: 

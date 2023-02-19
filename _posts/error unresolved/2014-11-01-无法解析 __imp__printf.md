@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 无法解析 __imp__printf
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: 
 description: 

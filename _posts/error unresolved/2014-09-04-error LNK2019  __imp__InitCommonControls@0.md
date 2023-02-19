@@ -1,7 +1,7 @@
 ---
 layout: post
 title: error LNK2019  __imp__InitCommonControls@0
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: 
 description: 

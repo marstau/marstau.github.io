@@ -1,7 +1,7 @@
 ---
 layout: post
 title: S1023 error on installing DirectX SDK
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: 
 description: 

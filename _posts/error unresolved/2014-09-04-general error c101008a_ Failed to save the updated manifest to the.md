@@ -1,7 +1,7 @@
 ---
 layout: post
 title: general error c101008a_ Failed to save the updated manifest to the
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: 
 description: 

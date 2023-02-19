@@ -1,7 +1,7 @@
 ---
 layout: post
 title: invalid resource directory name appcompat_v7 res crunch
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: eclipse
 description: 

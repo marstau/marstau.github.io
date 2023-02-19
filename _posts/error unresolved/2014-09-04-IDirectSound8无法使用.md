@@ -1,7 +1,7 @@
 ---
 layout: post
 title: IDirectSound8无法使用
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: 
 description: 

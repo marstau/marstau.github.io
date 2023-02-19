@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 无法解析的外部符号 RegQueryValueEx、RegCloseKey、RegOpenKeyEx、RegSetValueEx...
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: 
 description: 

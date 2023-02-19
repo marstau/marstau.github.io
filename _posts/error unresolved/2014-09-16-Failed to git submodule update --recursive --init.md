@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Failed to git submodule update --recursive --init
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: git,xcode
 description: 

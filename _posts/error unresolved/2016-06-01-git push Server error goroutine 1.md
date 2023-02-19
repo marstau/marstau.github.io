@@ -1,7 +1,7 @@
 ---
 layout: post
 title: git push Server error goroutine 1
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: git
 description: 

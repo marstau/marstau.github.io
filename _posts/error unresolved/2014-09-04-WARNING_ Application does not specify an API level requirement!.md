@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Application does not specify an API level requirement!
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: 
 description: 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: __imp__InitCommonControlsEx@4 __imp__EndDialog
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: 
 description: 

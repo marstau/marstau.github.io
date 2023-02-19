@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: 
 description: 

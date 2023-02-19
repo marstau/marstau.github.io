@@ -1,7 +1,7 @@
 ---
 layout: post
 title: cmath(19)： error C2061： 语法错误： 标识符“acosf”
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: 
 description: 

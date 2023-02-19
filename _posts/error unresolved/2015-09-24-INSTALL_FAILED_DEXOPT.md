@@ -1,7 +1,7 @@
 ---
 layout: post
 title: INSTALL_FAILED_DEXOPT
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: 
 description: 

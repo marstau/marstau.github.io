@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 安装DirectXSDK时提示Error Code s1023
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: 
 description: 

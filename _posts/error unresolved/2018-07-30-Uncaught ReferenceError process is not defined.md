@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Uncaught ReferenceError process is not defined
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: preact
 description: 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DirectX Preview window： WARNING： Pixel shader 'Pixel Shader' cannot be created on hardware rendering
-category: 编程开发
+category: errors
 tags: error-unresolved
 keywords: 
 description: 
