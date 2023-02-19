@@ -26,9 +26,10 @@ undo,
 #### 文件目录
 
 ```
-解题笔记,经典题目,数据结构与算法,点滴知识,左右互搏,书籍,软件工具,error unresolved,hacker,programming language,
-Objective C,lua,php,python,c＃,c,cpp,java,golang,易语言,assembly,
-android,mac,ios,windows,linux,centos,unix,
+解题笔记,经典题目,数据结构与算法,点滴知识,左右互搏,书籍,软件工具,error unresolved,hacker,
+programming language,objective c,lua,php,python,c＃,c,cpp,java,golang,易语言,assembly,
+operating system,android,mac,ios,windows,linux,centos,unix,
+game engine,unity3d,cocos2dx
 ```
 
 #### tags

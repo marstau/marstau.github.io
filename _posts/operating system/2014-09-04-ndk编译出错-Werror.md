@@ -1,8 +1,8 @@
 ---
 layout: post
 title: ndk编译出错-Werror
-category: 软件工具
-tags: mac
+category: 编程开发
+tags: mac ios
 keywords: 
 description: 
 ---
