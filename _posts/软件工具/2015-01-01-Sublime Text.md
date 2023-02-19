@@ -234,7 +234,6 @@ hkcr,"Directory\shell\SublimeText3\command",,,"""%1%\sublime_text.exe"" ""%%1"""
     "highlight_modified_tabs": true,
     "translate_tabs_to_spaces": true,
     "word_wrap": "true",
-    "auto_find_in_selection": true,
     "expand_tabs_on_save" : true,
 }
 ```
@@ -271,6 +270,9 @@ windows安装minGW,配置环境变量,安装ming32-lua版本,重启sublime,新�
 #### SublimeTmpl
 
 自动保存utf8文件 新建文本自动填充模板内容
+
+
+#### auto_find_in_selection会导致回车无法替换
 
 ## Reference
 
