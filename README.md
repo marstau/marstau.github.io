@@ -38,7 +38,7 @@ framework,unity3d,cocos2dx,thinkphp,
 #### tags
 
 ```
-unity3d,cocos2dx,game-engine,game-design,hacker,algorithm,block-chain,
+unity3d,cocos2dx,game-engine,game-design,hacker,algorithm,block-chain,comparison
 objective-c,lua,php,python,c＃,c,cpp,java,golang,易语言,assembly,solidity,
 android,mac,ios,windows,linux,centos,unix
 normal-knowledge,software,database,back-end,testing,error-unresolved,
