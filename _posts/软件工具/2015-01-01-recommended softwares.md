@@ -292,6 +292,6 @@ license:GBPduHjWfJU1mZqcPM3BikjYKF6xKhlKIys3i1MU2eJHqWGImDHzWdD6xhMNLGVpbP2M5SN6
 
 ### Wireshark[More](https://xiaowenxia.github.io/git-inside/2021/02/23/git-internal-protocol.1/index.html)
 
-抓包工具可抓git协议
+mac抓包工具可抓git协议
 
 ## Reference

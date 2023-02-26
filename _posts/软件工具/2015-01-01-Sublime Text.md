@@ -225,8 +225,8 @@ hkcr,"Directory\shell\SublimeText3\command",,,"""%1%\sublime_text.exe"" ""%%1"""
 
 ```
 {
-    "font_size": 12,
-    "file_exclude_patterns": ["*.meta"],
+    "font_size": 15,
+    "file_exclude_patterns": ["*.meta", ".DS_Store"],
     "ignored_packages":
     [
         "Vintage",
