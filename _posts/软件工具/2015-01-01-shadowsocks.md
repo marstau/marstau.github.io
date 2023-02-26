@@ -9,7 +9,7 @@ description:
 
 ## Installation
 
-#### CentOS 7.4[More](https://pypi.org/project/shadowsocksr-cli/)
+### CentOS 7.4[More](https://pypi.org/project/shadowsocksr-cli/)
 
 
 ```
@@ -18,6 +18,13 @@ cd ssr-command-client
 python3 setup.py install --install-scripts=/usr/local/bin
 shadowsocksr-cli -h
 ```
+
+### mac
+
+#### ShadowsocksX-NG[More](https://github.com/shadowsocks/ShadowsocksX-NG)
+
+
+## FAQ
 
 #### 使用PAC
 
@@ -32,6 +39,8 @@ wget https://download.libsodium.org/libsodium/releases/LATEST.tar.gz
 #### mac 12.2.1网速测试成功 但是safari无法打开
 
 是新版本safari无法通过以前的方式科学上网了
+
+#### 订阅
 
 ## Reference
 
