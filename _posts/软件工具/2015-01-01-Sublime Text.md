@@ -132,6 +132,10 @@ JsFormat 的功能就是可以将一些凌乱的 JavaScript 代码重新排版�
 
 会自动打开网页
 
+
+#### `SublimeTmpl` :  自动保存utf8文件 新建文本自动填充模板内容
+
+
 #### `babel`: javascript高亮
 
 安装`MarkdownPreview`后，设置按键
@@ -266,10 +270,6 @@ windows安装minGW,配置环境变量,安装ming32-lua版本,重启sublime,新�
 保证安装了c编译器,新建c文件,选择`C_Run`或`C_RuninCommand`：
 
 按`ctrl + shift + b`
-
-#### SublimeTmpl
-
-自动保存utf8文件 新建文本自动填充模板内容
 
 
 #### auto_find_in_selection会导致回车无法替换

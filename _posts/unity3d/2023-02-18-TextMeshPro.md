@@ -19,6 +19,21 @@ description:
 描边：同一个材质球的描边必须一样
 静态字体+动态字体 频繁生成动态字体会导致掉帧严重
 
+
+## 中描边改成外描边
+
+```
+                        #ifdef OUTLINE_ON
+-                       c = lerp(input.outlineColor, input.faceColor, saturate(d - input.param.z));
++                       // c = lerp(input.outlineColor, input.faceColor, saturate(d - input.param.z));
++                       // c *= saturate(d - input.param.y);
++                       // 修改描边算法, 使用外描边算法
++                       half outa = saturate(d - input.param.y) * 0.25 + c.a;
++                       c = lerp(input.outlineColor * (1.0 - c.a), input.faceColor, step(0.5,outa));
+                        c *= saturate(d - input.param.y);
+                        #endif
+```
+
 ## FAQ
 
 #### outline的hdr color设置和rgb不一样
