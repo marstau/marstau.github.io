@@ -17,7 +17,11 @@ description:
 
 #### 这个授权密钥已被吊销
 
-删除目录`C:\Users\user\AppData\Roaming\Scooter Software\Beyond Compare 4`下的所有文件(但需要重新注册)
+删除目录
+```
+C:\Users\user\AppData\Roaming\Scooter Software\Beyond Compare 4
+```
+下的所有文件(但需要重新注册)
 
 4.2.9:
 ```
