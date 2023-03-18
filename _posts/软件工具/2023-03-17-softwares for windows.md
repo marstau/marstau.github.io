@@ -185,5 +185,8 @@ VA510-23F57-M85PY-7FN7C-MCRG0
 
 ### Advanced SystemCare v6.4.0
 
+### DBBrowser(SQLite)
+
+sqlite浏览
 
 ## Reference

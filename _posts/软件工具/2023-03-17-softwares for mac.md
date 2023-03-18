@@ -8,10 +8,6 @@ description:
 ---
 
 
-
-## mac OS X
-
-
 ### surge
 
 网关路由
