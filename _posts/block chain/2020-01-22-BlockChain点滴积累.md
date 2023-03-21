@@ -16,4 +16,6 @@ description:
 
 BEP20 (Binance Smart Chain Token Standard) 是在 Binance Smart Chain（BSC）上发行的代币标准。
 
+#### 数字货币MasterCard
+
 ## Reference
