@@ -158,6 +158,8 @@ Preferences -> Package Settings -> Markdown Preview -> Settings
 再次Ctrl+shift+p, 输入LiveReload: Enable/disable plug-ins, 回车, 选择 Simple Reload with delay (400ms)或者Simple Reload，两者的区别仅仅在于后者没有延迟。
 ```
 
+#### `tabnine`: Programmer AI
+
 #### 文件夹显示过滤[More](https://developer.aliyun.com/article/356415)
 
 Preferences->Setting-User添加如下命令：
