@@ -7,6 +7,23 @@ keywords:
 description: 
 ---
 
+
+## FAQ
+
+#### 同一shader修改起变量使其他材质球不影响
+
+
+```
+PropertyBlock = new MaterialPropertyBlock();
+this.renderers = this.gameObject.GetComponentsInChildren<Renderer>();
+foreach (var renderer in this.renderers) 
+{
+    renderer.GetPropertyBlock(PropertyBlock);
+    PropertyBlock.SetColor("_FillColor", FillColor);
+    renderer.SetPropertyBlock(PropertyBlock);
+}
+```
+
 ## ERROR
 
 ####  'vert', error X8000: D3D11 Internal Compiler Error: Invalid Bytecode: Incompatible min precision type for operand #1 of opcode #28 (counts are 1-based). Expected int or uint. (on gles3)[More](https://blog.csdn.net/sinat_25415095/article/details/121416839)
