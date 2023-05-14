@@ -74,7 +74,7 @@ license:GBPduHjWfJU1mZqcPM3BikjYKF6xKhlKIys3i1MU2eJHqWGImDHzWdD6xhMNLGVpbP2M5SN6
 
 ### Snipaste[More](https://zh.snipaste.com)
 
-截图+ 贴图,提高您的工作效率
+截图 + 贴图, 然后悬浮在屏幕上, 提高工作效率
 
 ### MediaInfo
 
