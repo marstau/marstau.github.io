@@ -24,6 +24,25 @@ foreach (var renderer in this.renderers)
 }
 ```
 
+#### `_Time.y`的float精度问题[More](https://zhuanlan.zhihu.com/p/566209058)[More2](https://cloud.tencent.com/developer/article/1978450)
+
+精度问题导致有些uv使用`_Time.y`会无法流动
+
+#### spine ab包导出后 贴图变脏了 但是直接导出包是没有问题的
+
+spine shader需要与包体一同导出  
+
+```
+
+public void SetMeshRendererFillblend(int blendValue) {
+    foreach (var renderer in this.renderers) 
+    {
+        renderer.GetPropertyBlock(PropertyBlock); // 如果不加 电脑模拟器好了 手机还是有问题
+        PropertyBlock.SetFloat("_Fillblend", blendValue);
+        renderer.SetPropertyBlock(PropertyBlock);
+    }
+}
+```
 ## ERROR
 
 ####  'vert', error X8000: D3D11 Internal Compiler Error: Invalid Bytecode: Incompatible min precision type for operand #1 of opcode #28 (counts are 1-based). Expected int or uint. (on gles3)[More](https://blog.csdn.net/sinat_25415095/article/details/121416839)
