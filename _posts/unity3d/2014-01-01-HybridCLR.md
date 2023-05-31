@@ -42,3 +42,4 @@ Player->Configuration->Scripting Backend改成IL2CPP
 ## Reference
 
 * <https://focus-creative-games.github.io/hybridclr/recommended-tools/>
+* <https://github.com/focus-creative-games/hybridclr>
