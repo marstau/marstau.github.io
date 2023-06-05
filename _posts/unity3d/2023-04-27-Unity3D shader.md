@@ -28,6 +28,8 @@ foreach (var renderer in this.renderers)
 
 精度问题导致有些uv使用`_Time.y`会无法流动
 
+之前有个特效在鸿蒙手机上会有问题 而其他手机正常, shader half全改成float就好了。
+
 #### spine ab包导出后 贴图变脏了 但是直接导出包是没有问题的
 
 spine shader需要与包体一同导出  
