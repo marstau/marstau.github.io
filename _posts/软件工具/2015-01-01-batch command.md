@@ -12,6 +12,7 @@ description:
 ```
 rd /s/q bzip2-1.0.5 # 删除整个目录
 rename %ToDir%\%FromDir%.vcxproj %ToDir%.vcxproj #重命名
+DEL /q/a/f %USERPROFILE%\AppData\LocalLow\XXX\projectname\AssetBundles # 清理用户缓存路径
 ```
 
 ### 读取文件内容
