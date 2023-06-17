@@ -8,6 +8,12 @@ description:
 ---
 
 
+## 基础知识
+
+```
+uniform
+```
+
 ## FAQ
 
 #### 同一shader修改起变量使其他材质球不影响
