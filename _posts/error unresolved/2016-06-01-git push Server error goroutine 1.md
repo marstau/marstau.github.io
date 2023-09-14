@@ -8,7 +8,7 @@ description:
 ---	
 
 
-## Error
+## ERROR
 
 when executing `git push origin master`
 

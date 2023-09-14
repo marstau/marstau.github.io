@@ -8,7 +8,7 @@ description:
 ---	
 
 
-## Error
+## ERROR
 
 运行 `systemctl start php-fpm`碰到
 

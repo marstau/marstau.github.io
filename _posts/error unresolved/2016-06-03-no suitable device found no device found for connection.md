@@ -8,7 +8,7 @@ description:
 ---	
 
 
-## Error
+## ERROR
 
 When execute `service network restart`, prompting following:
 

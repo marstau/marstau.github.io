@@ -187,11 +187,14 @@ VA510-23F57-M85PY-7FN7C-MCRG0
 
 ### DBBrowser(SQLite)
 
+sqlite浏览
+
 ### Snipaste[More](https://zh.snipaste.com)
 
 截图 + 贴图, 然后悬浮在屏幕上, 提高工作效率
 
+#### 2345看图王
 
-sqlite浏览
+看图软件
 
 ## Reference

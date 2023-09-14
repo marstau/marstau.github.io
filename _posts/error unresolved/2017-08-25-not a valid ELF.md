@@ -8,7 +8,7 @@ description:
 ---	
 
 
-## Error
+## ERROR
 
 build_native.py编译cocos2dx的so文件
 

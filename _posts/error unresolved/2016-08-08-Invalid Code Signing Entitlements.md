@@ -8,7 +8,7 @@ description:
 ---	
 
 
-## Error
+## ERROR
 
 app store发布应用时提示
 

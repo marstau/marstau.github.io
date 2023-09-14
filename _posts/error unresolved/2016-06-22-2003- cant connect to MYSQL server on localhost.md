@@ -8,7 +8,7 @@ description:
 ---	
 
 
-## Error
+## ERROR
 
 打开navicat,账号密码没错，连接不上数据库提示 `2003- cant connect to MYSQL server on localhost`
 

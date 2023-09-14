@@ -8,7 +8,7 @@ description:
 ---	
 
 
-## Error
+## ERROR
 
 ```
 $ cargo build --verbose

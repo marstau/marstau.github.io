@@ -8,7 +8,7 @@ description:
 ---	
 
 
-## Error
+## ERROR
 
 ```
 Provisioning profile "" doesn't include signing certificate

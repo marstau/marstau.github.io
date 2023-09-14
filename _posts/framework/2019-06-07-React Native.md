@@ -42,7 +42,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
 #### 热更新[More](http://www.phpheidong.com/blog/article/141487/811747775abfb2b381fd/)[More2](https://cloud.tencent.com/developer/article/1896497)[More3](https://juejin.cn/post/6844903477492056078)
 
-## Error
+## ERROR
 
 #### The development server returned respose error code:404 react native[More](https://stackoverflow.com/questions/46773509/the-development-server-returned-respose-error-code404-react-native)
 

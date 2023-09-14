@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-## Error
+## ERROR
 
 ```
  could not initialize proxy - no Session

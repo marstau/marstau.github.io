@@ -65,7 +65,7 @@ svn checkout svn+ssh://root@119.28.15.110:60003/svn-repository REPOS
 @reboot svnserve -d --listen-host 96.47.74.x -r $HOME/my-repo
 ```
 
-## Error
+## ERROR
 
 #### svnserve: E000099: Can't bind server socket: Cannot assign requested address
 
