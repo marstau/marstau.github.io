@@ -8,7 +8,7 @@ description:
 ---	
 
 
-## ERROR
+## Error
 
 ```
 dyld: Library not loaded: @rpath/libfmodL.dylib

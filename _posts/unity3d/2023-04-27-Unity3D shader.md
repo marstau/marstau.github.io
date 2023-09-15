@@ -51,7 +51,7 @@ public void SetMeshRendererFillblend(int blendValue) {
     }
 }
 ```
-## ERROR
+## Error
 
 ####  'vert', error X8000: D3D11 Internal Compiler Error: Invalid Bytecode: Incompatible min precision type for operand #1 of opcode #28 (counts are 1-based). Expected int or uint. (on gles3)[More](https://blog.csdn.net/sinat_25415095/article/details/121416839)
 

@@ -8,7 +8,7 @@ description:
 ---	
 
 
-## ERROR
+## Error
 
 ```
 index.js?8854:3 Uncaught ReferenceError: process is not defined

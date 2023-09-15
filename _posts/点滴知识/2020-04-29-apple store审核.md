@@ -8,7 +8,7 @@ description:
 ---
 
 
-## ERROR
+## Error
 
 #### 输入沙盒账号支付完成后,提示支付失败
 

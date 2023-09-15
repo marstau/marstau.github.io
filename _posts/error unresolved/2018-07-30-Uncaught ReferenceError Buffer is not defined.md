@@ -8,7 +8,7 @@ description:
 ---	
 
 
-## ERROR
+## Error
 
 ```
 Uncaught ReferenceError: Buffer is not defined

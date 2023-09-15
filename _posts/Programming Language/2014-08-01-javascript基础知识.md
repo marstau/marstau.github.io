@@ -266,7 +266,7 @@ var codeString = fs.readFileSync("./text.js", "utf-8");
 var Js = requireFromString(codeString, '')
 ```
 
-## ERROR
+## Error
 
 
 

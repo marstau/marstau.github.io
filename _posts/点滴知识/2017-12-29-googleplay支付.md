@@ -54,7 +54,7 @@ keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore |
 ```
 
 
-## ERROR
+## Error
 
 #### 登录一直提示，正在核对信息
 

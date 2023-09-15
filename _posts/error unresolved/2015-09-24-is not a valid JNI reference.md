@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-## ERROR
+## Error
 
 ```
 JNI ERROR (app bug): attempt to use stale local reference 0x4200001d (should be 0x4210001d)

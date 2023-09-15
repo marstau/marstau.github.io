@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-## ERROR
+## Error
 
 ```
 ArtifactDescriptorException: Failed to read artifact descriptor for edu.kit.aifb.ai2.sqsclient:sqsclient:jar:1.0.0: ArtifactResolutionException: Failure to transfer 

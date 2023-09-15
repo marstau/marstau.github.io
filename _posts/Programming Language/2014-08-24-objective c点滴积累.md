@@ -165,7 +165,7 @@ The GLKViewController class provides all of the standard view controller functio
 NSString * language = [[NSLocale preferredLanguages] firstObject];
 ```
 
-## ERROR
+## Error
 
 #### `Terminating app due to uncaught exception 'NSInvalidArgumentException'`
 

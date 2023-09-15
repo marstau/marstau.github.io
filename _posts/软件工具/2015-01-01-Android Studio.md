@@ -22,7 +22,7 @@ import package -> Alt + Enter
 ## FAQ
 
 
-## ERRORs
+## Errors
 
 
 #### Modules 'fast_follow_asset_pack' and 'install_time_asset_pack' contain entry 'assets/.DS_Store' with different content.[More](https://stackoverflow.com/questions/18080950/google-play-developer-console-shows-ds-store-in-native-platforms-section-of-uplo)

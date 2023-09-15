@@ -14,7 +14,7 @@ description:
 this.logger.info("obj="+JSON.stringify(obj)); // 打印对象
 ```
 
-## ERROR
+## Error
 
 
 #### Expected property shorthand in object literal[More](https://www.cnblogs.com/zhongxia/p/5440112.html)

@@ -8,7 +8,7 @@ description:
 ---	
 
 
-## ERROR
+## Error
 
 ```
 ld: warning: ignoring file /usr/local/Cellar/xz/5.2.3/lib/liblzma.dylib, file was built for x86_64 which is not the architecture being linked (i386): /usr/local/Cellar/xz/5.2.3/lib/liblzma.dylib

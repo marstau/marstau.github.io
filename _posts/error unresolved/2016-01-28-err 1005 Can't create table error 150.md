@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-## ERROR
+## Error
 
 ```
 导入有外键约束的sql语句出现[Err] 1005 - Can't create table 'wack.w_active_codes' (errno: 150)

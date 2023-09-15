@@ -87,7 +87,7 @@ description:
 ]
 ```
 
-## ERROR
+## Error
 
 
 #### you may need to install the SVN::Core module[More](https://blog.meathill.com/perl/set-up-perl-on-new-mac.html)

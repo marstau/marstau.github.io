@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-## ERROR
+## Error
 
 ```
 JAR creation failed. See details for additional information. Class files on classpath not found or not accessible for: 'Server Manager/src/me/Zahach/ServerManager/main.java'

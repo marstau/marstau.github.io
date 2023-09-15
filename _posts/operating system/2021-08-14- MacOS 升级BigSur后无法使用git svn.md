@@ -8,7 +8,7 @@ description:
 ---
 
 
-## ERROR
+## Error
 
 
 #### `git: 'svn' is not a git command`

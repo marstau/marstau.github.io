@@ -7,7 +7,7 @@ keywords: gorm
 description: 
 ---
 
-## ERROR
+## Error
 
 使用gorm查询sqlite3报错
 

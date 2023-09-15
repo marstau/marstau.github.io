@@ -13,7 +13,7 @@ description:
 
 DOTS:Data-Oriented-Tech-Stack
 
-## ERROR
+## Error
 
 
 #### `error CS0103: The name 'RenderPipeline' does not exist in the current context`[More](https://forum.unity.com/threads/issue-adding-entities-package-to-2019-3-0a10.715652/)

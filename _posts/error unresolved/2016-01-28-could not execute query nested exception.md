@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-## ERROR
+## Error
 
 ```
 org.springframework.dao.DataAccessResourceFailureException: could not execute query; nested exception is org.hibernate.exception.JDBCConnectionException: could not execute query
