@@ -12,6 +12,8 @@ description:
 ```
 go install golang.org/x/mobile/cmd/gomobile@latest
 gomobile init
+rm -rf /opt/homebrew/bin/gomobile
+rm -rf /opt/homebrew/bin/gobind
 ln -s ~/go/bin/gomobile /opt/homebrew/bin/gomobile
 ln -s ~/go/bin/gobind /opt/homebrew/bin/gobind
 
@@ -40,6 +42,10 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+
+## Error
+
+#### gomobile: could not locate Android SDK
 
 ## Reference
 

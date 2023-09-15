@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DirectInput 
+title: DirectInput
 category: 编程开发
 tags: game-engine
 keywords: DirectX
