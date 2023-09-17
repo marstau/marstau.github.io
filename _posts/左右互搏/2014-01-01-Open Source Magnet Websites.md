@@ -1,6 +1,6 @@
 ---
 layout: post
-title: opensource magnet websites
+title: Open Source Magnet Websites
 category: 左右互搏
 tags: 
 keywords: 

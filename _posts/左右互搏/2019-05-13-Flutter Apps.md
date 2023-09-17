@@ -7,9 +7,15 @@ keywords:
 description: 
 ---
 
-### [FlutterDouBan](https://github.com/kaina404/FlutterDouBan)
+## Video Player
 
-### [flutter_wechat](https://github.com/CoderMikeHe/flutter_wechat)
+
+
+## Other Types
+
+#### [FlutterDouBan](https://github.com/kaina404/FlutterDouBan)
+
+#### [flutter_wechat](https://github.com/CoderMikeHe/flutter_wechat)
 
 
 #### [Open-IM-Flutter-Demo](https://github.com/OpenIMSDK/Open-IM-Flutter-Demo)
