@@ -92,4 +92,8 @@ mac抓包工具可抓git协议
 
 远程连接 GPU加速
 
+### ohmyzsh
+
+terminal工具 高亮 代码自动补全
+
 ## Reference
