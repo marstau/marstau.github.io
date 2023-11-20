@@ -21,15 +21,15 @@ description:
 
 ## photoshop快捷键 
 
+```
 缩放：Alt + 鼠标滚轮缩放
-     
 复制图层：选中要复制的图层，Ctrl + J
-
 选中选区：Shift+Ctrl+D
 裁剪：C
-向下合并图层：Ctrl + E\
-取消选区：Ctrl + D\
+向下合并图层：Ctrl + E
+取消选区：Ctrl + D
 选框工具：M
+```
 
 ## 去掉图片底部的黑色 
 

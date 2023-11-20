@@ -197,4 +197,8 @@ sqlite浏览
 
 看图软件
 
+#### Listary
+
+全局搜索
+
 ## Reference
