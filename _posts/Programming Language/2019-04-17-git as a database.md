@@ -14,6 +14,16 @@ description:
 
 ## Projects
 
+#### [dolthub](https://github.com/dolthub/dolt)
+
+#### Liquibase
+
+#### TerminusDB
+
+#### Planetscale
+
+#### [gitrows](https://github.com/gitrows/gitrows)
+
 #### [gitmodel](https://github.com/pauldowman/gitmodel)
 
 #### [madrox](https://github.com/technoweenie/madrox)
@@ -24,7 +34,6 @@ description:
 
 #### [GitPython](https://github.com/gitpython-developers/GitPython)
 
-#### [gitrows](https://github.com/gitrows/gitrows)
 
 ## Reference
 
