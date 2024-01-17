@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Fx Composer安装好后打不开
+title: Fx Composer
 category: 编程开发
 tags: game-engine
 keywords: 
 description: 
 ---
 
+#### Fx Composer安装好后打不开
 显示如图所示的错误,
 
 ![](http://files.note.sdo.com/XbPJ4~kbRrsiwE0zQ00gu4)\
