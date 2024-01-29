@@ -35,5 +35,11 @@ process.WaitForExit();
 UnityEngine.Debug.Log("RunPythonJsonToSkel Python Output: " + output);
 ```
 
+#### 在unity编辑器界面中显示
+
+```
+[SerializeField]
+private float mSpeed = 3.0f;
+```
 ## Reference
 

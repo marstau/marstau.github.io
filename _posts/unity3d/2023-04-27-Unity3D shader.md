@@ -52,6 +52,32 @@ public void SetMeshRendererFillblend(int blendValue) {
 }
 ```
 
+#### grey
+
+```
+float grey = dot(col.rgb, fixed3(0.22, 0.707, 0.071));
+return float4(grey,grey,grey, col.a);
+```
+
+#### 宏判断
+
+```
+// 根据关键字启用或禁用特定的功能
+#pragma shader_feature GREY_TO_ORIGIN
+
+// ...
+
+fixed4 frag (v2f i) : COLOR
+{
+    // 根据关键字执行不同的操作
+    #ifdef GREY_TO_ORIGIN
+        // 执行与关键字相关的操作
+    #else
+        // 执行其他操作
+    #endif
+}
+```
+
 ## Error
 
 ####  'vert', error X8000: D3D11 Internal Compiler Error: Invalid Bytecode: Incompatible min precision type for operand #1 of opcode #28 (counts are 1-based). Expected int or uint. (on gles3)[More](https://blog.csdn.net/sinat_25415095/article/details/121416839)
@@ -67,3 +93,4 @@ color.a *= step(min, IN.texcoord.y) * step(IN.texcoord.y, max);
 
 ## Reference
 
+* [Unity Shader Document](https://docs.unity3d.com/Packages/com.unity.shadergraph@10.0/manual/Math-Nodes.html)
