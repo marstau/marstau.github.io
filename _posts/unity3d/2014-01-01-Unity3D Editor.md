@@ -41,5 +41,12 @@ UnityEngine.Debug.Log("RunPythonJsonToSkel Python Output: " + output);
 [SerializeField]
 private float mSpeed = 3.0f;
 ```
+
+#### 如果在打AssetBundle的时候，选定的构建目标是安卓。那么在windows操作系统下，编辑器的默认渲染模式为DX11，我们需要修改编辑器的渲染模式，可以通过UnityHub来修改启动项目的编辑器渲染模式，参考官方文档。[More](https://docs.unity3d.com/Manual/EditorCommandLineArguments.html)[More2](https://www.yooasset.com/docs/FAQ)
+
+在Vulkan下打包的编辑器需要加个command `-force-vulkan`
+
+windows平台添加命令: `-force-gles`
+
 ## Reference
 
