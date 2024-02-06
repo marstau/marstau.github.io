@@ -126,8 +126,6 @@ path not found\
 Show Log->选中某个版本->Update Item to reversion->然后再选中文件夹Revert一下就行了。
 
 
+#### 显示乱码, 编码修改[More](https://blog.csdn.net/xiaoxiong_web/article/details/43266287)
 
-
-
-
-
+中文系统上svn默认是中文编码ANSI，而代码是UTF-8编码。diff文件中由svn生成的部分用ANSI编码，代码部分被从UTF-8强转为ANSI，乱码由此产生。修改用户环境变量名：LANG 变量值:zh_CN.UTF8 就可以了
