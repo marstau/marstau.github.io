@@ -17,6 +17,8 @@ File->Project Structure
 
 ```
 import package -> Alt + Enter
+Go to File... ⇧⌘O(Mac)/Ctrl + Shift + N(Windows) => ⌘ + P # 快速查找文件
+File Structure ⌘F12(Mac)/Ctrl + F12(Windows) => ⌘ + R # 快速查找当前文件的方法名
 ```
 
 ## FAQ
