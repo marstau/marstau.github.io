@@ -135,5 +135,13 @@ android:theme="@android:style/Theme.NoTitleBar" />
 
 `~/.gradle/gradle.properties`
 
+#### 快速调试[More](https://droidyue.com/blog/2017/05/14/a-little-but-useful-debug-skill_for_android/)
+
+```
+adb shell am set-debug-app -w --persistent  com.example.jishuxiaoheiwu.appdebugsample
+
+adb shell am clear-debug-app
+```
+
 ## Reference
 
