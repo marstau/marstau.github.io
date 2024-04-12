@@ -14,4 +14,10 @@ description:
 
 ## [通义灵码](https://tongyi.aliyun.com/)
 
+## [Comate](https://comate.baidu.com/)
+
+## [iFlyCode](https://iflycode.xfyun.cn/)
+
+## [CodeGeeX](https://codegeex.cn/zh-CN)
+
 ## Reference
