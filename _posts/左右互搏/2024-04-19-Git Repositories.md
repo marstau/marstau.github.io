@@ -19,5 +19,23 @@ An opinionated list of awesome Python frameworks, libraries, software and resour
 
 Open Source resource for learning Data Structures & Algorithms and their implementation in any Programming Language
 
+#### [Visual Studio Code](https://github.com/microsoft/vscode)
+
+Visual Studio Code Repository
+
+#### [youtube-dl](https://github.com/ytdl-org/youtube-dl)
+
+Command-line program to download videos from YouTube.com and other video sites
+
+#### [IOPaint](https://github.com/Sanster/IOPaint)
+
+Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures.
+
+#### [awesome-go](https://github.com/avelino/awesome-go)
+
+A curated list of awesome Go frameworks, libraries and software
+
+
+
 ## Reference
 
