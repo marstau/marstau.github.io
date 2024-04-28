@@ -29,6 +29,7 @@ description:
 向下合并图层：Ctrl + E
 取消选区：Ctrl + D
 选框工具：M
+反选工具: Shift + Ctrl + I
 ```
 
 ## 去掉图片底部的黑色 
@@ -45,6 +46,11 @@ description:
 打开的图片本该是透明的却非透明
 用Fireworks打开即可,然后另存为psd文件,再用PS打开。
 
+## 处理圆角
+
+```
+形状工具->找到圆角矩形工具->绘制然后设置选区,反选,Delete
+```
 
 ## Reference
 
