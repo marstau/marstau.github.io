@@ -35,7 +35,9 @@ Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defe
 
 A curated list of awesome Go frameworks, libraries and software
 
+#### [gitignore](https://github.com/github/gitignore)
 
+A collection of `.gitignore` templates
 
 ## Reference
 
