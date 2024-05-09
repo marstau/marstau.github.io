@@ -13,6 +13,7 @@ description:
 #### [Rocket.Chat](https://developer.rocket.chat/open-source-projects/server/server-environment-setup/mac-osx)
 
 compile version: 6.0.1
+then compile version: 6.6.1
 
 ```
 cat package.json | grep -A4 engines | grep node
