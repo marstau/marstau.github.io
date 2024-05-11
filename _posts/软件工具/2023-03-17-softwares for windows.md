@@ -207,4 +207,8 @@ sqlite浏览
 
 #### 火绒杀毒软件
 
+#### QuickTime
+
+可以单帧查看视频
+
 ## Reference
