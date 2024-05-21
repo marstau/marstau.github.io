@@ -266,6 +266,12 @@ var codeString = fs.readFileSync("./text.js", "utf-8");
 var Js = requireFromString(codeString, '')
 ```
 
+#### promise[More](https://blog.csdn.net/weixin_50828895/article/details/122517264)
+
+Promise是js中的一个原生对象，是一种异步编程的解决方案，可以替换掉传统的回调函数解决方案（回调地狱）。
+它通过引入一个回调，避免更多的回调。
+
+
 ## Error
 
 
