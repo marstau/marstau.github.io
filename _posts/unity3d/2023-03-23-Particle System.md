@@ -24,5 +24,8 @@ module.maxParticles = 30;
 128x128的贴图 Start Size: 2 就意味着变成了256x256贴图了
 ```
 
+#### overdraw计算[More](https://blog.uwa4d.com/archives/TechSharing_230.html?hmsr=joyk.com&utm_source=joyk.com&utm_medium=referral)
+
 ## Reference
 
+* [Overdraw计算](https://github.com/sunbrando/ParticleEffectProfiler)
