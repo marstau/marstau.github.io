@@ -20,4 +20,10 @@ description:
 
 ## [CodeGeeX](https://codegeex.cn/zh-CN)
 
+## [cognition devin](https://www.cognition.ai/blog/introducing-devin)
+
+## [SWE-Agent](https://github.com/princeton-nlp/SWE-agent)
+
+## [Opendevin](https://github.com/OpenDevin/OpenDevin)
+
 ## Reference
