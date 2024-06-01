@@ -211,4 +211,6 @@ sqlite浏览
 
 可以单帧查看视频
 
+#### 安全擦除软件SDelete[More](https://docs.microsoft.com/en-us/sysinternals/downloads/sdelete)
+
 ## Reference

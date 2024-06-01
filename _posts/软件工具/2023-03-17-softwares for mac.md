@@ -100,4 +100,8 @@ terminal工具 高亮 代码自动补全
 
 思维导图
 
+### Snipaste[More](https://zh.snipaste.com)
+
+截图 + 贴图, 然后悬浮在屏幕上, 提高工作效率
+
 ## Reference
