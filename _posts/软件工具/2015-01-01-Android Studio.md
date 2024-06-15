@@ -23,6 +23,17 @@ File Structure ⌘F12(Mac)/Ctrl + F12(Windows) => ⌘ + R # 快速查找当前�
 
 ## FAQ
 
+#### 代理配置路径
+
+`~/.gradle/gradle.properties`
+
+#### 快速调试[More](https://droidyue.com/blog/2017/05/14/a-little-but-useful-debug-skill_for_android/)
+
+```
+adb shell am set-debug-app -w --persistent  com.example.jishuxiaoheiwu.appdebugsample
+
+adb shell am clear-debug-app
+```
 
 ## Errors
 
@@ -131,17 +142,9 @@ android:theme="@android:style/Theme.NoTitleBar" />
     tools:ignore="ProtectedPermissions"/>
 ```
 
-#### 代理配置路径
+#### `错误: 加载主类 com.android.sdklib.tool.sdkmanager.SdkManagerCli 时出现 LinkageError java.lang.UnsupportedClassVersionError: com/android/sdklib/tool/sdkmanager/SdkManagerCli has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0`
 
-`~/.gradle/gradle.properties`
-
-#### 快速调试[More](https://droidyue.com/blog/2017/05/14/a-little-but-useful-debug-skill_for_android/)
-
-```
-adb shell am set-debug-app -w --persistent  com.example.jishuxiaoheiwu.appdebugsample
-
-adb shell am clear-debug-app
-```
+rename cmdline-tools/8.0 to cmdline-tools/latest
 
 ## Reference
 
