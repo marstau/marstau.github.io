@@ -33,3 +33,6 @@ public class UIWidgetsInternal
 ## Reference
 
 * [属于 Unity 的 Flutter——UIWidgets](https://frankorz.com/2019/04/01/uiwidgets-practice/index.html)
+
+* [[Unity 活动]-官方直播-UIWidgets - 不止游戏！如何使用Unity开发跨平台应用](https://www.bilibili.com/video/av47558897/?vd_source=3c786b79942015ab0f27038d72c371f9)
+
