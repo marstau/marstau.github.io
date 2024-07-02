@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unity3D NGUI
+title: Unity NGUI
 category: 编程开发
 tags: unity3d
 keywords: Unity3D
