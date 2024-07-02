@@ -12,6 +12,10 @@ description:
 
 弱网络环境软件
 
+### [Clumsy](https://github.com/jagt/clumsy) - TODO
+
+弱网模拟工具
+
 ### clash
 
 网关路由
