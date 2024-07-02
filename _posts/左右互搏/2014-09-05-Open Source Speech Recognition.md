@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 开源语音识别库
+title: Open Source Speech Recognition
 category: 左右互搏
 tags: 
 keywords: 语音识别
