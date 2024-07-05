@@ -219,4 +219,8 @@ sqlite浏览
 
 #### BANDICAM班迪录屏 - TODO
 
+#### 文件批量重命名
+
+看图王
+
 ## Reference
