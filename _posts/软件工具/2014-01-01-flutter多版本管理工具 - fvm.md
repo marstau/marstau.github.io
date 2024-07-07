@@ -1,6 +1,6 @@
 ---
 layout: post
-title: fvm
+title: flutter多版本管理工具 - fvm
 category: 软件工具
 tags: software
 keywords: 
@@ -18,8 +18,8 @@ brew install fvm
 
 ```
 fvm releases #查看可用的 flutter 版本
-fvm install 3.0.5 # 安装 flutter 3.0.5 的 stable 版本
-fvm use 3.0.5
+fvm install 3.19.0 # 安装 flutter 3.19.0 的 stable 版本
+fvm use 3.19.0
 fvm ls
 ```
 
