@@ -40,7 +40,9 @@ wget https://download.libsodium.org/libsodium/releases/LATEST.tar.gz
 
 是新版本safari无法通过以前的方式科学上网了
 
-#### 订阅
+#### [订阅转换](https://acl4ssr-sub.github.io/)
+
+
 
 ## Reference
 
