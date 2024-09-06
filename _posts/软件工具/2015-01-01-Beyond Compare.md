@@ -37,7 +37,7 @@ description:
 #### 过滤
 
 ```
-*[0-9].assset
+*[0-9].asset
 ```
 
 ## Error
