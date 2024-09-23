@@ -234,7 +234,11 @@ hkcr,"Directory\shell\SublimeText3\command",,,"""%1%\sublime_text.exe"" ""%%1"""
 {
     "font_size": 13,
     // "file_exclude_patterns": [".DS_Store"],
-    "file_exclude_patterns": ["*.meta", ".DS_Store", "*.lua.bytes"],
+    "file_exclude_patterns": [
+        "*.meta",
+        ".DS_Store",
+        "*.lua.bytes"
+    ],
     "ignored_packages":
     [
         "Vintage",
@@ -244,6 +248,22 @@ hkcr,"Directory\shell\SublimeText3\command",,,"""%1%\sublime_text.exe"" ""%%1"""
     "word_wrap": "true",
     "expand_tabs_on_save" : true,
     "auto_complete": true,
+    "index_files": true,
+    "binary_file_patterns": [
+        "*.jpg",
+        "*.jpeg",
+        // "*.png",
+        "*.gif",
+        "*.ttf",
+        "*.tga",
+        "*.dds",
+        "*.ico",
+        "*.eot",
+        "*.pdf",
+        "*.swf",
+        "*.jar",
+        "*.zip"
+    ],
 }
 ```
 
