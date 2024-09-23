@@ -226,7 +226,8 @@ hkcr,"Directory\shell\SublimeText3\command",,,"""%1%\sublime_text.exe"" ""%%1"""
     { "keys": ["f1"], "command": "goto_definition" },
     { "keys": ["ctrl+u"], "command": "open_dir",  "args": { "dir": "$file_path", "file": "$file_name" } },
     { "keys": ["alt+f3"], "command": "find_all_under" },
-    { "keys": ["alt+d"], "command": "find_under_expand" }
+    { "keys": ["alt+d"], "command": "find_under_expand" },
+    { "keys": ["super+f4"], "command": "find_all_under" }
 ]
 ```
 
