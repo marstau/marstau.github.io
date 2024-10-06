@@ -7,6 +7,28 @@ keywords:
 description: 
 ---
 
+## Installation
+
+#### MAC[More](https://github.com/qq5889/learn/blob/master/Beyond%20Compare%20for%20Mac%20%E6%97%A0%E9%99%90%E8%AF%95%E7%94%A8%E6%96%B9%E6%B3%95.md)
+
+
+1. 选中图标，右键点击“显示包内容”，逐步进入 Beyond Compare 应用程序的 MacOS 目录下(/Applications/Beyond Compare.app/Contents/MacOS)
+2. 将主启动程序 BCompare 重命名为 BCompare_real
+
+3. 在同级目录下新建一个脚本文件,命名为 BCompare,这样 BCompare 在启动的时候就会执行该脚本文件,修改权限`chmod a+x BCompare`
+
+```
+#!/bin/bash
+# 修改删除路径为你确认的路径
+rm "/Users/$USER/Library/Application Support/Beyond Compare 5/registry.dat"
+"`dirname "$0"`"/BCompare_real $@
+```
+
+即可无限试用 - TODO
+
+
+## FAQ
+
 #### 相同文件比较却标红[More](http://blog.chinaunix.net/uid-20753106-id-3966647.html)
 
 打开后，再关闭，就变黑了。因为，BC有一个快速比较，比较文件名再比较时间，就认为是不同的文件了。
@@ -59,6 +81,8 @@ q2Kw2pjoiDs5gIH-uw5U49JzOB6otS7kThBJE-H9A76u4uUvR8DKb+VcB
 rWu5qSJGEnbsXNfJdq5L2D8QgRdV-sXHp2A-7j1X2n4WIISvU1V9koIyS
 NisHFBTcWJS0sC5BTFwrtfLEE9lEwz2bxHQpWJiu12ZeKpi+7oUSqebX+
 ```
+
+
 
 ## Reference
 
