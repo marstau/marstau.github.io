@@ -9,7 +9,7 @@ description:
 
 ## Installation
 
-#### MAC[More](https://github.com/qq5889/learn/blob/master/Beyond%20Compare%20for%20Mac%20%E6%97%A0%E9%99%90%E8%AF%95%E7%94%A8%E6%96%B9%E6%B3%95.md)
+#### MAC[More](https://github.com/qq5889/learn/blob/master/Beyond%20Compare%20for%20Mac%20%E6%97%A0%E9%99%90%E8%AF%95%E7%94%A8%E6%96%B9%E6%B3%95.md) - TODO
 
 
 1. 选中图标，右键点击“显示包内容”，逐步进入 Beyond Compare 应用程序的 MacOS 目录下(/Applications/Beyond Compare.app/Contents/MacOS)
@@ -24,7 +24,7 @@ rm "/Users/$USER/Library/Application Support/Beyond Compare 5/registry.dat"
 "`dirname "$0"`"/BCompare_real $@
 ```
 
-即可无限试用 - TODO
+即可无限试用
 
 
 ## FAQ

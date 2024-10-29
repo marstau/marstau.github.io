@@ -133,8 +133,9 @@ JsFormat 的功能就是可以将一些凌乱的 JavaScript 代码重新排版�
 会自动打开网页
 
 
-#### `SublimeTmpl` :  自动保存utf8文件 新建文本自动填充模板内容
+#### `SublimeTmpl`: 自动保存utf8文件 新建文本自动填充模板内容
 
+#### `Formatter`: 格式化插件 - TODO
 
 #### `babel`: javascript高亮
 
@@ -227,7 +228,7 @@ hkcr,"Directory\shell\SublimeText3\command",,,"""%1%\sublime_text.exe"" ""%%1"""
     { "keys": ["ctrl+u"], "command": "open_dir",  "args": { "dir": "$file_path", "file": "$file_name" } },
     { "keys": ["alt+f3"], "command": "find_all_under" },
     { "keys": ["alt+d"], "command": "find_under_expand" },
-    { "keys": ["super+f4"], "command": "find_all_under" }
+    { "keys": ["super+f4"], "command": "find_all_under" },
 ]
 ```
 
