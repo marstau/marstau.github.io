@@ -199,7 +199,7 @@ sqlite浏览
 
 #### 2345看图王
 
-看图软件
+看图软件(可文件批量重命名)
 
 #### Listary
 
@@ -218,9 +218,5 @@ sqlite浏览
 #### 安全擦除软件SDelete[More](https://docs.microsoft.com/en-us/sysinternals/downloads/sdelete)
 
 #### BANDICAM班迪录屏
-
-#### 文件批量重命名
-
-看图王
 
 ## Reference
