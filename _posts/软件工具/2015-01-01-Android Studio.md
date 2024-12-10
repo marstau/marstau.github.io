@@ -35,6 +35,13 @@ adb shell am set-debug-app -w --persistent  com.example.jishuxiaoheiwu.appdebugs
 adb shell am clear-debug-app
 ```
 
+#### gradle离线配置方式[More](https://www.jianshu.com/p/96b4e278851d)
+
+不要解压,修改gradle-wrapper.properties
+```
+distributionUrl=file:///D:/Android/gradle/gradle-4.4-all.zip
+```
+
 ## Errors
 
 
@@ -145,6 +152,8 @@ android:theme="@android:style/Theme.NoTitleBar" />
 #### `错误: 加载主类 com.android.sdklib.tool.sdkmanager.SdkManagerCli 时出现 LinkageError java.lang.UnsupportedClassVersionError: com/android/sdklib/tool/sdkmanager/SdkManagerCli has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0`
 
 rename cmdline-tools/8.0 to cmdline-tools/latest
+
+
 
 ## Reference
 
