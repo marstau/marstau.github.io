@@ -26,4 +26,6 @@ description:
 
 ## [Opendevin](https://github.com/OpenDevin/OpenDevin)
 
+## [Cursor AI]
+
 ## Reference
