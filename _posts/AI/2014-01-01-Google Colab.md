@@ -7,7 +7,9 @@ keywords: AI
 description: 
 ---
 
-## Use Open WebUI connect DeepSeek model[More](https://github.com/Axenide/Open-WebUI-Colab/blob/main/Open_WebUI.ipynb)
+## Install deepseek
+
+#### Use Open WebUI connect DeepSeek model[More](https://github.com/Axenide/Open-WebUI-Colab/blob/main/Open_WebUI.ipynb)
 
 ```
 !sudo apt-get update
@@ -51,5 +53,13 @@ threading.Thread(target=start_open_webui).start()
 
 反应速度没有直接连colab快
 
+## FAQ
+
+#### 是否可以一直开着
+
+断开一段时间后就要重新下载环境
+
 ## Reference
+
+* <https://colab.research.google.com/>
 
