@@ -74,6 +74,12 @@ description:
 ([^\n^|]*)[|]
 ```
 
+#### 匹配指定长度字符串
+
+```
+guid: .{60}
+```
+
 #### 隐藏某些文件[More](https://zhidao.baidu.com/question/2057317553393860987.html)
 
 `preference-->setting-->user`
