@@ -18,4 +18,6 @@ BEP20 (Binance Smart Chain Token Standard) 是在 Binance Smart Chain（BSC）�
 
 #### 数字货币MasterCard
 
+#### thorchain
+
 ## Reference

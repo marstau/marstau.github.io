@@ -104,4 +104,23 @@ terminal工具 高亮 代码自动补全
 
 截图 + 贴图, 然后悬浮在屏幕上, 提高工作效率
 
+F1截屏
+⌘ + T 悬浮
+
+### iBar
+
+解决菜单栏图标被遮挡的问题
+the status icon is covered or hide by other app
+
+
+### Bezel
+
+iphone投屏到mac，用数据线连接就可以投屏了
+
+mac有iphone镜像可以控制iphone[More](https://support.apple.com/zh-cn/120421)
+
+### keymapping editor -- TODO
+
+mac上的模拟手柄虚拟按钮
+
 ## Reference

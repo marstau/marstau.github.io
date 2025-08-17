@@ -17,4 +17,7 @@ ios抓包工具
 
 #### 自动化工具 - Airtest[More](https://github.com/AirtestProject/iOS-Tagent.git)
 
+#### 拼长图 - Zeta Stitch
+
+
 ## Reference

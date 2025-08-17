@@ -138,6 +138,9 @@ JsFormat 的功能就是可以将一些凌乱的 JavaScript 代码重新排版�
 
 会自动打开网页
 
+#### `Markdown Editing` + `MarkdownLivePreview` : markdown预览工具
+
+可以在右边页面实时预览效果
 
 #### `SublimeTmpl`: 自动保存utf8文件 新建文本自动填充模板内容
 
