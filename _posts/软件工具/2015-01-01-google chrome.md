@@ -53,7 +53,61 @@ http://dl.google.com/chrome/install/195.38/chrome_installer.exe
 
 ```
 
-#### 
+#### chrome 安装不再受支持的扩展插件时报错：无法安装扩展程序,因为它使用了不受支持的清单版本[More](https://www.cnblogs.com/shichq/p/18995207)
+
+Solution1:
+
+启用旧版清单支持（Chrome/Edge）
+
+地址栏输入 `chrome://flags/#allow-legacy-mv2-extensions`
+将 `Allow legacy extension manifest versions` 设置为 Enabled 并重启浏览器。
+
+新版未找到这个选项：
+
+
+Solution2:[More](https://www.reddit.com/r/chrome/comments/1n7d4oe/is_it_still_possible_to_enable_manifest_v2/)
+
+```
+open -b com.google.Chrome --new --args --disable-features=ExtensionManifestV2Unsupported,ExtensionManifestV2Disabled
+```
+
+• Create a new App with Automator passing custom flags • Hide the original Chrome from Spotlight search (to avoid duplicates)
+
+Step by step:
+
+Open Automator
+
+Click "New Document"
+
+Choose "Application"
+
+Search and add "Run Shell Script"
+
+Paste this script:
+
+```
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-features=ExtensionManifestV2Unsupported,ExtensionManifestV2Disabled "$@"
+```
+
+File > Save with name "Google Chrome" (or whatever you prefer)
+
+Save location: Your custom folder (like ~/customApps or anything like that)
+
+
+To hide original Chrome from Spotlight:
+
+Go to System Settings > Spotlight
+
+Click "Search Privacy" (bottom of the window) （聚焦）
+
+Drag the original Chrome app from /Applications folder directly into the Privacy window
+
+Final step:
+
+Customize the Automator app icon to look like Chrome (right-click your new app > Get Info > drag Chrome icon from original app)
+
+
+
 
 ## Reference
 
