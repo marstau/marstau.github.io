@@ -123,4 +123,8 @@ mac有iphone镜像可以控制iphone[More](https://support.apple.com/zh-cn/12042
 
 mac上的模拟手柄虚拟按钮
 
+### Kid3
+
+修改flac音乐标题
+
 ## Reference
