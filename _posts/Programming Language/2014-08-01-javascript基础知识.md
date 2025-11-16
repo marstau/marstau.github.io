@@ -271,11 +271,20 @@ var Js = requireFromString(codeString, '')
 Promise是js中的一个原生对象，是一种异步编程的解决方案，可以替换掉传统的回调函数解决方案（回调地狱）。
 它通过引入一个回调，避免更多的回调。
 
+## FAQ
+
 
 ## Error
 
+#### `SELECT ERROR] -  ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client`
 
-
+MySQL 8.0 引入了更安全的 caching_sha2_password 认证插件，但旧版的客户端或驱动可能还未支持。
+若仍要支持旧版
+修改sql语句：
+```
+ALTER USER '你的用户名'@'localhost' IDENTIFIED WITH mysql_native_password BY '你的密码';
+FLUSH PRIVILEGES;
+```
 
 ## Reference
 
