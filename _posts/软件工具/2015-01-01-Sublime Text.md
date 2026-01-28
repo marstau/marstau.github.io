@@ -310,6 +310,10 @@ windows安装minGW,配置环境变量,安装ming32-lua版本,重启sublime,新�
 
 #### auto_find_in_selection会导致回车无法替换
 
+#### solidity语法高亮
+
+安装插件`EthereumSoliditySnippets`,重启Sublime,ctrl+shift+p，然后搜索solidity,点击Set Syntax:Solidity
+
 ## Reference
 
 * [正则使用](http://blog.sina.com.cn/s/blog_df71a16c0101k0q0.html)
