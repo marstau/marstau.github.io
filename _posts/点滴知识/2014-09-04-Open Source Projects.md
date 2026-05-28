@@ -23,4 +23,8 @@ SOAR(SQL Optimizer And Rewriter)是一个对SQL进行优化和改写的自动化
 
 vision AI
 
+#### maigret
+
+通过30000+个网站收集一个人的档案
+
 ## Reference
